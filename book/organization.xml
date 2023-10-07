@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="organization" xreflabel="Organization">
+  <?dbhtml filename="organization.html"?>
+
+
+  <title>Структура книги</title>
+
+  <para>
+    Эта книга разделена на четырнадцать частей.
+  </para>
+
+  <bridgehead renderas="sect2">Часть I - Введение</bridgehead>
+
+  <para>
+    Эта часть содержит важную информацию, необходимую для понимания остальной части книги.
+  </para>
+
+  <bridgehead renderas="sect2">Часть II - Настройка LFS после установки и дополнительное 
+  программное обеспечение</bridgehead>
+
+  <para>
+    В этой части книги мы рассмотрим основные вопросы конфигурации и безопасности. Мы также 
+	обсудим ряд текстовых редакторов, файловых систем и оболочек, которые не были рассмотрены 
+	в основной книге LFS.
+  </para>
+
+  <bridgehead renderas="sect2">Часть III - Основные библиотеки и утилиты</bridgehead>
+
+  <para>
+    В этом разделе мы рассмотрим библиотеки, которые часто используются на протяжении всей 
+	книги, а также системные утилиты. Эту часть завершает информация по программированию 
+	(включая перекомпиляцию <application>GCC</application> для поддержки всего спектра 
+	языков).
+  </para>
+
+  <bridgehead renderas="sect2">Часть IV - Базовые сетевые возможности</bridgehead>
+
+  <para>
+    Здесь мы объясняем, как подключиться к сети, если вы не используете простую настройку 
+	статического IP, представленную в основной книге LFS. Также рассматриваются сетевые 
+	библиотеки и инструменты, предназначенные для работы с сетью из командной строки.
+  </para>
+
+  <bridgehead renderas="sect2">Часть V - Серверные приложения</bridgehead>
+
+  <para>
+    В этом разделе мы рассмотрим настройку почтового и других серверов (таких как 
+    <application>FTP</application>, <application>Apache</application> и так далее).
+  </para>
+
+  <bridgehead renderas="sect2">Часть VI - Система X Window и оконные менеджеры</bridgehead>
+
+  <para>
+    В этой части объясняется, как настроить базовую <application>систему X Window</application>, 
+	а также некоторые общие библиотеки <application>X</application> и оконные менеджеры.
+  </para>
+
+  <bridgehead renderas="sect2">Часть VII - KDE</bridgehead>
+
+  <para>
+    Эта часть предназначена для тех, кто хочет использовать среду рабочего стола 
+	<application>KDE</application> или ее части.
+  </para>
+
+  <bridgehead renderas="sect2">Часть VIII - GNOME</bridgehead>
+
+  <para>
+    <application>GNOME</application> является главной альтернативой 
+    <application>KDE</application> в роли среды рабочего стола.
+  </para>
+
+  <bridgehead renderas="sect2">Часть IX - Xfce</bridgehead>
+
+  <para>
+    <application>Xfce</application> - это легковесная альтернатива 
+    <application>GNOME</application> и <application>KDE</application>.
+  </para>
+
+  <bridgehead renderas="sect2">Часть X - LXDE</bridgehead>
+
+  <para>
+    <application>LXDE</application> - это другая легковесная альтернатива 
+    <application>GNOME</application> и <application>KDE</application>.
+  </para>
+
+  <bridgehead renderas="sect2">Часть XI - Расширенный список графических приложений</bridgehead>
+
+  <para>
+    Для большинства людей важно наличие офисных программ и веб-браузеров. Их, а также 
+	некоторое общее программное обеспечение графической подсистемы можно найти в 
+	этой части книги.
+  </para>
+
+  <bridgehead renderas="sect2">Часть XII - Мультимедиа</bridgehead>
+
+  <para>
+    Здесь мы рассмотрим мультимедиа библиотеки и драйверы, а также некоторые программы 
+	для воспроизведения аудио, видео и записи компакт-дисков.
+  </para>
+
+  <bridgehead renderas="sect2">Часть XIII - Печать, сканирование и 
+  обработка текста (PST)</bridgehead>
+
+  <para>
+    В этой части рассматривается обработка документов, начиная с таких приложений, как
+    <application>Ghostscript</application>, <application>CUPS</application> и
+    <application>DocBook</application>, и заканчивая 
+    <application>texlive</application>.
+  </para>
+
+  <bridgehead renderas="sect2">Приложения</bridgehead>
+
+  <para>
+    В приложениях представлена информация, которая не входит в основную часть книги; 
+	они включены в качестве справочного материала. Кроме этого здесь представлен 
+	глоссарий сокращений.
+  </para>
+
+</sect1>

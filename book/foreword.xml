@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="foreword" xreflabel="Foreword">
+  <?dbhtml filename="foreword.html"?>
+
+
+  <title>Предисловие</title>
+
+  <para>
+    Эта версия книги предназначена для применения в системе, собранной с использованием 
+	книги LFS. Были предприняты все усилия для обеспечения точности и надежности инструкций. 
+	Многие пользователи считают, что использование инструкций, приведенных в этой книге после 
+	сборки текущей или разрабатываемой версии LFS, предоставляет стабильную и очень 
+	современную систему Linux.
+  </para>
+
+  <para>Наслаждайтесь!</para>
+
+  <blockquote>
+<literallayout>Randy McMurchy
+24 августа 2008</literallayout>
+  </blockquote>
+
+</sect1>
