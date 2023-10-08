@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="maillists" xreflabel="Списки рассылки">
+  <?dbhtml filename="maillists.html"?>
+
+
+  <title>Списки рассылки</title>
+
+  <para>На сервере &lfs-domainname; размещен ряд списков рассылки, используемых 
+  для разработки книги BLFS. Эти списки включают, среди прочего, основные списки 
+  разработки и поддержки.</para>
+
+  <para>Для получения дополнительной информации о том, какие списки доступны, как 
+  подписаться на них, где хранятся архивы и так далее, посетите 
+  <ulink url="https://www.&lfs-domainname;/mail.html"/>.</para>
+
+</sect1>

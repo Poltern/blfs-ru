@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<chapter id="welcome">
+  <?dbhtml filename="welcome.html"?>
+
+  <title>Добро пожаловать в BLFS</title>
+
+  <para>Книга Beyond Linux From Scratch (За пределами проекта Линукс с нуля) предназначена 
+  для продолжения работы с того места, на котором заканчивается книга LFS. Но, в отличие от 
+  книги LFS, она не предназначена для того, чтобы следовать ей до конца. Чтение части этой 
+  главы, называемой <xref linkend="whichsections"/> должно помочь вам сориентироваться в книге.</para>
+
+  <para>Пожалуйста, внимательно прочитайте большую часть этой главы, поскольку в ней 
+  объясняются многие условные обозначения, используемые в книге.</para>
+
+<!--  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="acknowledgments.xml"/> -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="which.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="conventions.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="version.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="mirrors.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="packages.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="changelog.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="maillists.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="wiki.xml"/>
+  <!--   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="newsserver.xml"/> -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="askhelp.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="credits.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="contact.xml"/>
+
+</chapter>

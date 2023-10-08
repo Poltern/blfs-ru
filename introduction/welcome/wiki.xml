@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="wiki" xreflabel="wiki">
+  <?dbhtml filename="wiki.html"?>
+
+
+  <title>Заметки редактора</title>
+
+  <para>Проект BLFS создал Wiki, чтобы редакторы могли комментировать страницы и 
+  инструкции, wiki находится по адресу <ulink url='&blfs-wiki;'/>.</para>
+
+  <para>При наличии <emphasis>примечаний</emphasis>, ссылка на них появляется в 
+  виде <literal>&blfs-wiki;/имя_пакета</literal> прямо под списком зависимостей. 
+  Идея примечаний состоит в том, чтобы предоставить дополнительную информацию о 
+  пакете и/или инструкциях по его сборке, типичных ошибках или, возможно, даже 
+  более сложной конфигурации для особых случаев использования.</para>
+
+  <para>Подавляющее большинство пакетов не содержат примечаний.</para>
+
+  <note>
+    <para>
+      <emphasis>Примечания</emphasis> могут быть устаревшими. Даже несмотря на то, 
+	  что страницы следует просмотреть при обновлении пакета, может случиться так, 
+	  что на них будут примечания, относящиеся к устаревшей версии, и, следовательно, 
+	  примечания могут быть устаревшими. Всегда проверяйте дату примечаний и, что 
+	  более важно, версию пакета, на который ссылаются примечания.
+    </para>
+  </note>
+
+<!--
+  <para>The following are the rules for posting:
+
+    <itemizedlist>
+      <listitem>
+        <para>Due to excessive spamming, the commenting function is
+        restricted to authenticated users (editors) only.</para>
+      </listitem>
+      <listitem>
+        <para>Suggestions to change the book should be made by creating a new ticket,
+        <emphasis>not</emphasis> by making comments in the Wiki.</para>
+      </listitem>
+      <listitem>
+        <para>Questions with your specific installation problems should be made
+        by subscribing and mailing to the BLFS Support Mailing List at <ulink
+        url='mailto:blfs-support@&lfs-domainname;'/>.</para>
+      </listitem>
+      <listitem>
+        <para>Discussions of build instructions should be made by subscribing
+        and mailing to the BLFS Development List at <ulink
+        url='mailto:blfs-dev@&lfs-domainname;'/>.</para>
+      </listitem>
+      <listitem>
+        <para>Inappropriate material will be removed.</para>
+      </listitem>
+    </itemizedlist>
+
+  </para>
+-->
+
+</sect1>

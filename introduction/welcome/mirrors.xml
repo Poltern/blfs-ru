@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="mirrors" xreflabel="Зеркала проекта">
+  <?dbhtml filename="mirrors.html"?>
+
+
+  <title>Зеркала проекта</title>
+
+  <para>Проект BLFS имеет несколько зеркал по всему миру, чтобы вам было проще 
+  и удобнее получить доступ к сайту. Пожалуйста, посетите страницу 
+  <ulink url="https://www.&lfs-domainname;/mirrors.html"/> для просмотра списка 
+  текущих зеркал.</para>
+
+</sect1>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="version" xreflabel="Версия книги">
+  <?dbhtml filename="version.html"?>
+
+
+  <title>Версия книги</title>
+
+  <para>Это версия книги BLFS &version; от &releasedate;. Эта ветка &blfs-version;  
+  книги BLFS, предназначена для использования с версией &lfs-version; книги LFS. 
+  Если разрабатываемой версии больше месяца, вероятно, ваше зеркало давно не 
+  синхронизировалось, и, скорее всего, есть более новая версия доступная для загрузки 
+  или просмотра. Проверьте одно из зеркал по адресу 
+  <ulink url="https://www.&lfs-domainname;/mirrors.html"/>, для получения обновленной  
+  версии.</para>
+
+  <!-- This is here only for production releases. Omit the stuff above and
+       then uncomment below as needed
+
+  <para>This is BLFS-BOOK version &version; dated &releasedate;. This version
+  is intended as the complement to the LFS-&lfs-version; book.</para> -->
+
+</sect1>

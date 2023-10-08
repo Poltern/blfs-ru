@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="credits" xreflabel="Благодарности">
+  <?dbhtml filename="credits.html"?>
+
+
+  <title>Благодарности</title>
+
+  <para>Множество людей внесли свой вклад в BLFS как прямо, так и косвенно. На этой 
+  странице перечислены все те, кого мы хотим поблагодарить. Мы вполне могли пропустить 
+  некоторых людей, и, если вы считаете, что нужно кого-то добавить, напишите нам. 
+  Большое спасибо всему сообществу LFS за помощь в этом проекте.</para>
+
+  <sect2>
+    <title>Действующие редакторы</title>
+
+    <itemizedlist>
+
+      <listitem><para>Bruce Dubbs            </para></listitem>
+      <listitem><para>Pierre Labastie        </para></listitem>
+      <listitem><para>DJ Lucas               </para></listitem>
+      <listitem><para>Ken Moffat             </para></listitem>
+      <listitem><para>Douglas Reno           </para></listitem>
+
+    </itemizedlist>
+  </sect2>
+
+  <sect2>
+    <title>Участники и бывшие редакторы</title>
+
+    <para>Список участников слишком велик, чтобы предоставить подробную информацию о вкладе 
+	каждого участника. За прошедшие годы следующие люди внесли значительный вклад в создание 
+	книги:</para>
+
+    <itemizedlist>
+
+      <listitem><para>Timothy Bauscher    </para></listitem>
+      <listitem><para>Daniel Bauman       </para></listitem>
+      <listitem><para>Jeff Bauman         </para></listitem>
+      <listitem><para>Andy Benton         </para></listitem>
+      <listitem><para>Wayne Blaszczyk     </para></listitem>
+      <listitem><para>Paul Campbell       </para></listitem>
+      <listitem><para>Nathan Coulson      </para></listitem>
+      <listitem><para>Jeroen Coumans      </para></listitem>
+      <listitem><para>Guy Dalziel         </para></listitem>
+      <listitem><para>Robert Daniels      </para></listitem>
+      <listitem><para>Richard Downing     </para></listitem>
+      <listitem><para>Manuel Canales Esparcia </para></listitem>
+      <listitem><para>Jim Gifford         </para></listitem>
+      <listitem><para>Manfred Glombowski  </para></listitem>
+      <listitem><para>Ag Hatzimanikas     </para></listitem>
+      <listitem><para>Mark Hymers         </para></listitem>
+      <listitem><para>James Iwanek        </para></listitem>
+      <listitem><para>David Jensen        </para></listitem>
+      <listitem><para>Jeremy Jones        </para></listitem>
+      <listitem><para>Seth Klein          </para></listitem>
+      <listitem><para>Alex Kloss          </para></listitem>
+      <listitem><para>Eric Konopka        </para></listitem>
+      <listitem><para>Larry Lawrence      </para></listitem>
+      <listitem><para>Chris Lynn          </para></listitem>
+      <listitem><para>Andrew McMurry      </para></listitem>
+      <listitem><para>Randy McMurchy      </para></listitem>
+      <listitem><para>Denis Mugnier       </para></listitem>
+      <listitem><para>Billy O'Connor      </para></listitem>
+      <listitem><para>Fernando de Oliveira</para></listitem>
+      <listitem><para>Alexander Patrakov  </para></listitem>
+      <listitem><para>Olivier Peres       </para></listitem>
+      <listitem><para>Andreas Pedersen    </para></listitem>
+      <listitem><para>Henning Rohde       </para></listitem>
+      <listitem><para>Matt Rogers         </para></listitem>
+      <listitem><para>James Robertson     </para></listitem>
+      <listitem><para>Henning Rohde       </para></listitem>
+      <listitem><para>Chris Staub         </para></listitem>
+      <listitem><para>Jesse Tie-Ten-Quee  </para></listitem>
+      <listitem><para>Ragnar Thomsen      </para></listitem>
+      <listitem><para>Thomas Trepl        </para></listitem>
+      <listitem><para>Tushar Teredesai    </para></listitem>
+      <listitem><para>Jeremy Utley        </para></listitem>
+      <listitem><para>Zack Winkles        </para></listitem>
+      <listitem><para>Christian Wurst     </para></listitem>
+      <listitem><para>Igor &#381;ivkovi&#263;</para></listitem>
+
+    </itemizedlist>
+
+  </sect2>
+
+  <sect2>
+    <title>Общие благодарности</title>
+
+    <itemizedlist>
+
+      <listitem><para>Fernando Arbeiza    </para></listitem>
+      <listitem><para>Miguel Bazdresch    </para></listitem>
+      <listitem><para>Gerard Beekmans     </para></listitem>
+      <listitem><para>Oliver Brakmann     </para></listitem>
+      <listitem><para>Jeremy Byron        </para></listitem>
+      <listitem><para>Ian Chilton         </para></listitem>
+      <listitem><para>David Ciecierski    </para></listitem>
+      <listitem><para>Jim Harris          </para></listitem>
+      <listitem><para>Lee Harris          </para></listitem>
+      <listitem><para>Marc Heerdink       </para></listitem>
+      <listitem><para>Steffen Knollmann   </para></listitem>
+      <listitem><para>Eric Konopka        </para></listitem>
+      <listitem><para>Scot McPherson      </para></listitem>
+      <listitem><para>Ted Riley           </para></listitem>
+
+    </itemizedlist>
+  </sect2>
+
+</sect1>
