@@ -28,8 +28,8 @@
 -->
 <!ENTITY nss-version                  "3.&nss-minor-version;">
 
-<!ENTITY openssh-version              "9.4p1">
-<!ENTITY openssh-md5sum               "4bbd56a7ba51b0cd61debe8f9e77f8bb">
+<!ENTITY openssh-version              "9.5p1">
+<!ENTITY openssh-md5sum               "3d29a7394816deeb57186899d7f7662c">
 <!ENTITY p11-kit-version              "0.25.0">
 <!ENTITY polkit-version               "123">
 <!ENTITY polkit-gnome-version         "0.105">
@@ -331,7 +331,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY mercurial-version            "6.5.2">
 <!ENTITY nasm-version                 "2.16.01">
 <!ENTITY patchelf-version             "0.17.2">
-<!ENTITY php-version                  "8.2.10">
+<!ENTITY php-version                  "8.2.11">
 
 <!ENTITY python2-majorver             "2.7">
 <!ENTITY python2-patch                "18">
@@ -349,7 +349,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY ruby-patch-version           "2">
 <!ENTITY ruby-version                 "&ruby-minor-version;.&ruby-patch-version;">
 <!ENTITY ruby-gemdir                  "/usr/lib/ruby/gems/&ruby-minor-version;.0">
-<!ENTITY rust-version                 "1.72.0">
+<!ENTITY rust-version                 "1.73.0">
 <!ENTITY scons-version                "4.5.2">
 <!ENTITY slang-version                "2.3.3">
 <!ENTITY subversion-version           "1.14.2">
@@ -652,7 +652,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 
 <!-- Part IV -->
 <!-- Chapter 14 -->
-<!ENTITY dhcpcd-version               "10.0.2">
+<!ENTITY dhcpcd-version               "10.0.3">
 <!--<!ENTITY dhcp-version                 "4.4.3-P1">-->
 
 <!-- Chapter 15 -->
@@ -782,7 +782,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY xwayland-version             "23.2.1">
 <!ENTITY xorg-server-version          "21.1.8">
 <!ENTITY twm-version                  "1.0.12">
-<!ENTITY xterm-version                "384">
+<!ENTITY xterm-version                "385">
 <!ENTITY xclock-version               "1.1.1">
 <!ENTITY xinit-version                "1.4.2">
 
@@ -1066,7 +1066,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libsndfile-version           "1.2.2">
 <!ENTITY libtheora-version            "1.1.1">
 <!ENTITY libvorbis-version            "1.3.7">
-<!ENTITY libvpx-version               "1.13.0">
+<!ENTITY libvpx-version               "1.13.1">
 <!ENTITY mlt-version                  "7.18.0">
 <!ENTITY opus-version                 "1.4">
 <!ENTITY pipewire-version             "0.3.80">
