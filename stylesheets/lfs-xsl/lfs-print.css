@@ -1,0 +1,5 @@
+@import url(lfs.css);
+
+.navfooter, .headerlinks {
+   display: none;
+}
