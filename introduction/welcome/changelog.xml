@@ -39,8 +39,38 @@
     </listitem>
     -->
     <listitem>
+      <para>October 9th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to xkeyboard-config-2.40. Fixes
+          <ulink url="&blfs-ticket-root;18683">#18683</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libXrandr-1.5.4 (Xorg Library). Fixes
+          <ulink url="&blfs-ticket-root;18677">#18677</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to packaging-23.2 (Python Modules). Fixes
+          <ulink url="&blfs-ticket-root;18657">#18657</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libXpm-3.5.17 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18671">#18671</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libX11-1.8.7 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18670">#18670</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 8th, 2023</para>
       <itemizedlist>
+        <listitem>
+          <para>[thomas] - Update cmake-3.27.7.  Fixes
+          <ulink url="&blfs-ticket-root;18684">#18684</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[xry111] - Update to rustc-1.73.0.  Fixes
           <ulink url="&blfs-ticket-root;18613">#18613</ulink>.</para>
