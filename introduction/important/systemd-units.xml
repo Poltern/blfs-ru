@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="systemd-units" xreflabel="blfs-systemd-units-&systemd-units-version;" revision="systemd">
+  <?dbhtml filename="systemd-units.html"?>
+
+
+  <title>Юниты Systemd в BLFS</title>
+
+  <indexterm zone="systemd-units">
+    <primary sortas="a-BLFS-Sytemd-Units">Юниты Systemd в BLFS<</primary>
+  </indexterm>
+
+  <indexterm zone="systemd-units">
+    <primary sortas="f-AA-General-Information">Общая информация</primary>
+  </indexterm>
+
+  <para>
+    Пакет BLFS Systemd Units содержит файлы модулей systemd, которые используются на 
+	протяжении всей книги.
+  </para>
+
+  <itemizedlist spacing="compact">
+    <title>Информация о пакете</title>
+    <listitem>
+      <para>
+        Ссылка на загрузку: <ulink url="&downloads-root;/blfs-systemd-units-&systemd-units-version;.tar.xz"/>
+      </para>
+    </listitem>
+  </itemizedlist>
+
+  <para>
+    Пакет BLFS Systemd Units будет использоваться по всей книге BLFS для файлов модулей 
+	systemd. Каждый системный модуль имеет отдельный target установки. Рекомендуется 
+	сохранить каталог исходного кода пакета до завершения настройки вашей системы BLFS. 
+	Когда модуль systemd запрашивается из BLFS Systemd Units, просто перейдите в каталог 
+	и от имени пользователя <systemitem class="username">root</systemitem> выполните 
+	команду <command>make install-<replaceable>&lt;systemd -unit&gt;</replaceable></command>. 
+	Эта команда установит модуль systemd в нужное место (вместе со всеми вспомогательными 
+	сценариями настройки), а также, по умолчанию, включит его.
+  </para>
+
+  <note>
+    <para>
+      Перед установкой рекомендуется просмотреть каждый модуль systemd, чтобы определить, 
+	  соответствуют ли установленные файлы вашим потребностям.
+    </para>
+  </note>
+
+</sect1>

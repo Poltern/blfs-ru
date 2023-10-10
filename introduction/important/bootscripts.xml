@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="bootscripts" xreflabel="blfs-bootscripts-&blfs-bootscripts-version;" revision="sysv">
+  <?dbhtml filename="bootscripts.html"?>
+
+
+  <title>Загрузочные скрипты BLFS</title>
+
+  <indexterm zone="bootscripts">
+    <primary sortas="a-BLFS-Bootscripts">Загрузочные скрипты BLFS</primary>
+  </indexterm>
+
+  <indexterm zone="bootscripts">
+    <primary sortas="f-AA-General-Information">Общая информация</primary>
+  </indexterm>
+
+  <para>Пакет BLFS Bootscripts содержит сценарии инициализации, которые используются 
+  на протяжении всей книги. Предполагается, что вы будете использовать пакет BLFS 
+  Bootscripts вместе с совместимым пакетом LFS-Bootscripts. Дополнительную информацию 
+  о пакете LFS-Bootscripts смотрите в <ulink url="&lfs-root;/chapter09/bootscripts.html"/>.
+  </para>
+
+  <itemizedlist spacing='compact'>
+    <title>Информация о пакете</title>
+    <listitem>
+      <para>Ссылка на загрузку: <ulink
+        url="&sources-anduin-http;/blfs-bootscripts/blfs-bootscripts-&blfs-bootscripts-version;.tar.xz"/></para>
+    </listitem>
+  </itemizedlist>
+
+  <para>Пакет BLFS Bootscripts будет использоваться в книге BLFS для скриптов запуска. 
+  В отличие от LFS, каждый скрипт инициализации имеет определенное назначение в пакете 
+  BLFS Bootscripts. Рекомендуется сохранить каталог исходного кода пакета до завершения 
+  настройки вашей системы BLFS. Когда скрипт запрашивается из загрузочных сценариев BLFS, 
+  просто перейдите в каталог и от имени пользователя 
+  <systemitem class="username">root</systemitem> и выполните команду 
+  <command>make install-<replaceable>&lt;init-script&gt; </replaceable></command>. Эта 
+  команда установит скрипт инициализации в нужное место (вместе со всеми вспомогательными 
+  сценариями настройки), а также создаст соответствующие символические ссылки для запуска 
+  и остановки службы на соответствующем уровне выполнения.</para>
+
+  <note>
+    <para>Перед установкой вам следует просмотреть каждый загрузочный скрипт, чтобы 
+	убедиться, что он соответствует вашим потребностям. Также убедитесь, что создаваемые 
+	им символические ссылки для запуска и остановки служб соответствуют вашим задачам.</para>
+  </note>
+
+  <note>
+    <para>Время от времени загрузочные скрипты обновляются для обеспечения совместимости 
+	с новыми пакетами или внесения незначительных исправлений. Все версии загрузочных 
+	скриптов находятся по адресу <ulink url="&sources-anduin-http;/blfs-bootscripts/"/>.</para>
+  </note>
+
+</sect1>

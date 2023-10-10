@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="patches">
+  <?dbhtml filename="patches.html"?>
+
+
+  <title>Необязательные патчи</title>
+
+  <para>По мере того, как вы будете изучать различные разделы книги, вы обнаружите, что в 
+  книге иногда содержатся исправления, необходимые для успешной и безопасной установки 
+  пакетов. Общая стратегия книги заключается в том, чтобы включать патчи, соответствующие 
+  одному из следующих критериев:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>Исправляет проблему компиляции.</para>
+    </listitem>
+    <listitem>
+      <para>Устраняет проблему безопасности.</para>
+    </listitem>
+    <listitem>
+      <para>Исправляет нарушенную функциональность.</para>
+    </listitem>
+  </itemizedlist>
+
+  <para>Короче говоря, в книгу включены только те исправления, которые либо обязательны, 
+  либо рекомендуются. Существует 
+  <url-адрес ulink="https://www.&lfs-domainname ;/patches">подпроект</ulink>, в котором 
+  размещены различные исправления (включая исправления, на которые ссылаются в этой книге), 
+  позволяющие вам настроить вашу LFS так, как вам нравится.</para>
+
+</sect1>
