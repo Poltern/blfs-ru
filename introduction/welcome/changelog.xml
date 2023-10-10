@@ -39,6 +39,32 @@
     </listitem>
     -->
     <listitem>
+      <para>October 10th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to unrar-6.2.12. Fixes
+          <ulink url="&blfs-ticket-root;18681">#18681</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to network-manager-applet-1.34.0. Fixes
+          <ulink url="&blfs-ticket-root;18682">#18682</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to NetworkManager-1.44.2. Fixes
+          <ulink url="&blfs-ticket-root;18673">#18673</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to tracker-miners-3.6.1. Fixes
+          <ulink url="&blfs-ticket-root;18652">#18652</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to opencv-4.8.1. Fixes
+          <ulink url="&blfs-ticket-root;18645">#18645</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 9th, 2023</para>
       <itemizedlist>
         <listitem>

@@ -226,8 +226,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libwebp-version              "1.3.2">
 <!ENTITY mypaint-brushes-version      "1.3.1">
 <!ENTITY newt-version                 "0.52.23">
-<!ENTITY opencv-version               "4.8.0">
-<!ENTITY opencv-contrib-version       "4.8.0">
+<!ENTITY opencv-version               "4.8.1">
+<!ENTITY opencv-contrib-version       "4.8.1">
 <!ENTITY openjpeg2-majmin-version     "2.5">
 <!ENTITY openjpeg2-version            "&openjpeg2-majmin-version;.0">
 <!ENTITY pixman-version               "0.42.2">   <!-- Even minors only -->
@@ -302,7 +302,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY sysstat-version              "12.7.4">
 <!ENTITY systemd-version              "254">
 <!ENTITY udisks2-version              "2.10.1">   <!-- stable lt .90 micro version -->
-<!ENTITY unrar-version                "6.2.11">
+<!ENTITY unrar-version                "6.2.12">
 <!ENTITY unzip-version                "6.0">
 <!ENTITY upower-version               "1.90.2">
 <!ENTITY usbutils-version             "015">
@@ -677,8 +677,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY bind-version                 "&bind-minor-version;.19">
 <!ENTITY bind-md5                     "3da0a07a5dded9f12186c80663c30f57">
 <!ENTITY NetworkManager-minor         "1.44">
-<!ENTITY NetworkManager-version       "&NetworkManager-minor;.0">
-<!ENTITY network-manager-applet-minor "1.32">
+<!ENTITY NetworkManager-version       "&NetworkManager-minor;.2">
+<!ENTITY network-manager-applet-minor "1.34">
 <!ENTITY network-manager-applet-version "&network-manager-applet-minor;.0">
 <!ENTITY nmap-version                 "7.94">
 <!ENTITY traceroute-version           "2.1.3">
