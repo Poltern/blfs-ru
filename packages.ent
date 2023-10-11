@@ -665,7 +665,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY ntp-version                  "4.2.8p17">
 <!ENTITY rpcbind-version              "1.2.6">
 <!ENTITY rsync-version                "3.2.7">
-<!ENTITY samba-version                "4.19.0">
+<!ENTITY samba-version                "4.19.1">
 <!ENTITY wget-version                 "1.21.4">
 <!ENTITY wireless-tools-version       "29">
 <!ENTITY wpa_supplicant-version       "2.10">
@@ -846,7 +846,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pango-minor                  "1.50">
 <!ENTITY pango-version                "&pango-minor;.14">
 <!ENTITY pangomm-version              "2.46.3">
-<!ENTITY qt5-version                  "5.15.10">
+<!ENTITY qt5-version                  "5.15.11">
 <!ENTITY qtwebengine-version          "5.15.15">
 <!ENTITY startup-notification-version "0.12">
 <!ENTITY tepl-version                 "6.8.0">
@@ -1069,7 +1069,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libvpx-version               "1.13.1">
 <!ENTITY mlt-version                  "7.18.0">
 <!ENTITY opus-version                 "1.4">
-<!ENTITY pipewire-version             "0.3.80">
+<!ENTITY pipewire-version             "0.3.81">
 <!ENTITY pulseaudio-major-version     "16.1">
 <!ENTITY pulseaudio-version           "&pulseaudio-major-version;">
 <!ENTITY sbc-version                  "2.0">
