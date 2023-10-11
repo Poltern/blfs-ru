@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="position">
+  <?dbhtml filename="position.html"?>
+
+
+  <title>Обсуждение: установка пакетов в /usr или /usr/local</title>
+
+  <para><emphasis>Я должен устанавливать пакет XXX в каталог <filename>/usr</filename> 
+  или же в <filename>/usr/local</filename>?</emphasis></para>
+
+  <para>Это вопрос не имеет однозначного ответа для системы на основе LFS.</para>
+
+  <para>В традиционных системах Unix в каталоге <filename class='directory'>/usr</filename> 
+  обычно хранятся файлы, поставляемые с дистрибутивом, а дерево 
+  <filename class='directory'>/usr/local</filename> является свободным и им может 
+  управлять локальный администратор. Единственное действительно жесткое правило заключается 
+  в том, что дистрибутивы Unix не должны использовать каталог 
+  <filename class='directory'>/usr/local</filename>, за исключением, возможно, создания 
+  в нем основных подкаталогов.</para>
+
+  <para>В дистрибутивах Linux, таких как Red Hat, Debian и т.д., применяется правило, 
+  согласно которому управление содержимым каталога <filename class='directory'>/usr</filename> 
+  осуществляется пакетным менеджером дистрибутива, а  
+  <filename class='directory'>/usr/local</filename> - нет. Таким образом, в базе данных 
+  менеджера пакетов есть информация о каждом файле в каталоге 
+  <filename class='directory'>/usr</filename>.</para>
+
+  <para>Пользователи LFS самостоятельно собирают свои системы, поэтому решить, где заканчивается 
+  система и начинаются локальные файлы, непросто. Таким образом, выбор должен быть сделан 
+  для того, чтобы упростить администрирование. При выборе между  
+  <filename class='directory'>/usr</filename> и 
+  <filename class='directory'>/usr/local</filename> нужно учитывать следующее:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>В сети из нескольких машин, на которых работают только системы LFS или LFS и 
+	  другие дистрибутивы Linux, каталог <filename class='directory'>/usr/local</filename> 
+	  может использоваться для хранения пакетов, которые являются общими для всех компьютеров 
+	  в сети. Он может быть смонтирован как раздел NFS или может быть "отзеркален" с одного 
+	  сервера. Здесь local указывает на конкретное местоположения.</para>
+    </listitem>
+    <listitem>
+      <para>В сети из нескольких компьютеров, на которых установлены идентичные системы LFS, 
+	  в каталоге <filename class='directory'>/usr/local</filename> могут храниться пакеты, 
+	  которые на этих машинах различаются. В этом случае local относится к отдельным 
+	  компьютерам.</para>
+    </listitem>
+    <listitem>
+      <para>Даже на одном компьютере <filename class='directory'>/usr/local</filename> 
+	  может быть полезен, если у вас одновременно установлены несколько дистрибутивов, вы 
+	  можете поместить в этот каталог пакеты, которые одинаковы во всех дистрибутивах.</para>
+    </listitem>
+    <listitem>
+      <para>Или, если вы регулярно пересобирате свою систему LFS, и вам нужно место для хранения 
+	  файлов, которые вы не хотите пересобирать каждый раз. Таким образом, вы можете стереть 
+	  файловую систему LFS и каждый раз начинать с чистого раздела, не теряя при этом ничего.</para>
+    </listitem>
+  </itemizedlist>
+
+  <para>Некоторые люди спрашивают, почему бы не использовать свое собственное дерево 
+  каталогов, например, 
+  <filename class='directory'>/usr/site</filename>, а не
+  <filename class='directory'>/usr/local</filename>?</para>
+
+  <para>Нет ничего, чтобы вам помешало сделать это - вы можете создать своё собственное 
+  дерево каталогов, однако это усложнит установку нового программного обеспечения. 
+  Автоматические установщики часто ищут зависимости в каталогах 
+  <filename class='directory'>/usr</filename> и 
+  <filename class='directory'>/usr/local</filename>, и если файл, который он ищет, находится 
+  в <filename class='directory'>/usr/site</filename>, работа инсталлятора, вероятно, завершится 
+  ошибкой, если вы специально не укажете ему путь, где искать.</para>
+
+  <para><emphasis>Какова позиция BLFS по этому вопросу?</emphasis></para>
+
+  <para>Все инструкции, изложенные в BLFS, устанавливают программы в каталог 
+  <filename class='directory'>/usr</filename>, но для некоторых пакетов с помощью 
+  дополнительных инструкций установка осуществляется в каталог 
+  <filename class='directory'>/opt</filename>.</para>
+
+</sect1>
