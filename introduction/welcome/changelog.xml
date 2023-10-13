@@ -39,8 +39,30 @@
     </listitem>
     -->
     <listitem>
+      <para>October 13th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xfsprogs-6.5.0. Fixes
+          <ulink url="&blfs-ticket-root;18704">#18704</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Test-Differences-0.71 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;18705">#18705</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 12th, 2023</para>
       <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xscreensaver-6.08. Fixes
+          <ulink url="&blfs-ticket-root;18700">#18700</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to iptables-1.8.10. Fixes
+          <ulink url="&blfs-ticket-root;18694">#18694</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[bdubbs] - Update to proftpd-1.3.8a. Fixes
           <ulink url="&blfs-ticket-root;18691">#18691</ulink>.</para>
