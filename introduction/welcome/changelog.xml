@@ -42,6 +42,30 @@
       <para>October 16th, 2023</para>
       <itemizedlist>
         <listitem>
+          <para>[timtas] - Remove libxpresent dependency from xfwm4-4.18.0. It
+          is now part of Xorg Libraries.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Apply a patch to Seamonkey to fix several security
+          vulnerabilities in it's bundled libvpx.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to xterm-387. Fixes
+          <ulink url="&blfs-ticket-root;18718">#18718</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to doxyqml-0.5.3 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;18717">#18717</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to numpy-1.26.1 (Python Modules). Fixes
+          <ulink url="&blfs-ticket-root;18710">#18710</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libnsl-2.0.1. Fixes
+          <ulink url="&blfs-ticket-root;18708">#18708</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Add libXpresent-1.0.1 to xorg libraries. Needed 
           to support mpv.</para>
         </listitem>

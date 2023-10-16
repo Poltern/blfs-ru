@@ -534,8 +534,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY docutils-version             "0.20.1">
 <!ENTITY doxypypy-version             "0.8.8.7">
 <!ENTITY doxypypy-md5sum              "5773d0a7882df900cbda8ee5107e1ced">
-<!ENTITY doxyqml-version              "0.5.2">
-<!ENTITY doxyqml-md5sum               "f7b957fea48654c76837b0c5e9e3c2af">
+<!ENTITY doxyqml-version              "0.5.3">
+<!ENTITY doxyqml-md5sum               "3d394a0d896721e27beb62bf032f7f43">
 <!ENTITY gi-docgen-version            "2023.1">
 <!ENTITY gi-docgen-md5sum             "6d6690dad5daa5b155341ab2f49eaa6b">
 <!ENTITY packaging-version            "23.2">
@@ -563,8 +563,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY Jinja2-md5sum                "d31148abd89c1df1cdb077a55db27d02">
 <!ENTITY mako-version                 "1.2.4">
 <!ENTITY mako-md5sum                  "651f365616611fcd4f2702a9002e2195">
-<!ENTITY numpy-version                "1.26.0">
-<!ENTITY numpy-md5sum                 "69bd28f07afbeed2bb6ecd467afcd469">
+<!ENTITY numpy-version                "1.26.1">
+<!ENTITY numpy-md5sum                 "2d770f4c281d405b690c4bcb3dbe99e2">
 <!ENTITY pyparsing-version            "3.1.1">
 <!ENTITY pyparsing-md5sum             "bb8c8c6b8015ca5887ae2c37917ee82e">
 <!ENTITY pyserial-version             "3.5">
@@ -698,7 +698,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libnl-version                "3.8.0">
 <!ENTITY libnl-dl-version             "3_8_0">
 <!ENTITY libnma-version               "1.10.6">
-<!ENTITY libnsl-version               "2.0.0">
+<!ENTITY libnsl-version               "2.0.1">
 <!ENTITY libpcap-version              "1.10.4">
 <!ENTITY libpsl-version               "0.21.2">
 <!ENTITY libndp-version               "1.8">
@@ -782,7 +782,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY xwayland-version             "23.2.1">
 <!ENTITY xorg-server-version          "21.1.8">
 <!ENTITY twm-version                  "1.0.12">
-<!ENTITY xterm-version                "386">
+<!ENTITY xterm-version                "387">
 <!ENTITY xclock-version               "1.1.1">
 <!ENTITY xinit-version                "1.4.2">
 
