@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+]>
+
+<sect1 id="la-files" xreflabel="Файлы libtool archive (.la)">
+  <?dbhtml filename="la-files.html"?>
+
+
+  <title>О файлах Libtool Archive (.la)</title>
+
+  <!-- section g : 'Others' in longindex.html -->
+  <indexterm zone="la-files">
+    <primary sortas="g-la-files">Файлы libtool archive (.la)</primary>
+  </indexterm>
+
+  <sect2 role="package">
+    <title>Файлы с расширением .la</title>
+
+    <para>
+
+      В LFS и BLFS многие пакеты используют внутреннюю копию libtool для сборки на 
+	  различных платформах Unix. Сюда входят такие платформы, как AIX, Solaris, IRIX, 
+	  HP-UX и Cygwin, а также Linux. История создания этого инструмента уходит довольно 
+	  далеко в прошлое. Он предназначался для управления библиотеками в системах с менее 
+	  продвинутыми возможностями, чем современная система Linux.
+
+    </para>
+
+    <para>
+
+      В системе Linux файлы, специфичные для libtool, как правило, не нужны. Обычно 
+	  библиотеки указываются в процессе сборки на этапе компоновки. Поскольку система 
+	  Linux использует 
+	  <ulink url="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">формат 
+	  исполняемых и компонуемых файлов (ELF)</ulink> для файлов и динамических библиотек, 
+	  информация, необходимая для выполнения задачи, содержится внутри файла. Как компоновщик, 
+	  так и загрузчик программы могут запрашивать соответствующие файлы и правильно 
+	  компоновать или выполнять программу.
+
+    </para>
+
+    <para>
+      Статические библиотеки редко используются в LFS и BLFS. В настоящее время большинство 
+	  пакетов хранят информацию, необходимую для компоновки со статической библиотекой, в файле 
+	  .pc, вместо того чтобы полагаться на libtool. Команда 
+	  <command>pkg-config --static --libs</command> выведет флаги, достаточные для того, чтобы 
+	  компоновщик мог выполнить привязку к статической библиотеке без какой-либо магии libtool.
+    </para>
+
+    <para>
+      Проблема в том, что libtool обычно создает один или несколько текстовых файлов для 
+	  библиотек пакетов, называемых архивами libtool. Эти небольшие файлы имеют расширение 
+	  ".la" и содержат информацию, аналогичную той, что содержится в библиотеках или 
+	  файлах pkg-config. При сборке пакета, использующего libtool, процесс автоматически 
+	  ищет эти файлы. Иногда файл .la может содержать имя или путь статической библиотеки, 
+	  используемой во время сборки, но не установленной, тогда процесс сборки прерывается, 
+	  поскольку файл .la ссылается на что-то несуществующее в системе. Аналогично, если 
+	  пакет обновлен и больше не использует файл .la, процесс сборки может прерваться из-за 
+	  старых .la-файлов.
+    </para>
+
+    <para>
+
+       Решение состоит в том, чтобы удалить файлы с расширением .la. Однако есть одна загвоздка. 
+	   Некоторые пакеты, такие как <xref linkend='imagemagick'/>, используют функцию libtool 
+	   lt_dlopen для загрузки библиотек по мере необходимости и разрешения их зависимостей во 
+	   время выполнения. В этом случае файлы .la должны остаться.
+
+    </para>
+
+    <para>
+
+        Приведенный ниже скрипт удаляет все ненужные файлы .la и сохраняет их в каталоге 
+		/var/local/la-files, а не по обычному пути к библиотеке. Он также ищет во всех 
+		файлах pkg-config (.pc) внутренние ссылки на файлы .la и преобразует их в обычные 
+		ссылки на библиотеки, необходимые при сборке приложения или библиотеки. Его можно 
+		запускать по мере необходимости для очистки каталогов, которые могут вызывать проблемы.
+
+    </para>
+
+<screen role="root"><userinput>cat &gt; /usr/sbin/remove-la-files.sh &lt;&lt; "EOF"
+<literal>#!/bin/bash
+
+# /usr/sbin/remove-la-files.sh
+# Written for Beyond Linux From Scratch
+# by Bruce Dubbs &lt;bdubbs@&lfs-domainname;&gt;
+
+# Make sure we are running with root privs
+if test "${EUID}" -ne 0; then
+    echo "Error: $(basename ${0}) must be run as the root user! Exiting..."
+    exit 1
+fi
+
+# Make sure PKG_CONFIG_PATH is set if discarded by sudo
+source /etc/profile
+
+OLD_LA_DIR=/var/local/la-files
+
+mkdir -p $OLD_LA_DIR
+
+# Only search directories in /opt, but not symlinks to directories
+OPTDIRS=$(find /opt -mindepth 1 -maxdepth 1 -type d)
+
+# Move any found .la files to a directory out of the way
+find /usr/lib $OPTDIRS -name "*.la" ! -path "/usr/lib/ImageMagick*" \
+  -exec mv -fv {} $OLD_LA_DIR \;
+###############
+
+# Fix any .pc files that may have .la references
+
+STD_PC_PATH='/usr/lib/pkgconfig
+             /usr/share/pkgconfig
+             /usr/local/lib/pkgconfig
+             /usr/local/share/pkgconfig'
+
+# For each directory that can have .pc files
+for d in $(echo $PKG_CONFIG_PATH | tr : ' ') $STD_PC_PATH; do
+
+  # For each pc file
+  for pc in $d/*.pc ; do
+    if [ $pc == "$d/*.pc" ]; then continue; fi
+
+    # Check each word in a line with a .la reference
+    for word in $(grep '\.la' $pc); do
+      if $(echo $word | grep -q '.la$' ); then
+        mkdir -p $d/la-backup
+        cp -fv  $pc $d/la-backup
+
+        basename=$(basename $word )
+        libref=$(echo $basename|sed -e 's/^lib/-l/' -e 's/\.la$//')
+
+        # Fix the .pc file
+        sed -i "s:$word:$libref:" $pc
+      fi
+    done
+  done
+done</literal>
+
+EOF
+
+chmod +x /usr/sbin/remove-la-files.sh</userinput></screen>
+
+
+  </sect2>
+
+</sect1>
