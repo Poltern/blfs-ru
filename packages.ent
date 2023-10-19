@@ -98,7 +98,7 @@
 <!ENTITY dbus-glib-version            "0.112">
 <!ENTITY double-conversion-version    "3.3.0">
 <!ENTITY duktape-version              "2.7.0">
-<!ENTITY enchant-version              "2.5.0">
+<!ENTITY enchant-version              "2.6.1">
 <!ENTITY exempi-version               "2.6.4">
 <!ENTITY fftw-version                 "3.3.10">
 <!ENTITY glib2-minor                  "2.78">
@@ -126,7 +126,7 @@
 <!ENTITY libassuan-version            "2.5.6">
 <!ENTITY libatasmart-version          "0.19">
 <!ENTITY libatomic_ops-version        "7.8.0">
-<!ENTITY libblockdev-version          "3.0.3">
+<!ENTITY libblockdev-version          "3.0.4">
 <!ENTITY libbytesize-version          "2.9">
 <!ENTITY libcloudproviders-version    "0.3.4">
 <!ENTITY libdaemon-version            "0.14">
@@ -135,19 +135,19 @@
 <!ENTITY libgrss-version              "0.7.0">
 <!ENTITY libgsf-version               "1.14.50">
 <!ENTITY libgudev-version             "238">
-<!ENTITY libgusb-version              "0.4.6">
-<!ENTITY libical-version              "3.0.16">
+<!ENTITY libgusb-version              "0.4.7">
+<!ENTITY libical-version              "3.0.17">
 <!ENTITY libidn-version               "1.41">
 <!ENTITY libidn2-version              "2.3.4">
 <!ENTITY libiodbc-version             "3.52.15">
 <!ENTITY libksba-version              "1.6.4">
 <!ENTITY liblinear-version            "247">
-<!ENTITY libnvme-version              "1.5">
+<!ENTITY libnvme-version              "1.6">
 <!ENTITY libmbim-version              "1.26.4">
-<!ENTITY libpaper-version             "2.1.1">
+<!ENTITY libpaper-version             "2.1.2">
 <!ENTITY libportal-version            "0.7.1">
 <!ENTITY libptytty-version            "2.0">
-<!ENTITY libqalculate-version         "4.8.0">
+<!ENTITY libqalculate-version         "4.8.1">
 <!ENTITY libqmi-version               "1.30.8">
 <!ENTITY libseccomp-version           "2.5.4">
 <!ENTITY libsigc-minor                "2.12">
@@ -162,7 +162,7 @@
 <!ENTITY liburcu-version              "0.14.0">
 <!ENTITY libusb-version               "1.0.26">
 <!ENTITY libuv-version                "1.46.0">
-<!ENTITY libxkbcommon-version         "1.5.0">
+<!ENTITY libxkbcommon-version         "1.6.0">
 <!-- the libxml2-version is also used for the python2 module,
 which is built separately after libxml2.so has been installed,
 to avoid building libxml2 twice, which is slow with all deps -->
@@ -214,7 +214,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libavif-version              "1.0.1">
 <!ENTITY libexif-version              "0.6.24">
 <!ENTITY libgxps-version              "0.3.2">
-<!ENTITY libjpeg-turbo-version        "3.0.0">
+<!ENTITY libjpeg-turbo-version        "3.0.1">
 <!ENTITY libmng-version               "2.0.3">
 <!ENTITY libmypaint-version           "1.6.1"> <!-- version 1 only -->
 <!ENTITY libpng-version               "1.6.40">
@@ -233,7 +233,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pixman-version               "0.42.2">   <!-- Even minors only -->
 <!ENTITY poppler-version              "23.10.0">
 <!ENTITY potrace-version              "1.16">
-<!ENTITY qpdf-version                 "11.6.2">
+<!ENTITY qpdf-version                 "11.6.3">
 <!ENTITY qrencode-version             "4.1.1">
 <!ENTITY libsass-version              "3.6.5">
 <!ENTITY sassc-version                "3.6.2">
@@ -934,7 +934,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!-- Chapter 36 -->
 <!ENTITY parole-version               "4.18.0">
 <!ENTITY xfce4-terminal-minor         "1.1">
-<!ENTITY xfce4-terminal-version       "&xfce4-terminal-minor;.0">
+<!ENTITY xfce4-terminal-version       "&xfce4-terminal-minor;.1">
 <!ENTITY xfburn-version               "0.7.0">
 <!ENTITY ristretto-version            "0.13.1">
 <!ENTITY xfce4-dev-tools-version      "&xfce4-version;.0">
