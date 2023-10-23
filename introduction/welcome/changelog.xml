@@ -39,8 +39,78 @@
     </listitem>
     -->
     <listitem>
-      <para>October 19th, 2023</para>
+      <para>October 23rd, 2023</para>
       <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xterm-388. Fixes
+          <ulink url="&blfs-ticket-root;18764">#18764</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to usbutils-016. Fixes
+          <ulink url="&blfs-ticket-root;18763">#18763</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pycairo3-1.25.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;18757">#18757</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to highlight-4.10. Fixes
+          <ulink url="&blfs-ticket-root;18756">#18756</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to btrfs-progs-v6.5.3. Fixes
+          <ulink url="&blfs-ticket-root;18755">#18755</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libdrm-2.4.117. Fixes
+          <ulink url="&blfs-ticket-root;18752">#18752</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 22th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[timtas] - Update to gvfs-1.52.1. Fixes
+          <ulink url="&blfs-ticket-root;18754">#18754</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[timtas] - Update to xfce4-notifyd-0.9.3. Fixes
+          <ulink url="&blfs-ticket-root;18762">#18762</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[timtas] - Update to dhcpcd-10.0.4. Fixes
+          <ulink url="&blfs-ticket-root;18744">#18744</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 20th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Fix a regression in alsa-lib that causes segmentation
+          faults whenever audio is played on i686. Fixes
+          <ulink url="&blfs-ticket-root;18751">#18751</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Removed most references to the update-leap
+          script in ntp. Fixes
+          <ulink url="&blfs-ticket-root;18738">#18738</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to Thunderbird-115.3.3. Fixes
+          <ulink url="&blfs-ticket-root;18742">#18742</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to intel-media-driver-23.3.5. Fixes
+          <ulink url="&blfs-ticket-root;18749">#18749</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to intel-gmmlib-22.3.12. Fixes
+          <ulink url="&blfs-ticket-root;18724">#18724</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[bdubbs] - Update to pipewire-0.3.83. Fixes
           <ulink url="&blfs-ticket-root;18750">#18750</ulink>.</para>
@@ -58,7 +128,7 @@
           <ulink url="&blfs-ticket-root;18746">#18746</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[bdubbs] - Update to httpd-2.4.58. Fixes
+          <para>[bdubbs] - Update to httpd-2.4.58 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;18745">#18745</ulink>.</para>
         </listitem>
       </itemizedlist>
@@ -92,7 +162,7 @@
           <ulink url="&blfs-ticket-root;18734">#18734</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[bdubbs] - Update to node.js-18.18.2. Fixes
+          <para>[bdubbs] - Update to node.js-18.18.2 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;18733">#18733</ulink>.</para>
         </listitem>
         <listitem>

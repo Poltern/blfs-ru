@@ -41,7 +41,7 @@
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
 <!-- Chapter 5 -->
-<!ENTITY btrfs-progs-version          "6.5.2">
+<!ENTITY btrfs-progs-version          "6.5.3">
 <!ENTITY dosfstools-version           "4.2">
 <!ENTITY fuse3-version                "3.16.2">
 <!ENTITY jfsutils-version             "1.1.15">
@@ -116,7 +116,7 @@
 <!ENTITY icu-version                  "&icu-major;.&icu-minor;"><!-- .&icu-patch;-->
 
 <!ENTITY inih-version                 "57">
-<!ENTITY intel-gmmlib-version         "22.3.11">
+<!ENTITY intel-gmmlib-version         "22.3.12">
 <!ENTITY jansson-version              "2.14">
 <!ENTITY json-c-version               "0.17">
 <!ENTITY json-glib-version            "1.8.0">
@@ -249,7 +249,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY graphviz-version             "9.0.0">
 <!ENTITY gtk-doc-major                "1.33">
 <!ENTITY gtk-doc-version              "1.33.2">
-<!ENTITY highlight-version            "4.9">
+<!ENTITY highlight-version            "4.10">
 <!ENTITY ibus-version                 "1.5.28">
 <!ENTITY imagemagick-version          "7.1.1">
 <!ENTITY iso-codes-version            "4.15.0">
@@ -305,7 +305,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY unrar-version                "6.2.12">
 <!ENTITY unzip-version                "6.0">
 <!ENTITY upower-version               "1.90.2">
-<!ENTITY usbutils-version             "015">
+<!ENTITY usbutils-version             "016">
 <!ENTITY which-version                "2.21">
 <!ENTITY zip-version                  "3.0">
 
@@ -542,7 +542,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY packaging-md5sum             "d54eeff8c7ca86980528f4132f258d54">
 <!ENTITY py3c-version                 "1.4">
 <!ENTITY pyatspi2-version             "2.46.0">
-<!ENTITY pycairo-version              "1.25.0">
+<!ENTITY pycairo-version              "1.25.1">
 <!ENTITY pycairo2-version             "1.18.2">
 <!--<!ENTITY pycryptodome-version         "3.18.0">-->
 <!ENTITY dbusmock-version             "0.29.1">
@@ -652,7 +652,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 
 <!-- Part IV -->
 <!-- Chapter 14 -->
-<!ENTITY dhcpcd-version               "10.0.3">
+<!ENTITY dhcpcd-version               "10.0.4">
 <!--<!ENTITY dhcp-version                 "4.4.3-P1">-->
 
 <!-- Chapter 15 -->
@@ -782,7 +782,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY xwayland-version             "23.2.1">
 <!ENTITY xorg-server-version          "21.1.8">
 <!ENTITY twm-version                  "1.0.12">
-<!ENTITY xterm-version                "387">
+<!ENTITY xterm-version                "388">
 <!ENTITY xclock-version               "1.1.1">
 <!ENTITY xinit-version                "1.4.2">
 
@@ -836,7 +836,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libgedit-amtk-version        "5.8.0">
 <!ENTITY libgedit-gtksourceview-version "299.0.4">
 <!ENTITY libhandy1-version            "1.8.2">
-<!ENTITY libdrm-version               "2.4.116">
+<!ENTITY libdrm-version               "2.4.117">
 <!ENTITY libei-version                "1.1.0">
 <!ENTITY libepoxy-minor               "1.5">
 <!ENTITY libepoxy-version             "&libepoxy-minor;.10">
@@ -938,7 +938,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY xfburn-version               "0.7.0">
 <!ENTITY ristretto-version            "0.13.1">
 <!ENTITY xfce4-dev-tools-version      "&xfce4-version;.1">
-<!ENTITY xfce4-notifyd-version        "0.9.2">
+<!ENTITY xfce4-notifyd-version        "0.9.3">
 <!ENTITY xfce4-pulseaudio-plugin-version "0.4.8">
 
 <!-- Part X -->
@@ -1010,7 +1010,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.3.2">
+<!ENTITY thunderbird-version          "115.3.3">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.4">
 <!ENTITY xarchiver-version            "0.5.4.21">
@@ -1043,7 +1043,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY gst10-libav-version          "1.22.6">  <!-- Even minors only -->
 <!ENTITY gstreamer-vaapi-version      "1.22.6">  <!-- Even minors only -->
 <!ENTITY id3lib-version               "3.8.3">
-<!ENTITY intel-media-version          "23.3.4">
+<!ENTITY intel-media-version          "23.3.5">
 <!ENTITY liba52-version               "0.7.4">
 <!ENTITY libao-version                "1.2.0">
 <!ENTITY libaom-version               "3.7.0">
