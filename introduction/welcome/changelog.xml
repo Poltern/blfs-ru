@@ -39,6 +39,60 @@
     </listitem>
     -->
     <listitem>
+     <para>October 30th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Add OpenSSH as a recommended dependency of gcr-4.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix problems with the recent sandbox tightening in
+          tracker-miners on both i686 and x86_64. Fixes
+          <ulink url="&blfs-ticket-root;18715">#18715</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[ken] - Update to qtwebengine-5.15.16 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18787">#18787</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 29th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to enchant-2.6.2. Fixes
+          <ulink url="&blfs-ticket-root;18785">#18785</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gpgme-1.23.1. Fixes
+          <ulink url="&blfs-ticket-root;18782">#18782</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to php-8.2.12. Fixes
+          <ulink url="&blfs-ticket-root;18779">#18779</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to p11-kit-0.25.1. Fixes
+          <ulink url="&blfs-ticket-root;18778">#18778</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 27th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xwayland-23.2.2. Fixes
+          <ulink url="&blfs-ticket-root;18772">#18772</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[timtas] - Update to xorg-server-21.1.9. Fixes
+          <ulink url="&blfs-ticket-root;18771">#18771</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 26th, 2023</para>
       <itemizedlist>
         <listitem>
