@@ -42,11 +42,59 @@
       <para>November 3rd, 2023</para>
       <itemizedlist>
         <listitem>
+          <para>[rahul] - Update to git-2.42.1. Fixes
+          <ulink url="&blfs-ticket-root;18809">#18809</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to pipewire-0.3.84. Fixes
+          <ulink url="&blfs-ticket-root;18814">#18814</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to SDL2-2.28.5. Fixes
+          <ulink url="&blfs-ticket-root;18813">#18813</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to icewm-3.4.4. Fixes
+          <ulink url="&blfs-ticket-root;18811">#18811</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to node-v20.9.0. Fixes
+          <ulink url="&blfs-ticket-root;18804">#18804</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to postfix-3.8.3. Fixes
+          <ulink url="&blfs-ticket-root;18801">#18801</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to poppler-23.11.0. Fixes
+          <ulink url="&blfs-ticket-root;18800">#18800</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Add sysmon-qt-1.0.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnumeric-1.12.56. Fixes
+          <ulink url="&blfs-ticket-root;18812">#18812</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to goffice-0.10.56. Fixes
+          <ulink url="&blfs-ticket-root;18810">#18810</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libgsf-1.14.51. Fixes
+          <ulink url="&blfs-ticket-root;18808">#18808</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to sqlite-3.44.0. Fixes
+          <ulink url="&blfs-ticket-root;18802">#18802</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[timtas] - Update to ghostscript-10.02.1. Fixes
           <ulink url="&blfs-ticket-root;18803">#18803</ulink>.</para>
         </listitem>
       </itemizedlist>
     </listitem>
+
     <listitem>
       <para>November 2nd, 2023</para>
       <itemizedlist>
