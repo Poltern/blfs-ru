@@ -39,6 +39,130 @@
     </listitem>
     -->
     <listitem>
+      <para>November 9th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Fix an issue with WebKitGTK-2.42.1 breaking
+          various Web sites.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libcloudproviders-0.3.5. Fixes
+          <ulink url="&blfs-ticket-root;18837">#18837</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Fix wireshark for building with Python-3.12.
+          Part of <ulink url="&blfs-ticket-root;18798">#18798</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>November 8th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to lxqt-1.4.0 and associated packages. Fixes
+          <ulink url="&blfs-ticket-root;18820">#18820</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to thunderbird-115.4.2. Fixes
+          <ulink url="&blfs-ticket-root;18834">#18834</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to plasma-wayland-protocols-1.11.0. Fixes
+          <ulink url="&blfs-ticket-root;18833">#18833</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libgusb-0.4.8. Fixes
+          <ulink url="&blfs-ticket-root;18831">#18831</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mupdf-1.23.5. Fixes
+          <ulink url="&blfs-ticket-root;18829">#18829</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to xapian-core-1.4.24. Fixes
+          <ulink url="&blfs-ticket-root;18824">#18824</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to GIMP-2.10.36 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18836">#18836</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to faad2-2.11.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18835">#18835</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to mercurial-6.5.3. Fixes
+          <ulink url="&blfs-ticket-root;18827">#18827</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>November 7th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[pierre] - Fix libreoffice for ICU 74.
+          Part of <ulink url="&blfs-ticket-root;18799">#18799</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Adapt itstool to changes in Python-3.12. Addresses
+          <ulink url="&blfs-ticket-root;18798">#18798</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to epiphany-45.1. Fixes
+          <ulink url="&blfs-ticket-root;18828">#18828</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to IO-Socket-SSL-2.084 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;18826">#18826</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to lihuv-1.47.0. Fixes
+          <ulink url="&blfs-ticket-root;18823">#18823</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to jasper-4.1.0. Fixes
+          <ulink url="&blfs-ticket-root;18819">#18819</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix building ffmpeg-6.0 with Texinfo-7.1 installed.
+          Fixes <ulink url="&blfs-ticket-root;18821">#18821</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to exiv2-0.28.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18825">#18825</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Fix SeaMonkey for Python 3.12 and ICU 74.
+          Part of <ulink url="&blfs-ticket-root;18798">#18798</ulink>
+          and <ulink url="&blfs-ticket-root;18799">#18799</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>November 6th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[pierre,xry111] - Fix qtwebengine for python 3.12 and ICU 74.
+          Part of <ulink url="&blfs-ticket-root;18798">#18798</ulink>
+          and <ulink url="&blfs-ticket-root;18799">#18799</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>November 5th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to jasper-4.0.1. Fixes
+          <ulink url="&blfs-ticket-root;18817">#18817</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>November 3rd, 2023</para>
       <itemizedlist>
         <listitem>

@@ -128,14 +128,14 @@
 <!ENTITY libatomic_ops-version        "7.8.0">
 <!ENTITY libblockdev-version          "3.0.4">
 <!ENTITY libbytesize-version          "2.10">
-<!ENTITY libcloudproviders-version    "0.3.4">
+<!ENTITY libcloudproviders-version    "0.3.5">
 <!ENTITY libdaemon-version            "0.14">
 <!ENTITY libgcrypt-version            "1.10.2">
 <!ENTITY libgpg-error-version         "1.47">
 <!ENTITY libgrss-version              "0.7.0">
 <!ENTITY libgsf-version               "1.14.51">
 <!ENTITY libgudev-version             "238">
-<!ENTITY libgusb-version              "0.4.7">
+<!ENTITY libgusb-version              "0.4.8">
 <!ENTITY libical-version              "3.0.17">
 <!ENTITY libidn-version               "1.41">
 <!ENTITY libidn2-version              "2.3.4">
@@ -161,7 +161,7 @@
 <!ENTITY libunwind-version            "1.6.2">
 <!ENTITY liburcu-version              "0.14.0">
 <!ENTITY libusb-version               "1.0.26">
-<!ENTITY libuv-version                "1.46.0">
+<!ENTITY libuv-version                "1.47.0">
 <!ENTITY libxkbcommon-version         "1.6.0">
 <!-- the libxml2-version is also used for the python2 module,
 which is built separately after libxml2.so has been installed,
@@ -193,13 +193,13 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY wayland-protocols-version    "1.32">
 <!ENTITY wpebackend-fdo-version       "1.14.2">
 <!ENTITY wv-version                   "1.2.9">
-<!ENTITY xapian-version               "1.4.23">
+<!ENTITY xapian-version               "1.4.24">
 <!ENTITY yaml-version                 "0.2.5">
 
 <!-- Chapter 10 -->
 <!ENTITY aalib-version                "1.4rc5">
 <!ENTITY babl-version                 "0.1.106">
-<!ENTITY exiv2-version                "0.28.0">
+<!ENTITY exiv2-version                "0.28.1">
 <!ENTITY freetype2-version            "2.13.2">
 <!ENTITY fontconfig-version           "2.14.2">  <!-- stable lt .90 micro version -->
 <!ENTITY fribidi-version              "1.0.13">
@@ -208,7 +208,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY glm-version                  "0.9.9.8">
 <!ENTITY graphite2-version            "1.3.14">
 <!ENTITY harfbuzz-version             "8.2.2">
-<!ENTITY jasper-version               "4.0.0">
+<!ENTITY jasper-version               "4.1.0">
 <!ENTITY lcms-version                 "1.19">
 <!ENTITY lcms2-version                "2.14">
 <!ENTITY libavif-version              "1.0.1">
@@ -299,6 +299,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY rasqal-version               "0.9.33">
 <!ENTITY redland-version              "1.0.17">
 <!ENTITY sg3_utils-version            "1.48">
+<!ENTITY sysmon-qt-version            "1.0">
 <!ENTITY sysstat-version              "12.7.4">
 <!ENTITY systemd-version              "254">
 <!ENTITY udisks2-version              "2.10.1">   <!-- stable lt .90 micro version -->
@@ -328,7 +329,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY llvm-version                 "&llvm-maj-version;.0.&llvm-point-version;">
 <!ENTITY lua-version                  "5.4.6">
 <!ENTITY lua52-version                "5.2.4">
-<!ENTITY mercurial-version            "6.5.2">
+<!ENTITY mercurial-version            "6.5.3">
 <!ENTITY nasm-version                 "2.16.01">
 <!ENTITY patchelf-version             "0.17.2">
 <!ENTITY php-version                  "8.2.12">
@@ -388,7 +389,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY File-Which-version           "1.27">
 <!ENTITY HTML-Parser-version          "3.81">
 <!ENTITY HTTP-Daemon-version          "6.16">
-<!ENTITY IO-Socket-SSL-version        "2.083">
+<!ENTITY IO-Socket-SSL-version        "2.084">
 <!ENTITY IO-String-version            "1.08">
 <!ENTITY IPC-Run3-version             "0.048">
 <!ENTITY JSON-version                 "4.10">
@@ -889,7 +890,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY phonon-backend-vlc-version   "0.12.0">
 <!ENTITY polkit-qt-version            "0.114.0">
 <!ENTITY libdbusmenu-qt-version       "0.9.3+16.04.20160218">
-<!ENTITY plasma-wayland-protocols-version "1.10.0">
+<!ENTITY plasma-wayland-protocols-version "1.11.0">
 <!ENTITY kuserfeedback-version        "1.3.0">
 
 <!-- Chapter 30 -->
@@ -966,17 +967,18 @@ to avoid building libxml2 twice, which is slow with all deps -->
 -->
 
 <!-- Part XI new -->
-<!ENTITY lxqt-version                 "1.3.0">
-<!ENTITY lxqt-archiver-version        "0.8.0">
+<!ENTITY lxqt-version                 "1.4.0">
+<!ENTITY lxqt-themes-version          "1.3.0">
+<!ENTITY lxqt-archiver-version        "0.9.0">
 <!ENTITY lxqt-build-tools-version     "0.13.0">
-<!ENTITY lxqt-menu-data-version       "20230619">
-<!ENTITY libqtxdg-version             "3.11.0">
-<!ENTITY qtxdg-tools-version          "3.11.0">
+<!-- <!ENTITY lxqt-menu-data-version       "20230619">  Now lxqt-version -->
+<!ENTITY libqtxdg-version             "3.12.0">
+<!ENTITY qtxdg-tools-version          "3.12.0">
 <!ENTITY libsysstat-version           "0.4.6">
 <!ENTITY muparser-version             "2.3.4">
 <!ENTITY obconf-qt-version            "0.16.3">
-<!ENTITY qps-version                  "2.7.0">
-<!ENTITY screengrab-version           "2.6.0">
+<!ENTITY qps-version                  "2.8.0">
+<!ENTITY screengrab-version           "2.7.0">
 
 <!-- Part XI -->
 <!-- Chapter 39 -->
@@ -988,16 +990,18 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libreoffice-dlversion        "&libreoffice-version;&libreoffice-patch;">
 
 <!-- Chapter 40 -->
-<!ENTITY epiphany-version             "45.0">
+<!ENTITY epiphany-version             "45.1">
 <!-- falkon version is the same as KDE applications -->
 <!ENTITY firefox-version              "115.4.0">
 <!ENTITY seamonkey-version            "2.53.17.1">
+<!ENTITY setuptools-version           "68.2.2"> <!-- for seamonkey -->
 
 <!-- Chapter 41 -->
 <!ENTITY balsa-version                "2.6.4">
 <!ENTITY feh-version                  "3.10.1">
 <!ENTITY fontforge-version            "20230101">
-<!ENTITY gimp-version                 "2.10.34">
+<!ENTITY gimp-version                 "2.10.36">
+<!ENTITY gimp-help-version            "2.10.34">
 <!ENTITY gparted-version              "1.5.0">
 <!ENTITY hexchat-version              "2.16.1">
 <!ENTITY inkscape-minor-version       "1.3">
@@ -1010,7 +1014,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.4.1">
+<!ENTITY thunderbird-version          "115.4.2">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.4">
 <!ENTITY xarchiver-version            "0.5.4.21">
@@ -1030,7 +1034,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY alsa-oss-version             "1.1.8">
 <!ENTITY audiofile-version            "0.3.6">
 <!ENTITY faac-version                 "1_30">
-<!ENTITY faad2-version                "2.10.1">
+<!ENTITY faad2-version                "2.11.0">
 <!ENTITY fdk-aac-version              "2.0.2">
 <!ENTITY flac-version                 "1.4.3">
 <!ENTITY frei0r-version               "1.8.0">
@@ -1152,7 +1156,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY enscript-version             "1.6.6">
 <!ENTITY epdfview-version             "gtk3-20200814">
 <!ENTITY fop-version                  "2.9">
-<!ENTITY mupdf-version                "1.23.4">
+<!ENTITY mupdf-version                "1.23.5">
 <!ENTITY paps-version                 "0.7.1">
 
 <!-- Chapter 51 -->
