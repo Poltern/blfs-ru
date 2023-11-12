@@ -36,7 +36,7 @@
 <!ENTITY shadow-version               "4.14.2">
 <!ENTITY ssh-askpass-version          "&openssh-version;">
 <!ENTITY stunnel-version              "5.71">
-<!ENTITY sudo-version                 "1.9.14p3">
+<!ENTITY sudo-version                 "1.9.15">
 <!ENTITY tripwire-version             "2.4.3.7">
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
@@ -166,7 +166,7 @@
 <!-- the libxml2-version is also used for the python2 module,
 which is built separately after libxml2.so has been installed,
 to avoid building libxml2 twice, which is slow with all deps -->
-<!ENTITY libxml2-version              "2.10.4">
+<!ENTITY libxml2-version              "2.11.5">
 <!ENTITY libxmlb-version              "0.3.14">
 <!ENTITY libxslt-version              "1.1.38">
 <!ENTITY libwacom-version             "2.8.0">
@@ -209,7 +209,6 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY graphite2-version            "1.3.14">
 <!ENTITY harfbuzz-version             "8.2.2">
 <!ENTITY jasper-version               "4.1.0">
-<!ENTITY lcms-version                 "1.19">
 <!ENTITY lcms2-version                "2.14">
 <!ENTITY libavif-version              "1.0.1">
 <!ENTITY libexif-version              "0.6.24">
@@ -273,7 +272,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY accountsservice-version      "23.13.9">
 <!ENTITY acpid-version                "2.0.34">
 <!ENTITY at-version                   "3.2.5">
-<!ENTITY autofs-version               "5.1.8">
+<!ENTITY autofs-version               "5.1.9">
 <!ENTITY bluez-version                "5.70">
 <!ENTITY bubblewrap-version           "0.8.0">
 <!ENTITY colord-version               "1.4.6">
@@ -562,8 +561,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY MarkupSafe-md5sum            "ca33f119bd0551ce15837f58bb180214">
 <!ENTITY Jinja2-version               "3.1.2">
 <!ENTITY Jinja2-md5sum                "d31148abd89c1df1cdb077a55db27d02">
-<!ENTITY mako-version                 "1.2.4">
-<!ENTITY mako-md5sum                  "651f365616611fcd4f2702a9002e2195">
+<!ENTITY mako-version                 "1.3.0">
+<!ENTITY mako-md5sum                  "90da23903468efe9aa88dc88081579ff">
 <!ENTITY numpy-version                "1.26.1">
 <!ENTITY numpy-md5sum                 "2d770f4c281d405b690c4bcb3dbe99e2">
 <!ENTITY pyparsing-version            "3.1.1">
@@ -749,7 +748,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY db-version                   "5.3.28">
 <!ENTITY lmdb-version                 "0.9.31">
 <!ENTITY mariadb-version              "10.11.5">
-<!ENTITY postgresql-version           "16.0">
+<!ENTITY postgresql-version           "16.1">
 <!ENTITY sqlite-version               "3.44.0">
 <!ENTITY sqlite-year                  "2023">
 <!ENTITY sqlite-dl-version            "3440000">
@@ -757,7 +756,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 
 <!-- Chapter 23 -->
 <!ENTITY openldap-version             "2.6.6">
-<!ENTITY unbound-version              "1.18.0">
+<!ENTITY unbound-version              "1.19.0">
 
 <!-- Part VI -->
 <!-- Chapter 24 -->                               <!-- stable lt .90 micro version -->
@@ -1103,7 +1102,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY vorbistools-version          "1.4.2">
 
 <!-- Chapter 44 -->
-<!ENTITY ffmpeg-version               "6.0">
+<!ENTITY ffmpeg-version               "6.0.1">
 <!ENTITY mplayer-version              "1.5">
 <!ENTITY mpv-version                  "0.36.0">
 <!ENTITY transcode-version            "1.1.7">
