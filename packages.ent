@@ -6,7 +6,7 @@
 <!ENTITY cryptsetup-version           "&cryptsetup-minor;.3">
 <!ENTITY cyrus-sasl-version           "2.1.28">
 <!ENTITY gnupg2-version               "2.4.3">
-<!ENTITY gnutls-version               "3.8.1">
+<!ENTITY gnutls-version               "3.8.2">
 <!ENTITY gpgme-version                "1.23.1">
 <!ENTITY iptables-version             "1.8.10">
 <!ENTITY libcap-version               "2.69">
@@ -30,7 +30,7 @@
 
 <!ENTITY openssh-version              "9.5p1">
 <!ENTITY openssh-md5sum               "3d29a7394816deeb57186899d7f7662c">
-<!ENTITY p11-kit-version              "0.25.2">
+<!ENTITY p11-kit-version              "0.25.3">
 <!ENTITY polkit-version               "123">
 <!ENTITY polkit-gnome-version         "0.105">
 <!ENTITY shadow-version               "4.14.2">
@@ -140,7 +140,7 @@
 <!ENTITY libidn-version               "1.41">
 <!ENTITY libidn2-version              "2.3.4">
 <!ENTITY libiodbc-version             "3.52.15">
-<!ENTITY libksba-version              "1.6.4">
+<!ENTITY libksba-version              "1.6.5">
 <!ENTITY liblinear-version            "247">
 <!ENTITY libnvme-version              "1.6">
 <!ENTITY libmbim-version              "1.26.4">
@@ -163,16 +163,13 @@
 <!ENTITY libusb-version               "1.0.26">
 <!ENTITY libuv-version                "1.47.0">
 <!ENTITY libxkbcommon-version         "1.6.0">
-<!-- the libxml2-version is also used for the python2 module,
-which is built separately after libxml2.so has been installed,
-to avoid building libxml2 twice, which is slow with all deps -->
-<!ENTITY libxml2-version              "2.11.5">
+<!ENTITY libxml2-version              "2.12.0">
 <!ENTITY libxmlb-version              "0.3.14">
-<!ENTITY libxslt-version              "1.1.38">
+<!ENTITY libxslt-version              "1.1.39">
 <!ENTITY libwacom-version             "2.8.0">
 <!ENTITY libwpe-version               "1.14.1">
-<!ENTITY log4cplus-version            "2.1.0">
-  <!ENTITY log4cplus-release          "2_1_0">
+<!ENTITY log4cplus-version            "2.1.1">
+  <!ENTITY log4cplus-release          "2_1_1">
 <!ENTITY lzo-version                  "2.10">
 <!ENTITY mtdev-version                "1.1.6">
 <!ENTITY nodejs-version               "20.9.0">
@@ -184,7 +181,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pth-version                  "2.0.7">
 <!ENTITY qca-version                  "2.3.7">
 <!ENTITY spidermonkey-major           "115">
-<!ENTITY spidermonkey-version         "&spidermonkey-major;.4.0">
+<!ENTITY spidermonkey-version         "&spidermonkey-major;.5.0">
 <!ENTITY talloc-version               "2.4.1">
 <!ENTITY telepathy-glib-version       "0.24.2">
 <!ENTITY uchardet-version             "0.0.8">
@@ -210,7 +207,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY harfbuzz-version             "8.3.0">
 <!ENTITY jasper-version               "4.1.0">
 <!ENTITY lcms2-version                "2.14">
-<!ENTITY libavif-version              "1.0.1">
+<!ENTITY libavif-version              "1.0.2">
 <!ENTITY libexif-version              "0.6.24">
 <!ENTITY libgxps-version              "0.3.2">
 <!ENTITY libjpeg-turbo-version        "3.0.1">
@@ -249,10 +246,10 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY gtk-doc-major                "1.33">
 <!ENTITY gtk-doc-version              "1.33.2">
 <!ENTITY highlight-version            "4.10">
-<!ENTITY ibus-version                 "1.5.28">
+<!ENTITY ibus-version                 "1.5.29">
 <!ENTITY imagemagick-version          "7.1.1">
 <!ENTITY iso-codes-version            "4.15.0">
-<!ENTITY lsof-version                 "4.95.0">
+<!ENTITY lsof-version                 "4.99.0">
 <!ENTITY mandoc-version               "1.14.6">
 <!ENTITY pinentry-version             "1.2.1">
 <!ENTITY rep-gtk-version              "0.90.8.3">
@@ -314,13 +311,13 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY cbindgen-version             "0.26.0">
 <!ENTITY clisp-version                "2.49">
 <!ENTITY cmake-major-version          "3.27">
-<!ENTITY cmake-minor-version          "7">
+<!ENTITY cmake-minor-version          "8">
 <!ENTITY cmake-version                "&cmake-major-version;.&cmake-minor-version;">
 <!ENTITY doxygen-version              "1.9.8">
 <!ENTITY gcc-version                  "13.2.0">
 <!ENTITY gc-version                   "8.2.4">
 <!ENTITY gdb-version                  "13.2">
-<!ENTITY git-version                  "2.42.1">
+<!ENTITY git-version                  "2.43.0">
 <!ENTITY guile-version                "3.0.9">
 <!ENTITY librep-version               "0.92.7">
 <!ENTITY llvm-maj-version             "17">
@@ -349,8 +346,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY ruby-patch-version           "2">
 <!ENTITY ruby-version                 "&ruby-minor-version;.&ruby-patch-version;">
 <!ENTITY ruby-gemdir                  "/usr/lib/ruby/gems/&ruby-minor-version;.0">
-<!ENTITY rust-version                 "1.73.0">
-<!ENTITY scons-version                "4.5.2">
+<!ENTITY rust-version                 "1.74.0">
+<!ENTITY scons-version                "4.6.0">
 <!ENTITY slang-version                "2.3.3">
 <!ENTITY subversion-version           "1.14.2">
 <!ENTITY swig-version                 "4.1.1">
@@ -383,7 +380,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY DateTime-Format-Builder-version "0.83">
 <!ENTITY Encode-EUCJPASCII-version    "0.03">
 <!ENTITY Encode-HanExtra-version      "0.23">
-<!ENTITY Encode-JIS2K-version         "0.03">
+<!ENTITY Encode-JIS2K-version         "0.05">
+<!ENTITY File-FcntlLock-version       "0.22">
 <!ENTITY File-Slurper-version         "0.014">
 <!ENTITY File-Which-version           "1.27">
 <!ENTITY HTML-Parser-version          "3.81">
@@ -546,8 +544,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pycairo2-version             "1.18.2">
 <!--<!ENTITY pycryptodome-version         "3.18.0">-->
 <!ENTITY dbusmock-version             "0.29.1">
-<!ENTITY pygments-version             "2.16.1">
-<!ENTITY pygments-md5sum              "20cb967029c23389253326cf515dec8a">
+<!ENTITY pygments-version             "2.17.1">
+<!ENTITY pygments-md5sum              "ef638b416c6fdb65fd21329f2272277e">
 <!ENTITY pygobject2-version           "2.28.7">
 <!ENTITY pygobject3-version           "3.46.0">
 <!ENTITY pygtk-version                "2.24.0">
@@ -661,7 +659,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY iw-version                   "5.19">
 <!ENTITY ncftp-version                "3.2.6">
 <!ENTITY net-tools-version            "2.10">
-<!ENTITY nfs-utils-version            "2.6.3">
+<!ENTITY nfs-utils-version            "2.6.4">
 <!ENTITY ntp-version                  "4.2.8p17">
 <!ENTITY rpcbind-version              "1.2.6">
 <!ENTITY rsync-version                "3.2.7">
@@ -674,8 +672,8 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY avahi-version                "0.8">
 <!-- for Bind Utilities -->
 <!ENTITY bind-minor-version           "9.18">
-<!ENTITY bind-version                 "&bind-minor-version;.19">
-<!ENTITY bind-md5                     "3da0a07a5dded9f12186c80663c30f57">
+<!ENTITY bind-version                 "&bind-minor-version;.20">
+<!ENTITY bind-md5                     "34e8f218827d07dded501075d68b6d74">
 <!ENTITY NetworkManager-minor         "1.44">
 <!ENTITY NetworkManager-version       "&NetworkManager-minor;.2">
 <!ENTITY network-manager-applet-minor "1.34">
@@ -683,10 +681,10 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY nmap-version                 "7.94">
 <!ENTITY traceroute-version           "2.1.3">
 <!ENTITY whois-version                "5.4.3">
-<!ENTITY wireshark-version            "4.0.10">  <!-- even minor versions only -->
+<!ENTITY wireshark-version            "4.2.0">  <!-- even minor versions only -->
 
 <!-- Chapter 17 -->
-<!ENTITY c-ares-version               "1.22.0">
+<!ENTITY c-ares-version               "1.22.1">
 <!ENTITY curl-version                 "8.4.0">
 <!ENTITY geoclue2-version             "2.7.1">
 <!ENTITY glib-networking-minor        "2.78">
@@ -740,7 +738,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!--<!ENTITY dovecot-version              "&dovecot-major;.&dovecot-minor;.&dovecot-micro;.&dovecot-nano;">-->
 <!ENTITY dovecot-version              "&dovecot-major;.&dovecot-minor;.&dovecot-micro;">
 
-<!ENTITY exim-version                 "4.96.2">
+<!ENTITY exim-version                 "4.97">
 <!ENTITY postfix-version              "3.8.3">
 <!ENTITY sendmail-version             "8.17.2">
 
@@ -818,7 +816,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY gtk2-version                 "2.24.33">
 <!ENTITY gtk3-version                 "3.24.38">
 <!ENTITY gtk4-minor                   "4.12">
-<!ENTITY gtk4-version                 "&gtk4-minor;.3">
+<!ENTITY gtk4-version                 "&gtk4-minor;.4">
 <!ENTITY gtk-engines-version          "2.20.2">
 <!ENTITY gtkmm3-version               "3.24.8">
 <!ENTITY gtk-vnc-version              "1.3.1">
@@ -836,7 +834,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libgedit-amtk-version        "5.8.0">
 <!ENTITY libgedit-gtksourceview-version "299.0.4">
 <!ENTITY libhandy1-version            "1.8.2">
-<!ENTITY libdrm-version               "2.4.117">
+<!ENTITY libdrm-version               "2.4.118">
 <!ENTITY libei-version                "1.1.0">
 <!ENTITY libepoxy-minor               "1.5">
 <!ENTITY libepoxy-version             "&libepoxy-minor;.10">
@@ -848,6 +846,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY pangomm-version              "2.46.3">
 <!ENTITY qt5-version                  "5.15.11">
 <!ENTITY qtwebengine-version          "5.15.16">
+<!ENTITY qt6-version                  "6.6.0">
 <!ENTITY startup-notification-version "0.12">
 <!ENTITY tepl-version                 "6.8.0">
 <!ENTITY webkitgtk-version            "2.42.2">    <!-- Even minors only -->
@@ -991,7 +990,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!-- Chapter 40 -->
 <!ENTITY epiphany-version             "45.1">
 <!-- falkon version is the same as KDE applications -->
-<!ENTITY firefox-version              "115.4.0">
+<!ENTITY firefox-version              "115.5.0">
 <!ENTITY seamonkey-version            "2.53.17.1">
 <!ENTITY setuptools-version           "68.2.2"> <!-- for seamonkey -->
 
@@ -1003,17 +1002,14 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY gimp-help-version            "2.10.34">
 <!ENTITY gparted-version              "1.5.0">
 <!ENTITY hexchat-version              "2.16.1">
-<!ENTITY inkscape-minor-version       "1.3">
+<!ENTITY inkscape-minor-version       "1.3.1">
 <!-- Needed for installed dirs: may differ from inkscape version -->
-<!ENTITY lib2geom-version             "1.3.0">
-<!-- For point versions -->
-<!--<!ENTITY inkscape-version             "&inkscape-minor-version;.2">-->
-<!-- For minor versions -->
-<!ENTITY inkscape-version             "&inkscape-minor-version;_2023-07-21_0e150ed6c4">
+<!--<!ENTITY lib2geom-version             "1.3.0">-->
+<!ENTITY inkscape-version             "&inkscape-minor-version;_2023-11-16_91b66b0783">
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.4.2">
+<!ENTITY thunderbird-version          "115.4.3">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.4">
 <!ENTITY xarchiver-version            "0.5.4.21">
@@ -1072,7 +1068,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY libvpx-version               "1.13.1">
 <!ENTITY mlt-version                  "7.20.0">
 <!ENTITY opus-version                 "1.4">
-<!ENTITY pipewire-version             "0.3.84">
+<!ENTITY pipewire-version             "0.3.85">
 <!ENTITY pulseaudio-major-version     "16.1">
 <!ENTITY pulseaudio-version           "&pulseaudio-major-version;">
 <!ENTITY sbc-version                  "2.0">
@@ -1155,7 +1151,7 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY enscript-version             "1.6.6">
 <!ENTITY epdfview-version             "gtk3-20200814">
 <!ENTITY fop-version                  "2.9">
-<!ENTITY mupdf-version                "1.23.5">
+<!ENTITY mupdf-version                "1.23.6">
 <!ENTITY paps-version                 "0.7.1">
 
 <!-- Chapter 51 -->
@@ -1169,6 +1165,6 @@ to avoid building libxml2 twice, which is slow with all deps -->
 <!ENTITY asymptote-version            "2.86">
 <!ENTITY biber-version                "2.19">
 <!ENTITY biblatex-version             "3.19">
-<!ENTITY dvisvgm-version              "3.1.1">
+<!ENTITY dvisvgm-version              "3.1.2">
 <!ENTITY xindy-version                "2.5.1">
 
