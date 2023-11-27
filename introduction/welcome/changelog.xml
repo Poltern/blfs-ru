@@ -39,8 +39,109 @@
     </listitem>
     -->
     <listitem>
-      <para>November 21st, 2023</para>
+     <para>November 26th, 2023</para>
       <itemizedlist>
+       <listitem>
+         <para>[renodr] - Fix building evolution-data-server with
+         libxml2-2.12.x. Fixes
+         <ulink url="&blfs-ticket-root;18918">#18918</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[renodr] - Update to libreoffice-7.6.3.2. Fixes
+         <ulink url="&blfs-ticket-root;18907">#18907</ulink>.</para>
+       </listitem>
+     </itemizedlist>
+   </listitem>
+
+   <listitem>
+     <para>November 25th, 2023</para>
+     <itemizedlist>
+       <listitem>
+         <para>[bdubbs] - Update to sqlite-autoconf-3430200 (3.44.2). Fixes
+         <ulink url="&blfs-ticket-root;18915">#18915</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[bdubbs] - Update to gi-docgen-2023.3. Fixes
+         <ulink url="&blfs-ticket-root;18914">#18914</ulink>.</para>
+       </listitem>
+     </itemizedlist>
+   </listitem>
+
+   <listitem>
+     <para>November 24th, 2023</para>
+     <itemizedlist>
+       <listitem>
+         <para>[renodr] - Update to node.js-v20.10.0. Fixes
+         <ulink url="&blfs-ticket-root;18904">#18904</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[bdubbs] - Update to php-8.3.0. Fixes
+         <ulink url="&blfs-ticket-root;18912">#18912</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[rahul] - Update to intel-gmmlib-22.3.14. Fixes
+         <ulink url="&blfs-ticket-root;18911">#18911</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[bdubbs] - Update to LVM2.2.03.23. Fixes
+         <ulink url="&blfs-ticket-root;18903">#18903</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[renodr] - Update to wireplumber-0.4.16. Fixes
+         <ulink url="&blfs-ticket-root;18905">#18905</ulink>.</para>
+       </listitem>
+       <listitem>
+         <para>[renodr] - Update to libxml2-2.12.1. Fixes
+         <ulink url="&blfs-ticket-root;18913">#18913</ulink>.</para>
+       </listitem>
+     </itemizedlist>
+   </listitem>
+
+   <listitem>
+      <para>November 23rd, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to sqlite-3.44.1. Fixes
+          <ulink url="&blfs-ticket-root;18906">#18906</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix building WebKitGTK-2.42.0 with libxml2-2.12.x.
+          Fixes <ulink url="&blfs-ticket-root;18909">#18909</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to intel-media-23.4.1. Fixes
+          <ulink url="&blfs-ticket-root;18861">#18861</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to intel-gmmlib-23.3.13. Fixes
+          <ulink url="&blfs-ticket-root;18857">#18857</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+   <listitem>
+      <para>November 22nd, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to mercurial-6.3. Fixes
+          <ulink url="&blfs-ticket-root;18899">#18899</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to Thunderbird-115.5.0 (Security Update).
+          Fixes <ulink url="&blfs-ticket-root;18900">#18900</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Archive Berkeley DB. Fixes
+          <ulink url="&blfs-ticket-root;18871">#18871</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix building libsoup2 with libxml2-2.12.0. Fixes
+          <ulink url="&blfs-ticket-root;18902">#18902</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libaom-3.7.1. Fixes
+          <ulink url="&blfs-ticket-root;18897">#18897</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[bdubbs] - Update to libdrm-2.4.118. Fixes
           <ulink url="&blfs-ticket-root;18896">#18896</ulink>.</para>
