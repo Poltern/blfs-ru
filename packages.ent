@@ -7,7 +7,7 @@
 <!ENTITY cyrus-sasl-version           "2.1.28">
 <!ENTITY gnupg2-version               "2.4.3">
 <!ENTITY gnutls-version               "3.8.2">
-<!ENTITY gpgme-version                "1.23.1">
+<!ENTITY gpgme-version                "1.23.2">
 <!ENTITY iptables-version             "1.8.10">
 <!ENTITY libcap-version               "2.69">
 <!ENTITY liboauth-version             "1.0.3">
@@ -20,8 +20,8 @@
 <!--!ENTITY mitkrb-version               "&mitkrb-major-version;">-->
 <!ENTITY nettle-version               "3.9.1">
 
-<!ENTITY nss-dir                      "3_94">
-<!ENTITY nss-minor-version            "94">
+<!ENTITY nss-dir                      "3_95">
+<!ENTITY nss-minor-version            "95">
 <!--
 <!ENTITY nss-micro-version            "1">
 <!ENTITY nss-version                  "3.&nss-minor-version;.&nss-micro-version;">
@@ -147,7 +147,7 @@
 <!ENTITY libpaper-version             "2.1.2">
 <!ENTITY libportal-version            "0.7.1">
 <!ENTITY libptytty-version            "2.0">
-<!ENTITY libqalculate-version         "4.8.1">
+<!ENTITY libqalculate-version         "4.9.0">
 <!ENTITY libqmi-version               "1.30.8">
 <!ENTITY libseccomp-version           "2.5.4">
 <!ENTITY libsigc-minor                "2.12">
@@ -166,7 +166,7 @@
 <!ENTITY libxml2-version              "2.12.1">
 <!ENTITY libxmlb-version              "0.3.14">
 <!ENTITY libxslt-version              "1.1.39">
-<!ENTITY libwacom-version             "2.8.0">
+<!ENTITY libwacom-version             "2.9.0">
 <!ENTITY libwpe-version               "1.14.1">
 <!ENTITY log4cplus-version            "2.1.1">
   <!ENTITY log4cplus-release          "2_1_1">
@@ -205,7 +205,7 @@
 <!ENTITY glm-version                  "0.9.9.8">
 <!ENTITY graphite2-version            "1.3.14">
 <!ENTITY harfbuzz-version             "8.3.0">
-<!ENTITY jasper-version               "4.1.0">
+<!ENTITY jasper-version               "4.1.1">
 <!ENTITY lcms2-version                "2.14">
 <!ENTITY libavif-version              "1.0.2">
 <!ENTITY libexif-version              "0.6.24">
@@ -311,7 +311,7 @@
 <!ENTITY cbindgen-version             "0.26.0">
 <!ENTITY clisp-version                "2.49">
 <!ENTITY cmake-major-version          "3.27">
-<!ENTITY cmake-minor-version          "8">
+<!ENTITY cmake-minor-version          "9">
 <!ENTITY cmake-version                "&cmake-major-version;.&cmake-minor-version;">
 <!ENTITY doxygen-version              "1.9.8">
 <!ENTITY gcc-version                  "13.2.0">
@@ -321,7 +321,7 @@
 <!ENTITY guile-version                "3.0.9">
 <!ENTITY librep-version               "0.92.7">
 <!ENTITY llvm-maj-version             "17">
-<!ENTITY llvm-point-version           "1">
+<!ENTITY llvm-point-version           "6">
 <!ENTITY llvm-version                 "&llvm-maj-version;.0.&llvm-point-version;">
 <!ENTITY lua-version                  "5.4.6">
 <!ENTITY lua52-version                "5.2.4">
@@ -397,7 +397,7 @@
 <!ENTITY Log-Log4perl-version         "1.57">
 <!ENTITY LWP-Protocol-https-version   "6.11">
 <!ENTITY Module-Build-version         "0.4232">
-<!ENTITY Net-DNS-version              "1.40">
+<!ENTITY Net-DNS-version              "1.41">
 <!ENTITY Parse-RecDescent-version     "1.967015">
 <!ENTITY Parse-Yapp-version           "1.21">
 <!ENTITY PerlIO-utf8_strict-version   "0.010">
@@ -543,7 +543,7 @@
 <!ENTITY pycairo-version              "1.25.1">
 <!ENTITY pycairo2-version             "1.18.2">
 <!--<!ENTITY pycryptodome-version         "3.18.0">-->
-<!ENTITY dbusmock-version             "0.29.1">
+<!ENTITY dbusmock-version             "0.30.0">
 <!ENTITY pygments-version             "2.17.1">
 <!ENTITY pygments-md5sum              "ef638b416c6fdb65fd21329f2272277e">
 <!ENTITY pygobject2-version           "2.28.7">
@@ -577,8 +577,8 @@
 <!ENTITY six-version                  "1.16.0">
 <!ENTITY six-md5sum                   "a7c927740e4964dd29b72cebfc1429bb">
 <!ENTITY sphinx-version               "7.2.6">
-<!ENTITY sphinx_rtd_theme-version     "1.3.0">
-<!ENTITY sphinx_rtd_theme-md5sum      "9668eae48ab9ca55f88bcb00e4261e36">
+<!ENTITY sphinx_rtd_theme-version     "2.0.0">
+<!ENTITY sphinx_rtd_theme-md5sum      "8ad74a8e9ca706ed77117be0e9eed7e8">
 
 <!-- Python module versions used in the Python Dependencies instructions -->
 <!-- sc = sphinxcontrib -->
@@ -663,7 +663,7 @@
 <!ENTITY ntp-version                  "4.2.8p17">
 <!ENTITY rpcbind-version              "1.2.6">
 <!ENTITY rsync-version                "3.2.7">
-<!ENTITY samba-version                "4.19.2">
+<!ENTITY samba-version                "4.19.3">
 <!ENTITY wget-version                 "1.21.4">
 <!ENTITY wireless-tools-version       "29">
 <!ENTITY wpa_supplicant-version       "2.10">
@@ -684,7 +684,7 @@
 <!ENTITY wireshark-version            "4.2.0">  <!-- even minor versions only -->
 
 <!-- Chapter 17 -->
-<!ENTITY c-ares-version               "1.22.1">
+<!ENTITY c-ares-version               "1.23.0">
 <!ENTITY curl-version                 "8.4.0">
 <!ENTITY geoclue2-version             "2.7.1">
 <!ENTITY glib-networking-minor        "2.78">
@@ -745,7 +745,7 @@
 <!-- Chapter 22 -->
 <!ENTITY db-version                   "5.3.28">
 <!ENTITY lmdb-version                 "0.9.31">
-<!ENTITY mariadb-version              "10.11.5">
+<!ENTITY mariadb-version              "10.11.6">
 <!ENTITY postgresql-version           "16.1">
 <!ENTITY sqlite-version               "3.44.2">
 <!ENTITY sqlite-year                  "2023">
@@ -845,8 +845,8 @@
 <!ENTITY pango-version                "&pango-minor;.14">
 <!ENTITY pangomm-version              "2.46.3">
 <!ENTITY qt5-version                  "5.15.11">
-<!ENTITY qtwebengine-version          "5.15.16">
-<!ENTITY qt6-version                  "6.6.0">
+<!ENTITY qtwebengine-version          "5.15.17">
+<!ENTITY qt6-version                  "6.6.1">
 <!ENTITY startup-notification-version "0.12">
 <!ENTITY tepl-version                 "6.8.0">
 <!ENTITY webkitgtk-version            "2.42.2">    <!-- Even minors only -->
@@ -1002,14 +1002,14 @@
 <!ENTITY gimp-help-version            "2.10.34">
 <!ENTITY gparted-version              "1.5.0">
 <!ENTITY hexchat-version              "2.16.1">
-<!ENTITY inkscape-minor-version       "1.3.1">
+<!ENTITY inkscape-minor-version       "1.3.2">
 <!-- Needed for installed dirs: may differ from inkscape version -->
 <!--<!ENTITY lib2geom-version             "1.3.0">-->
-<!ENTITY inkscape-version             "&inkscape-minor-version;_2023-11-16_91b66b0783">
+<!ENTITY inkscape-version             "&inkscape-minor-version;_2023-11-25_091e20ef0f">
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.5.0">
+<!ENTITY thunderbird-version          "115.5.1">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.4">
 <!ENTITY xarchiver-version            "0.5.4.21">
@@ -1066,9 +1066,9 @@
 <!ENTITY libtheora-version            "1.1.1">
 <!ENTITY libvorbis-version            "1.3.7">
 <!ENTITY libvpx-version               "1.13.1">
-<!ENTITY mlt-version                  "7.20.0">
+<!ENTITY mlt-version                  "7.22.0">
 <!ENTITY opus-version                 "1.4">
-<!ENTITY pipewire-version             "0.3.85">
+<!ENTITY pipewire-version             "1.0.0">
 <!ENTITY pulseaudio-major-version     "16.1">
 <!ENTITY pulseaudio-version           "&pulseaudio-major-version;">
 <!ENTITY sbc-version                  "2.0">
@@ -1079,7 +1079,7 @@
 <!ENTITY speex-version                "1.2.1">
 <!ENTITY speexdsp-version             "1.2.1">
 <!ENTITY taglib-version               "1.13.1">
-<!ENTITY v4l-utils-version            "1.24.1">
+<!ENTITY v4l-utils-version            "1.26.0">
 <!ENTITY wireplumber-version          "0.4.16">
 <!ENTITY x264-version                 "20230215">
 <!ENTITY x265-version                 "20230215">
@@ -1151,7 +1151,7 @@
 <!ENTITY enscript-version             "1.6.6">
 <!ENTITY epdfview-version             "gtk3-20200814">
 <!ENTITY fop-version                  "2.9">
-<!ENTITY mupdf-version                "1.23.6">
+<!ENTITY mupdf-version                "1.23.7">
 <!ENTITY paps-version                 "0.7.1">
 
 <!-- Chapter 51 -->
