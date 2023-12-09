@@ -39,8 +39,254 @@
     </listitem>
     -->
     <listitem>
+      <para>December 8th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to libreoffice-7.6.4.1. Fixes
+          <ulink url="&blfs-ticket-root;18991">#18991</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to cmake-3.28.0. Fixes
+          <ulink url="&blfs-ticket-root;18979">#18979</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libaom-3.8.0. Fixes
+          <ulink url="&blfs-ticket-root;18981">#18981</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-control-center-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18990">#18990</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to rustc-1.74.1. Fixes
+          <ulink url="&blfs-ticket-root;18994">#18994</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mercurial-6.6.1. Fixes
+          <ulink url="&blfs-ticket-root;18986">#18986</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 7th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to libxml2-2.12.2. Fixes
+          <ulink url="&blfs-ticket-root;18982">#18982</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to nautilus-45.2.1. Fixes
+          <ulink url="&blfs-ticket-root;18980">#18980</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to glib-2.78.3. Fixes
+          <ulink url="&blfs-ticket-root;18977">#18977</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[ken] - Revise 'Tuning Fontconfig' and 'TTF and OTF Fonts'
+          to reflect the current position with fontconfig-2.14+. Fixes
+          <ulink url="&blfs-ticket-root;18716">#18716</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 6th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libei-1.2.0. Fixes
+          <ulink url="&blfs-ticket-root;18975">#18975</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to cURL-8.5.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18976">#18976</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libnl-3.9.0. Fixes
+          <ulink url="&blfs-ticket-root;18970">#18970</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to gdb-14.1. Fixes
+          <ulink url="&blfs-ticket-root;18962">#18962</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Fix building libgsf against libxml-2.12.x.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to WebKitGTK-2.42.3 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;18972">#18972</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 5th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to enchant-2.6.3. Fixes
+          <ulink url="&blfs-ticket-root;18957">#18957</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to wireplumber-0.4.17. Fixes
+          <ulink url="&blfs-ticket-root;18966">#18966</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libavif-1.0.3. Fixes
+          <ulink url="&blfs-ticket-root;18968">#18968</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to pygments-2.17.2. Fixes
+          <ulink url="&blfs-ticket-root;18969">#18969</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to feh-3.10.2. Fixes
+          <ulink url="&blfs-ticket-root;18971">#18971</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to poppler-23.12.0. Fixes
+          <ulink url="&blfs-ticket-root;18948">#18948</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to vulkan-loader-1.3.272. Fixes
+          <ulink url="&blfs-ticket-root;18974">#18974</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to vulkan-headers-1.3.272. Fixes
+          <ulink url="&blfs-ticket-root;18973">#18973</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to parole-4.18.1. Fixes
+          <ulink url="&blfs-ticket-root;18941">#18941</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xfce4-settings-4.18.4. Fixes
+          <ulink url="&blfs-ticket-root;18940">#18940</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xfce4-power-manager-4.18.3. Fixes
+          <ulink url="&blfs-ticket-root;18939">#18939</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to tumbler-4.18.2. Fixes
+          <ulink url="&blfs-ticket-root;18938">#18938</ulink>.</para>
+        </listitem>
+        <listitem revision="systemd">
+          <para>[renodr] - Update the systemd-units tarball to 20231205. This
+          release primarily removes old targets and units.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 4th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to gnome-maps-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18965">#18965</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to file-roller-43.1. Fixes
+          <ulink url="&blfs-ticket-root;18964">#18964</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to nautilus-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18963">#18963</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mutter-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18961">#18961</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-shell-extensions-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18960">#19860</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-shell-45.2. Fixes
+          <ulink url="&blfs-ticket-root;18960">#18960</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gjs-1.78.1. Fixes
+          <ulink url="&blfs-ticket-root;18959">#18959</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to Text-CSV-2.04 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;18958">#18958</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to Text-CSV_XS-1.53 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;18958">#18958</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to evolution-3.50.2. Fixes
+          <ulink url="&blfs-ticket-root;18950">#18950</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to evolution-data-server-3.50.2. Fixes
+          <ulink url="&blfs-ticket-root;18950">#18950</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libadwaita-1.4.2. Fixes
+          <ulink url="&blfs-ticket-root;18949">#18949</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libseccomp-2.5.5. Fixes
+          <ulink url="&blfs-ticket-root;18947">#18947</ulink>.</para>
+        </listitem>
+        <listitem revision="systemd">
+          <para>[pierre] - Update to blfs-sytemd-units-20231204. Fixes
+          <ulink url="&blfs-ticket-root;18951">#18951</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to kea-2.4.1. Fixes
+          <ulink url="&blfs-ticket-root;18953">#18953</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>December 3rd, 2023</para>
       <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to cryptsetup-2.6.1. Fixes
+          <ulink url="&blfs-ticket-root;18955">#18955</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to shared-mime-info-2.4. Fixes
+          <ulink url="&blfs-ticket-root;18954">#18954</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Add libplacebo to the book in support of mpv.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Add glad to the book in support of libplacebo.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Add support for Vulkan to the book. This is in
+          support of libplacebo, but also since it is used in more packages.
+          This involves the addition of SPIRV-Headers, SPIRV-Tools, glslang,
+          Vulkan-Headers, and Vulkan-Loader.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Disable the usage of libplacebo in VLC. It's broken
+          due to major API changes in libplacebo, and will not be fixed until
+          VLC-4.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Enable support for Vulkan in Mesa. This includes
+          the addition of Vulkan drivers.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Add support for Vulkan to ffmpeg, Qt5, Qt6,
+          gst-plugins-bad, gtksourceview5, and pipewire.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Document support for Vulkan in GTK4.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mpv-0.37.0. Fixes
+          <ulink url="&blfs-ticket-root;18901">#18901</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[xry111] - Update to llvm-17.0.6.  Fixes
           <ulink url="&blfs-ticket-root;18672">#18672</ulink>.</para>
