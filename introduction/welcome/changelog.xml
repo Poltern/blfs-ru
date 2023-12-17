@@ -39,6 +39,132 @@
     </listitem>
     -->
     <listitem>
+      <para>December 16th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Update to cmake-3.28.1. Fixes
+          <ulink url="&blfs-ticket-root;19013">#19013</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to v4l-utils-1.26.1. Fixes
+          <ulink url="&blfs-ticket-root;19007">#19007</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to enchant-2.6.4. Fixes
+          <ulink url="&blfs-ticket-root;19002">#19002</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to nss-3.96. Fixes
+          <ulink url="&blfs-ticket-root;19017">#19017</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to librsvg-2.57.1. Fixes
+          <ulink url="&blfs-ticket-root;19018">#19018</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mesa-23.3.1. Fixes
+          <ulink url="&blfs-ticket-root;18648">#18548</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Python-3.12.1. Fixes
+          <ulink url="&blfs-ticket-root;18987">#18987</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to boost-1.84.0. Fixes
+          <ulink url="&blfs-ticket-root;19011">#19011</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to traceroute-2.1.4. Fixes
+          <ulink url="&blfs-ticket-root;19010">#19010</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to bluez-5.71. Fixes
+          <ulink url="&blfs-ticket-root;19009">#19009</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sudo-1.9.15p4. Fixes
+          <ulink url="&blfs-ticket-root;19008">#19008</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 15th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to plasma5-5.27.10. Fixes
+          <ulink url="&blfs-ticket-root;18527">#18545</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kde gear-23.08.4 including kate, kwave 
+          and falkon. Fixes
+          <ulink url="&blfs-ticket-root;18527">#18527</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kf5-5.113.0. Fixes
+          <ulink url="&blfs-ticket-root;18527">#18527</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to plasma-wayland-protocols-1.12.0. Fixes
+          <ulink url="&blfs-ticket-root;18989">#18989</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to webkitgtk-2.42.4. Fixes
+          <ulink url="&blfs-ticket-root;19015">#19015</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to vte-0.74.2. Fixes
+          <ulink url="&blfs-ticket-root;19014">#19014</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix an issue in dhcpcd that occurs when using the
+          '-b' switch. Fixes
+          <ulink url="&blfs-ticket-root;19001">#19001</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update Vulkan-Headers and Vulkan-Loader to 1.3.273.
+          Fixes <ulink url="&blfs-ticket-root;18995">#18995</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libxml2-2.12.3. Fixes
+          <ulink url="&blfs-ticket-root;18994">#18994</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to transmission-4.0.5. Fixes
+          <ulink url="&blfs-ticket-root;18993">#18993</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 13th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xwayland-23.2.3. Fixes
+          <ulink url="&blfs-ticket-root;19006">#19006</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xorg-server-21.1.10. Fixes
+          <ulink url="&blfs-ticket-root;19005">#19005</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>December 11th, 2023</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Update to libsecret-0.21.2. Fixes
+          <ulink url="&blfs-ticket-root;18997">#18997</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to fltk-1.3.9. Fixes
+          <ulink url="&blfs-ticket-root;18996">#18996</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+    <listitem>
+
       <para>December 8th, 2023</para>
       <itemizedlist>
         <listitem>

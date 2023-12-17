@@ -20,8 +20,8 @@
 <!--!ENTITY mitkrb-version               "&mitkrb-major-version;">-->
 <!ENTITY nettle-version               "3.9.1">
 
-<!ENTITY nss-dir                      "3_95">
-<!ENTITY nss-minor-version            "95">
+<!ENTITY nss-dir                      "3_96">
+<!ENTITY nss-minor-version            "96">
 <!--
 <!ENTITY nss-micro-version            "1">
 <!ENTITY nss-version                  "3.&nss-minor-version;.&nss-micro-version;">
@@ -36,7 +36,7 @@
 <!ENTITY shadow-version               "4.14.2">
 <!ENTITY ssh-askpass-version          "&openssh-version;">
 <!ENTITY stunnel-version              "5.71">
-<!ENTITY sudo-version                 "1.9.15p2">
+<!ENTITY sudo-version                 "1.9.15p4">
 <!ENTITY tripwire-version             "2.4.3.7">
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
@@ -88,7 +88,7 @@
 <!ENTITY aspell-version               "0.60.8">
 
 <!ENTITY boost-major                  "1">
-<!ENTITY boost-minor                  "83">
+<!ENTITY boost-minor                  "84">
 <!ENTITY boost-patch                  "0">
 <!ENTITY boost-version                "&boost-major;.&boost-minor;.&boost-patch;">
 <!ENTITY boost-dl-version             "&boost-major;_&boost-minor;_&boost-patch;">
@@ -98,7 +98,7 @@
 <!ENTITY dbus-glib-version            "0.112">
 <!ENTITY double-conversion-version    "3.3.0">
 <!ENTITY duktape-version              "2.7.0">
-<!ENTITY enchant-version              "2.6.3">
+<!ENTITY enchant-version              "2.6.4">
 <!ENTITY exempi-version               "2.6.4">
 <!ENTITY fftw-version                 "3.3.10">
 <!ENTITY glib2-minor                  "2.78">
@@ -163,7 +163,7 @@
 <!ENTITY libusb-version               "1.0.26">
 <!ENTITY libuv-version                "1.47.0">
 <!ENTITY libxkbcommon-version         "1.6.0">
-<!ENTITY libxml2-version              "2.12.2">
+<!ENTITY libxml2-version              "2.12.3">
 <!ENTITY libxmlb-version              "0.3.14">
 <!ENTITY libxslt-version              "1.1.39">
 <!ENTITY libwacom-version             "2.9.0">
@@ -219,7 +219,7 @@
 <!ENTITY libpng-version               "1.6.40">
 <!ENTITY libraw-version               "0.21.1">
 <!ENTITY librsvg-minor                "2.57">
-<!ENTITY librsvg-version              "&librsvg-minor;.0">
+<!ENTITY librsvg-version              "&librsvg-minor;.1">
 <!ENTITY libspiro-version             "20220722">
 <!ENTITY libtiff-version              "4.6.0">
 <!ENTITY libwebp-version              "1.3.2">
@@ -273,7 +273,7 @@
 <!ENTITY acpid-version                "2.0.34">
 <!ENTITY at-version                   "3.2.5">
 <!ENTITY autofs-version               "5.1.9">
-<!ENTITY bluez-version                "5.70">
+<!ENTITY bluez-version                "5.71">
 <!ENTITY bubblewrap-version           "0.8.0">
 <!ENTITY colord-version               "1.4.6">
 <!ENTITY cpio-version                 "2.14">
@@ -314,7 +314,7 @@
 <!ENTITY cbindgen-version             "0.26.0">
 <!ENTITY clisp-version                "2.49">
 <!ENTITY cmake-major-version          "3.28">
-<!ENTITY cmake-minor-version          "0">
+<!ENTITY cmake-minor-version          "1">
 <!ENTITY cmake-version                "&cmake-major-version;.&cmake-minor-version;">
 <!ENTITY doxygen-version              "1.9.8">
 <!ENTITY gcc-version                  "13.2.0">
@@ -339,7 +339,7 @@
 
 <!ENTITY python3-major                "3">
 <!ENTITY python3-minor                "12">
-<!ENTITY python3-patch                "0">
+<!ENTITY python3-patch                "1">
 <!ENTITY python3-majorver             "&python3-major;.&python3-minor;">
 <!ENTITY python3-version              "&python3-majorver;.&python3-patch;">
 <!ENTITY python3-lib-suffix           "cpython-&python3-major;&python3-minor;-&lt;arch&gt;-linux-gnu">
@@ -682,7 +682,7 @@
 <!ENTITY network-manager-applet-minor "1.34">
 <!ENTITY network-manager-applet-version "&network-manager-applet-minor;.0">
 <!ENTITY nmap-version                 "7.94">
-<!ENTITY traceroute-version           "2.1.3">
+<!ENTITY traceroute-version           "2.1.4">
 <!ENTITY whois-version                "5.4.3">
 <!ENTITY wireshark-version            "4.2.0">  <!-- even minor versions only -->
 
@@ -775,13 +775,13 @@
 <!ENTITY xcb-util-renderutil-version  "0.3.10">
 <!ENTITY xcb-util-wm-version          "0.4.2">
 <!ENTITY xcb-util-cursor-version      "0.1.4">
-<!ENTITY mesa-major-minor             "23.1">
-<!ENTITY mesa-version                 "&mesa-major-minor;.8">
+<!ENTITY mesa-major-minor             "23.3">
+<!ENTITY mesa-version                 "&mesa-major-minor;.1">
 <!ENTITY xbitmaps-version             "1.1.3">
 <!ENTITY xcursor-themes-version       "1.0.7">
 <!ENTITY xkeyboard-config-version     "2.40">
-<!ENTITY xwayland-version             "23.2.2">
-<!ENTITY xorg-server-version          "21.1.9">
+<!ENTITY xwayland-version             "23.2.3">
+<!ENTITY xorg-server-version          "21.1.10">
 <!ENTITY twm-version                  "1.0.12">
 <!ENTITY xterm-version                "388">
 <!ENTITY xclock-version               "1.1.1">
@@ -806,7 +806,7 @@
 <!--<!ENTITY clutter-gst-version          "3.0.27">-->
 <!--<!ENTITY clutter-gtk-version          "1.8.4">-->
 <!ENTITY colord-gtk-version           "0.3.0">
-<!ENTITY fltk-version                 "1.3.8">
+<!ENTITY fltk-version                 "1.3.9">
 <!ENTITY freeglut-version             "3.4.0">
 <!ENTITY gdk-pixbuf-version           "2.42.10">
 <!ENTITY gdk-pixbuf-xlib-version      "2.40.2">
@@ -853,9 +853,9 @@
 <!ENTITY qt6-version                  "6.6.1">
 <!ENTITY startup-notification-version "0.12">
 <!ENTITY tepl-version                 "6.8.0">
-<!ENTITY vulkan-headers-version       "1.3.272">
-<!ENTITY vulkan-loader-version        "1.3.272">
-<!ENTITY webkitgtk-version            "2.42.3">    <!-- Even minors only -->
+<!ENTITY vulkan-headers-version       "1.3.273">
+<!ENTITY vulkan-loader-version        "1.3.273">
+<!ENTITY webkitgtk-version            "2.42.4">    <!-- Even minors only -->
 
 <!ENTITY gtk2-libdir                  "2.0/2.10.0">
 <!ENTITY qt5-dir                      "$QT5DIR">
@@ -894,21 +894,21 @@
 <!ENTITY phonon-backend-vlc-version   "0.12.0">
 <!ENTITY polkit-qt-version            "0.114.0">
 <!ENTITY libdbusmenu-qt-version       "0.9.3+16.04.20160218">
-<!ENTITY plasma-wayland-protocols-version "1.11.1">
+<!ENTITY plasma-wayland-protocols-version "1.12.0">
 <!ENTITY kuserfeedback-version        "1.3.0">
 
 <!-- Chapter 30 -->
-<!ENTITY kf5-version           "5.109.0">
-<!ENTITY kf5-short-version     "5.109">
-<!ENTITY kf5-base              "5.109">
+<!ENTITY kf5-version           "5.113.0">
+<!ENTITY kf5-short-version     "5.113">
+<!ENTITY kf5-base              "5.113">
 <!ENTITY kf5-download-http     "https://download.kde.org/stable/frameworks/&kf5-base;">
 
 <!-- Chapter 31 -->
-<!ENTITY kf5apps-version       "23.08.0">
+<!ENTITY kf5apps-version       "23.08.4">
 <!ENTITY kf5apps-download-http "https://download.kde.org/stable/release-service/&kf5apps-version;/src">
 
 <!-- Chapter 32 -->
-<!ENTITY plasma5-version       "5.27.7">
+<!ENTITY plasma5-version       "5.27.10">
 
 
 <!-- Part VIII -->
@@ -1020,7 +1020,7 @@
 <!ENTITY rxvt-unicode-version         "9.31">
 <!ENTITY thunderbird-version          "115.5.1">
 <!ENTITY tigervnc-version             "1.13.1">
-<!ENTITY transmission-version         "4.0.4">
+<!ENTITY transmission-version         "4.0.5">
 <!ENTITY xarchiver-version            "0.5.4.21">
 <!ENTITY xdg-utils-version            "1.1.3">
 <!ENTITY xscreensaver-version         "6.08">
@@ -1089,7 +1089,7 @@
 <!ENTITY speex-version                "1.2.1">
 <!ENTITY speexdsp-version             "1.2.1">
 <!ENTITY taglib-version               "1.13.1">
-<!ENTITY v4l-utils-version            "1.26.0">
+<!ENTITY v4l-utils-version            "1.26.1">
 <!ENTITY wireplumber-version          "0.4.17">
 <!ENTITY x264-version                 "20230215">
 <!ENTITY x265-version                 "20230215">
