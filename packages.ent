@@ -28,15 +28,15 @@
 
 <!--<!ENTITY nss-version                  "3.&nss-minor-version;">-->
 
-<!ENTITY openssh-version              "9.5p1">
-<!ENTITY openssh-md5sum               "3d29a7394816deeb57186899d7f7662c">
+<!ENTITY openssh-version              "9.6p1">
+<!ENTITY openssh-md5sum               "5e90def5af3ffb27e149ca6fff12bef3">
 <!ENTITY p11-kit-version              "0.25.3">
 <!ENTITY polkit-version               "123">
 <!ENTITY polkit-gnome-version         "0.105">
 <!ENTITY shadow-version               "4.14.2">
 <!ENTITY ssh-askpass-version          "&openssh-version;">
 <!ENTITY stunnel-version              "5.71">
-<!ENTITY sudo-version                 "1.9.15p4">
+<!ENTITY sudo-version                 "1.9.15p5">
 <!ENTITY tripwire-version             "2.4.3.7">
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
@@ -58,7 +58,7 @@
 <!-- UEFI bootloaders -->
 <!ENTITY efivar-version               "38">
 <!ENTITY efibootmgr-version           "18">
-<!ENTITY grub-version                 "2.06">
+<!ENTITY grub-version                 "2.12">
 <!ENTITY unifont-version              "15.1.04">
 
 <!-- Chapter 6 -->
@@ -69,7 +69,7 @@
 <!ENTITY joe-version                  "4.6">
 <!ENTITY mousepad-version             "0.5.10">
 <!ENTITY nano-version                 "7.2">
-<!ENTITY vim-version                  "9.0.2103">
+<!ENTITY vim-version                  "9.0.2189">
 <!ENTITY vim-majmin                   "90">
 
 <!-- Chapter 7 -->
@@ -99,8 +99,9 @@
 <!ENTITY double-conversion-version    "3.3.0">
 <!ENTITY duktape-version              "2.7.0">
 <!ENTITY enchant-version              "2.6.4">
-<!ENTITY exempi-version               "2.6.4">
+<!ENTITY exempi-version               "2.6.5">
 <!ENTITY fftw-version                 "3.3.10">
+<!ENTITY fmt-version                  "10.2.1">
 <!ENTITY glib2-minor                  "2.78">
 <!ENTITY glib2-version                "&glib2-minor;.3">
 <!ENTITY glibmm-version               "2.66.5">
@@ -116,7 +117,7 @@
 <!ENTITY icu-version                  "&icu-major;.&icu-minor;"><!-- .&icu-patch;-->
 
 <!ENTITY inih-version                 "57">
-<!ENTITY intel-gmmlib-version         "22.3.14">
+<!ENTITY intel-gmmlib-version         "22.3.16">
 <!ENTITY jansson-version              "2.14">
 <!ENTITY json-c-version               "0.17">
 <!ENTITY json-glib-version            "1.8.0">
@@ -164,7 +165,7 @@
 <!ENTITY libuv-version                "1.47.0">
 <!ENTITY libxkbcommon-version         "1.6.0">
 <!ENTITY libxml2-version              "2.12.3">
-<!ENTITY libxmlb-version              "0.3.14">
+<!ENTITY libxmlb-version              "0.3.15">
 <!ENTITY libxslt-version              "1.1.39">
 <!ENTITY libwacom-version             "2.9.0">
 <!ENTITY libwpe-version               "1.14.1">
@@ -181,7 +182,7 @@
 <!ENTITY pth-version                  "2.0.7">
 <!ENTITY qca-version                  "2.3.7">
 <!ENTITY spidermonkey-major           "115">
-<!ENTITY spidermonkey-version         "&spidermonkey-major;.5.0">
+<!ENTITY spidermonkey-version         "&spidermonkey-major;.6.0">
 <!ENTITY spirv-headers-version        "1.3.268.0">
 <!ENTITY spirv-tools-version          "2023.5.rc1">
 <!ENTITY talloc-version               "2.4.1">
@@ -200,7 +201,7 @@
 <!ENTITY babl-version                 "0.1.106">
 <!ENTITY exiv2-version                "0.28.1">
 <!ENTITY freetype2-version            "2.13.2">
-<!ENTITY fontconfig-version           "2.14.2">  <!-- stable lt .90 micro version -->
+<!ENTITY fontconfig-version           "2.15.0">  <!-- stable lt .90 micro version -->
 <!ENTITY fribidi-version              "1.0.13">
 <!ENTITY gegl-version                 "0.4.46">
 <!ENTITY giflib-version               "5.2.1">
@@ -225,16 +226,16 @@
 <!ENTITY libwebp-version              "1.3.2">
 <!ENTITY mypaint-brushes-version      "1.3.1">
 <!ENTITY newt-version                 "0.52.24">
-<!ENTITY opencv-version               "4.8.1">
-<!ENTITY opencv-contrib-version       "4.8.1">
+<!ENTITY opencv-version               "4.9.0">
+<!ENTITY opencv-contrib-version       "4.9.0">
 <!ENTITY openjpeg2-majmin-version     "2.5">
 <!ENTITY openjpeg2-version            "&openjpeg2-majmin-version;.0">
 <!ENTITY pixman-version               "0.42.2">   <!-- Even minors only -->
-<!ENTITY poppler-version              "23.12.0">
+<!ENTITY poppler-version              "24.01.0">
 <!ENTITY potrace-version              "1.16">
 <!ENTITY qpdf-version                 "11.6.4">
 <!ENTITY qrencode-version             "4.1.1">
-<!ENTITY libsass-version              "3.6.5">
+<!ENTITY libsass-version              "3.6.6">
 <!ENTITY sassc-version                "3.6.2">
 <!ENTITY webp-pixbuf-loader-version   "0.2.4">
 <!ENTITY woff2-version                "1.0.2">
@@ -299,8 +300,8 @@
 <!ENTITY redland-version              "1.0.17">
 <!ENTITY sg3_utils-version            "1.48">
 <!ENTITY sysmon-qt-version            "1.0">
-<!ENTITY sysstat-version              "12.7.4">
-<!ENTITY systemd-version              "254">
+<!ENTITY sysstat-version              "12.7.5">
+<!ENTITY systemd-version              "255">
 <!ENTITY udisks2-version              "2.10.1">   <!-- stable lt .90 micro version -->
 <!ENTITY unrar-version                "6.2.12">
 <!ENTITY unzip-version                "6.0">
@@ -316,7 +317,7 @@
 <!ENTITY cmake-major-version          "3.28">
 <!ENTITY cmake-minor-version          "1">
 <!ENTITY cmake-version                "&cmake-major-version;.&cmake-minor-version;">
-<!ENTITY doxygen-version              "1.9.8">
+<!ENTITY doxygen-version              "1.10.0">
 <!ENTITY gcc-version                  "13.2.0">
 <!ENTITY gc-version                   "8.2.4">
 <!ENTITY gdb-version                  "14.1">
@@ -331,7 +332,7 @@
 <!ENTITY mercurial-version            "6.6.1">
 <!ENTITY nasm-version                 "2.16.01">
 <!ENTITY patchelf-version             "0.17.2">
-<!ENTITY php-version                  "8.3.0">
+<!ENTITY php-version                  "8.3.1">
 
 <!ENTITY python2-majorver             "2.7">
 <!ENTITY python2-patch                "18">
@@ -345,15 +346,18 @@
 <!ENTITY python3-lib-suffix           "cpython-&python3-major;&python3-minor;-&lt;arch&gt;-linux-gnu">
 <!ENTITY python3-site                 "/usr/lib/python&python3-majorver;/site-packages">
 
-<!ENTITY ruby-minor-version           "3.2">
-<!ENTITY ruby-patch-version           "2">
+<!-- Remove once mozilla programs can use python 3.12 -->
+<!ENTITY python311-version                  "3.11.1">
+
+<!ENTITY ruby-minor-version           "3.3">
+<!ENTITY ruby-patch-version           "0">
 <!ENTITY ruby-version                 "&ruby-minor-version;.&ruby-patch-version;">
 <!ENTITY ruby-gemdir                  "/usr/lib/ruby/gems/&ruby-minor-version;.0">
-<!ENTITY rust-version                 "1.74.1">
+<!ENTITY rust-version                 "1.75.0">
 <!ENTITY scons-version                "4.6.0">
 <!ENTITY slang-version                "2.3.3">
-<!ENTITY subversion-version           "1.14.2">
-<!ENTITY swig-version                 "4.1.1">
+<!ENTITY subversion-version           "1.14.3">
+<!ENTITY swig-version                 "4.2.0">
 <!ENTITY sysprof-minor                "3.48">
 <!ENTITY sysprof-version              "&sysprof-minor;.0">
 <!ENTITY tk-version                   "8.6.13">
@@ -400,7 +404,7 @@
 <!ENTITY Log-Log4perl-version         "1.57">
 <!ENTITY LWP-Protocol-https-version   "6.11">
 <!ENTITY Module-Build-version         "0.4232">
-<!ENTITY Net-DNS-version              "1.41">
+<!ENTITY Net-DNS-version              "1.42">
 <!ENTITY Parse-RecDescent-version     "1.967015">
 <!ENTITY Parse-Yapp-version           "1.21">
 <!ENTITY PerlIO-utf8_strict-version   "0.010">
@@ -546,7 +550,7 @@
 <!ENTITY pycairo-version              "1.25.1">
 <!ENTITY pycairo2-version             "1.18.2">
 <!--<!ENTITY pycryptodome-version         "3.18.0">-->
-<!ENTITY dbusmock-version             "0.30.0">
+<!ENTITY dbusmock-version             "0.30.2">
 <!ENTITY pygments-version             "2.17.2">
 <!ENTITY pygments-md5sum              "7c059773b0f4808f9402eb0650de6bd4">
 <!ENTITY pygobject2-version           "2.28.7">
@@ -564,14 +568,14 @@
 <!ENTITY Jinja2-md5sum                "d31148abd89c1df1cdb077a55db27d02">
 <!ENTITY mako-version                 "1.3.0">
 <!ENTITY mako-md5sum                  "90da23903468efe9aa88dc88081579ff">
-<!ENTITY numpy-version                "1.26.2">
-<!ENTITY numpy-md5sum                 "8f6446a32e47953a03f8fe8533e21e98">
+<!ENTITY numpy-version                "1.26.3">
+<!ENTITY numpy-md5sum                 "1c915dc6c36dd4c674d9379e9470ff8b">
 <!ENTITY pyparsing-version            "3.1.1">
 <!ENTITY pyparsing-md5sum             "bb8c8c6b8015ca5887ae2c37917ee82e">
 <!ENTITY pyserial-version             "3.5">
 <!ENTITY pyserial-md5sum              "1cf25a76da59b530dbfc2cf99392dc83">
-<!ENTITY pytest-version               "7.4.3">
-<!ENTITY pytest-md5sum                "9a13432f66fd105bdcbca3db867721bc">
+<!ENTITY pytest-version               "7.4.4">
+<!ENTITY pytest-md5sum                "e2ac4c70861f26d735b64e5687bb218e">
 <!ENTITY PyYAML-version               "6.0.1">
 <!ENTITY PyYAML-md5sum                "c9246277af2d9a13b7018af267a0831a">
 <!ENTITY requests-version             "2.31.0">
@@ -659,7 +663,7 @@
 <!-- Chapter 15 -->
 <!ENTITY bridgeutils-version          "1.7.1">
 <!ENTITY cifsutils-version            "7.0">
-<!ENTITY iw-version                   "5.19">
+<!ENTITY iw-version                   "6.7">
 <!ENTITY ncftp-version                "3.2.6">
 <!ENTITY net-tools-version            "2.10">
 <!ENTITY nfs-utils-version            "2.6.4">
@@ -675,8 +679,8 @@
 <!ENTITY avahi-version                "0.8">
 <!-- for Bind Utilities -->
 <!ENTITY bind-minor-version           "9.18">
-<!ENTITY bind-version                 "&bind-minor-version;.20">
-<!ENTITY bind-md5                     "34e8f218827d07dded501075d68b6d74">
+<!ENTITY bind-version                 "&bind-minor-version;.21">
+<!ENTITY bind-md5                     "815f7eeaca45292b35f064b28d79e171">
 <!ENTITY NetworkManager-minor         "1.44">
 <!ENTITY NetworkManager-version       "&NetworkManager-minor;.2">
 <!ENTITY network-manager-applet-minor "1.34">
@@ -684,10 +688,10 @@
 <!ENTITY nmap-version                 "7.94">
 <!ENTITY traceroute-version           "2.1.5">
 <!ENTITY whois-version                "5.4.3">
-<!ENTITY wireshark-version            "4.2.0">  <!-- even minor versions only -->
+<!ENTITY wireshark-version            "4.2.2">  <!-- even minor versions only -->
 
 <!-- Chapter 17 -->
-<!ENTITY c-ares-version               "1.24.0">
+<!ENTITY c-ares-version               "1.25.0">
 <!ENTITY curl-version                 "8.5.0">
 <!ENTITY geoclue2-version             "2.7.1">
 <!ENTITY glib-networking-minor        "2.78">
@@ -730,7 +734,7 @@
 <!ENTITY apache-version               "2.4.58">
 <!-- Bind version is the same as for Bind Utilities -->
 <!ENTITY kea-dhcp-version             "2.4.1">
-<!ENTITY proftpd-version              "1.3.8a">
+<!ENTITY proftpd-version              "1.3.8b">
 <!ENTITY vsftpd-version               "3.0.5">
 
 <!-- Chapter 21 -->
@@ -741,8 +745,8 @@
 <!--<!ENTITY dovecot-version              "&dovecot-major;.&dovecot-minor;.&dovecot-micro;.&dovecot-nano;">-->
 <!ENTITY dovecot-version              "&dovecot-major;.&dovecot-minor;.&dovecot-micro;">
 
-<!ENTITY exim-version                 "4.97">
-<!ENTITY postfix-version              "3.8.3">
+<!ENTITY exim-version                 "4.97.1">
+<!ENTITY postfix-version              "3.8.4">
 <!ENTITY sendmail-version             "8.17.2">
 
 <!-- Chapter 22 -->
@@ -776,14 +780,14 @@
 <!ENTITY xcb-util-wm-version          "0.4.2">
 <!ENTITY xcb-util-cursor-version      "0.1.4">
 <!ENTITY mesa-major-minor             "23.3">
-<!ENTITY mesa-version                 "&mesa-major-minor;.1">
+<!ENTITY mesa-version                 "&mesa-major-minor;.2">
 <!ENTITY xbitmaps-version             "1.1.3">
 <!ENTITY xcursor-themes-version       "1.0.7">
 <!ENTITY xkeyboard-config-version     "2.40">
 <!ENTITY xwayland-version             "23.2.3">
 <!ENTITY xorg-server-version          "21.1.10">
 <!ENTITY twm-version                  "1.0.12">
-<!ENTITY xterm-version                "388">
+<!ENTITY xterm-version                "389">
 <!ENTITY xclock-version               "1.1.1">
 <!ENTITY xinit-version                "1.4.2">
 
@@ -812,13 +816,13 @@
 <!ENTITY gdk-pixbuf-xlib-version      "2.40.2">
 <!ENTITY gdl-version                  "3.40.0">
 <!ENTITY glew-version                 "2.2.0">
-<!ENTITY glslang-version              "13.1.1">
+<!ENTITY glslang-version              "14.0.0">
 <!ENTITY glu-version                  "9.0.3">
 <!ENTITY goffice010-version           "0.10.56">
 <!ENTITY grantlee-version             "5.3.1">
 <!ENTITY graphene-version             "1.10.8">
 <!ENTITY gtk2-version                 "2.24.33">
-<!ENTITY gtk3-version                 "3.24.38">
+<!ENTITY gtk3-version                 "3.24.39">
 <!ENTITY gtk4-minor                   "4.12">
 <!ENTITY gtk4-version                 "&gtk4-minor;.4">
 <!ENTITY gtk-engines-version          "2.20.2">
@@ -838,7 +842,7 @@
 <!ENTITY libgedit-amtk-version        "5.8.0">
 <!ENTITY libgedit-gtksourceview-version "299.0.4">
 <!ENTITY libhandy1-version            "1.8.2">
-<!ENTITY libdrm-version               "2.4.118">
+<!ENTITY libdrm-version               "2.4.119">
 <!ENTITY libei-version                "1.2.0">
 <!ENTITY libepoxy-minor               "1.5">
 <!ENTITY libepoxy-version             "&libepoxy-minor;.10">
@@ -853,8 +857,8 @@
 <!ENTITY qt6-version                  "6.6.1">
 <!ENTITY startup-notification-version "0.12">
 <!ENTITY tepl-version                 "6.8.0">
-<!ENTITY vulkan-headers-version       "1.3.273">
-<!ENTITY vulkan-loader-version        "1.3.273">
+<!ENTITY vulkan-headers-version       "1.3.274">
+<!ENTITY vulkan-loader-version        "1.3.274">
 <!ENTITY webkitgtk-version            "2.42.4">    <!-- Even minors only -->
 
 <!ENTITY gtk2-libdir                  "2.0/2.10.0">
@@ -869,7 +873,7 @@
 
 <!-- Chapter 27 -->
 <!ENTITY fluxbox-version              "1.3.7">
-<!ENTITY icewm-version                "3.4.4">
+<!ENTITY icewm-version                "3.4.5">
 <!ENTITY openbox-version              "3.6.1">
 <!-- <!ENTITY sawfish-version              "1.13.0">-->
 
@@ -926,7 +930,7 @@
 <!ENTITY garcon-minor                 "4.18">
 <!ENTITY garcon-version               "4.18.1">
 <!ENTITY xfce4-panel-version          "4.18.5">
-<!ENTITY thunar-version               "4.18.8">
+<!ENTITY thunar-version               "4.18.10">
 <!ENTITY thunar-volman-version        "4.18.0">
 <!ENTITY tumbler-version              "4.18.2">
 <!ENTITY xfce4-appfinder-version      "4.18.1">
@@ -1018,10 +1022,10 @@
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.5.1">
+<!ENTITY thunderbird-version          "115.6.0">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.5">
-<!ENTITY xarchiver-version            "0.5.4.21">
+<!ENTITY xarchiver-version            "0.5.4.22">
 <!ENTITY xdg-utils-version            "1.1.3">
 <!ENTITY xscreensaver-version         "6.08">
 
@@ -1039,19 +1043,19 @@
 <!ENTITY audiofile-version            "0.3.6">
 <!ENTITY faac-version                 "1_30">
 <!ENTITY faad2-version                "2.11.1">
-<!ENTITY fdk-aac-version              "2.0.2">
+<!ENTITY fdk-aac-version              "2.0.3">
 <!ENTITY flac-version                 "1.4.3">
 <!ENTITY frei0r-version               "1.8.0">
 <!ENTITY gavl-version                 "1.4.0">
-<!ENTITY gstreamer10-version          "1.22.7">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-base-version   "1.22.7">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-good-version   "1.22.7">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-bad-version    "1.22.7">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-ugly-version   "1.22.7">  <!-- Even minors only -->
-<!ENTITY gst10-libav-version          "1.22.7">  <!-- Even minors only -->
-<!ENTITY gstreamer-vaapi-version      "1.22.7">  <!-- Even minors only -->
+<!ENTITY gstreamer10-version          "1.22.8">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-base-version   "1.22.8">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-good-version   "1.22.8">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-bad-version    "1.22.8">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-ugly-version   "1.22.8">  <!-- Even minors only -->
+<!ENTITY gst10-libav-version          "1.22.8">  <!-- Even minors only -->
+<!ENTITY gstreamer-vaapi-version      "1.22.8">  <!-- Even minors only -->
 <!ENTITY id3lib-version               "3.8.3">
-<!ENTITY intel-media-version          "23.4.1">
+<!ENTITY intel-media-version          "23.4.3">
 <!ENTITY liba52-version               "0.7.4">
 <!ENTITY libao-version                "1.2.0">
 <!ENTITY libaom-version               "3.8.0">
@@ -1108,7 +1112,7 @@
 <!ENTITY vorbistools-version          "1.4.2">
 
 <!-- Chapter 44 -->
-<!ENTITY ffmpeg-version               "6.1">
+<!ENTITY ffmpeg-version               "6.1.1">
 <!ENTITY mplayer-version              "1.5">
 <!ENTITY mpv-version                  "0.37.0">
 <!ENTITY transcode-version            "1.1.7">
@@ -1162,7 +1166,7 @@
 <!ENTITY epdfview-version             "gtk3-20200814">
 <!ENTITY fop-version                  "2.9">
 <!ENTITY mupdf-version                "1.23.7">
-<!ENTITY paps-version                 "0.7.1">
+<!ENTITY paps-version                 "0.8.0">
 
 <!-- Chapter 51 -->
 <!ENTITY texlive-version              "20230313">
