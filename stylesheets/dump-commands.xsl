@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:exsl="http://exslt.org/common"
     extension-element-prefixes="exsl"
@@ -48,11 +48,11 @@
       <xsl:choose>
         <xsl:when test="@role = 'nodump'"/>
         <xsl:when test="@role = 'root'">
-          <xsl:text>&#xA;</xsl:text>
-          <xsl:text># Run this as root</xsl:text>
+          <xsl:text>
+# Run this as root</xsl:text>
           <xsl:apply-templates select="userinput"/>
-          <xsl:text># End root commands</xsl:text>
-          <xsl:text>&#xA;</xsl:text>
+          <xsl:text># End root commands
+</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:apply-templates select="userinput"/>

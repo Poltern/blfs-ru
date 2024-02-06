@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
@@ -34,7 +34,7 @@
   <xsl:param name="draft.mode" select="'no'"/>
 
    <!-- Paper size -->
-  <xsl:param name="paper.type" select="'A4'"/>
+  <xsl:param name="paper.type" select="'USletter'"/>
 
     <!-- Paper size required by the publisher
   <xsl:param name="paper.type" select="'Customized'"/>
@@ -51,7 +51,8 @@
 
     <!-- Allow URLs to be automatically hyphenated.
          We have expanded the support to several inline tags.
-         See pdf/lfs-mixed.xsl -->
+         See pdf/lfs-mixed.xsl. The character in the
+         select attribute is a zero width space -->
   <xsl:param name="ulink.hyphenate" select="'&#x200B;'"/>
 
     <!-- List of characters to allow ulink URLs, and supported inline tags,

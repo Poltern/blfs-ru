@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns="http://www.w3.org/1999/xhtml"
@@ -22,6 +22,7 @@
   <xsl:include href="xhtml/lfs-index.xsl"/>
   <xsl:include href="xhtml/lfs-legalnotice.xsl"/>
   <xsl:include href="xhtml/lfs-navigational.xsl"/>
+  <xsl:include href="xhtml/lfs-glossary.xsl"/>
 
     <!-- sect1:
            Prevent creation of dummy sect1 files used to emulate sub-chapters. -->
