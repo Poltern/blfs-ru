@@ -103,6 +103,7 @@
 <!ENTITY elinks-url           "http://elinks.or.cz">
 <!ENTITY w3m-url              "http://w3m.sourceforge.net/">
 <!ENTITY sysprof-url          "https://wiki.gnome.org/Apps/Sysprof">
+<!ENTITY man                  "https://man.archlinux.org/man/">
 
 <!-- Convenience entities -->
 <!ENTITY root                 "<systemitem class='username'>root</systemitem>">
@@ -116,7 +117,7 @@
 <!-- End LFS versions -->
 
 <!ENTITY blfs-bootscripts-version     "20231119">
-<!ENTITY systemd-units-version        "20231205">
+<!ENTITY systemd-units-version        "20240205">
 
 <!ENTITY blfs-wiki                    "https://wiki.&lfs-domainname;/blfs/wiki">
 
@@ -210,3 +211,5 @@ export -f as_root</userinput></screen>
 <!ENTITY install-wheel "pip3 install --no-index --find-links=dist --no-cache-dir --no-user">
 
 <!ENTITY berkeley-db "<ulink url='https://anduin.linuxfromscratch.org/BLFS/bdb/db-5.3.28.tar.gz'>Berkeley DB</ulink> (deprecated)">
+
+
