@@ -38,10 +38,398 @@
       </itemizedlist>
     </listitem>
     -->
+    <listitem>
+      <para>February 18th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to btrfs-progs-v6.7.1. Fixes
+          <ulink url="&blfs-ticket-root;19309">#19309</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to ed-1.20.1. Fixes
+          <ulink url="&blfs-ticket-root;19325">#19325</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to php-8.3.3. Fixes
+          <ulink url="&blfs-ticket-root;19322">#19322</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to wireshark-4.2.3. Fixes
+          <ulink url="&blfs-ticket-root;19315">#19315</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to qt-6.6.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19316">#19316</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kf5-apps-23.08.5. Fixes
+          <ulink url="&blfs-ticket-root;19317">#19317</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kf5-5.15.0. Fixes
+          <ulink url="&blfs-ticket-root;19127">#19127</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 17th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Update to nodejs-20.11.1. Fixes
+          <ulink url="&blfs-ticket-root;19311">#19311</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sysmon-qt-1.1. Fixes
+          <ulink url="&blfs-ticket-root;19308">#19308</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Patch Qt5 against CVE-2024-25580. Fixes
+          <ulink url="&blfs-ticket-root;19320">#19320</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 16th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to Net-DNS-1.44 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;18521">#18521</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to x265-20240216. Addresses
+          <ulink url="&blfs-ticket-root;18520">#18520</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to x264-20240216. Addresses
+          <ulink url="&blfs-ticket-root;18520">#18520</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to NSS-3.98 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19323">#19323</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Patch Valgrind to work correctly with glibc-2.39 and
+          binutils-2.42. Fixes
+          <ulink url="&blfs-ticket-root;19324">#19324</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libnvme-1.8. Fixes
+          <ulink url="&blfs-ticket-root;19310">#19310</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 15th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[ken] - Update to ImageMagick-7.1.1-28 (Security Update). Addresses
+          <ulink url="&blfs-ticket-root;16962">#16962</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to shadow-4.14.5. Fixes
+          <ulink url="&blfs-ticket-root;19289">#19289</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 14th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Update to git-2.43.2. Fixes
+          <ulink url="&blfs-ticket-root;19314">#19314</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to power-profiles-daemon-0.20. Fixes
+          <ulink url="&blfs-ticket-root;19313">#19313</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to webp-pixbuf-loader-0.2.7. Fixes
+          <ulink url="&blfs-ticket-root;19312">#19312</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to mesa-24.0.1. Fixes
+          <ulink url="&blfs-ticket-root;19220">#19220</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 13th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to mercurial-6.6.3. Fixes
+          <ulink url="&blfs-ticket-root;19299">#19299</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update the gstreamer stack to 1.22.10. Fixes
+          <ulink url="&blfs-ticket-root;19305">#19305</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-control-center-45.3. Fixes
+          <ulink url="&blfs-ticket-root;19301">#19301</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gcr-4.2.0. Fixes
+          <ulink url="&blfs-ticket-root;19300">#19300</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to exiv2-0.28.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19307">#19307</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix CVE-2023-52160 in wpa_supplicant. Fixes
+          <ulink url="&blfs-ticket-root;19304">#19304</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mutter-45.4. Fixes
+          <ulink url="&blfs-ticket-root;19296">#19296</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-shell-45.4. Fixes
+          <ulink url="&blfs-ticket-root;19295">#19295</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to pango-1.51.2. Fixes
+          <ulink url="&blfs-ticket-root;19294">#19294</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-maps-45.4. Fixes
+          <ulink url="&blfs-ticket-root;19287">#19287</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libshumate-1.1.3. Fixes
+          <ulink url="&blfs-ticket-root;19286">#19286</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gjs-1.78.4. Fixes
+          <ulink url="&blfs-ticket-root;19285">#19285</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to evolution-3.50.4. Fixes
+          <ulink url="&blfs-ticket-root;19278">#19278</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to evolution-data-server-3.50.4. Fixes
+          <ulink url="&blfs-ticket-root;19278">#19278</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libadwaita-1.4.3. Fixes
+          <ulink url="&blfs-ticket-root;19276">#19276</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix building vala with graphviz-10.x.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to Unbound-1.19.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19303">#19303</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to graphviz-10.0.1. Fixes
+          <ulink url="&blfs-ticket-root;19283">#19283</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to BIND-9.18.24 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19302">#19302</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to rustc-1.76.0. Fixes
+          <ulink url="&blfs-ticket-root;19268">#19268</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnumeric-1.12.57. Fixes
+          <ulink url="&blfs-ticket-root;19297">#19297</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to goffice-0.10.57. Fixes
+          <ulink url="&blfs-ticket-root;19293">#19293</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gegl-0.4.48. Fixes
+          <ulink url="&blfs-ticket-root;19290">#19290</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to babl-0.1.108. Fixes
+          <ulink url="&blfs-ticket-root;19273">#19273</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libuv-1.48.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19263">#19263</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 12th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xdg-utils-v1.2.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19299">#19288</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pcmanfm-qt-1.4.1. Fixes
+          <ulink url="&blfs-ticket-root;19279">#19279</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to obconf-qt-0.16.4. Fixes
+          <ulink url="&blfs-ticket-root;19271">#19271</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to hexchat-2.16.2. Fixes
+          <ulink url="&blfs-ticket-root;19282">#19282</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pycairo3-1.26.0 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;19292">#19292</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to URI-5.27 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;19274">#19274</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Business-ISMN-1.204 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;19291">#19291</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Business-ISBN-3.009 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;19284">#19284</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to shadow-4.14.4. Fixes
+          <ulink url="&blfs-ticket-root;19289">#19289</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Python-3.12.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19258">#19258</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to xfce4-notifyd-0.9.4. Fixes
+          <ulink url="&blfs-ticket-root;19280">#19280</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem revision="systemd">
+      <para>February 10th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Fix a bug in systemd breaking running
+          systemd-analyze on an instantiated systemd unit.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 9th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[rahul] - Update to PostgreSQL-16.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19269">#19269</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to mariadb-10.11.7. Fixes
+          <ulink url="&blfs-ticket-root;19272">#19272</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libsecret-0.21.3. Fixes
+          <ulink url="&blfs-ticket-root;19281">#19281</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libhandy-1.8.3. Fixes
+          <ulink url="&blfs-ticket-root;19275">#19275</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to git-2.43.1. Fixes
+          <ulink url="&blfs-ticket-root;19275">#19275</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to libavif-1.0.4. Fixes
+          <ulink url="&blfs-ticket-root;19267">#19267</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to enchant-2.6.7. Fixes
+          <ulink url="&blfs-ticket-root;19266">#19266</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Add power-profiles-daemon. Fixes
+          <ulink url="&blfs-ticket-root;19086">#19086</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 8th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to lxqt-menu-data-1.4.1. Fixes
+          <ulink url="&blfs-ticket-root;19265">#19265</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libwacom-2.10.0. Fixes
+          <ulink url="&blfs-ticket-root;19264">#19264</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mupdf-1.23.10. Fixes
+          <ulink url="&blfs-ticket-root;19259">#19259</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 7th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to numpy-1.26.4 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;19255">#19255</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to meson_python-0.15.0 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;19261">#19261</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pyproject-metadata-0.7.1 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;19262">#19262</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pytz-2024.1 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;19260">#19260</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libei-1.2.1. Fixes
+          <ulink url="&blfs-ticket-root;19256">#19256</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to LWP-Protocol-https-6.13 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;19254">#19254</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xfsprogs-6.6.0. Fixes
+          <ulink url="&blfs-ticket-root;19252">#19252</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Fix building WebKitGTK on 32-bit systems.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
 
     <listitem>
       <para>February 6th, 2024</para>
       <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to gnome-bluetooth-42.8. Fixes
+          <ulink url="&blfs-ticket-root;19257">#19257</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to jasper-4.2.0. Fixes
+          <ulink url="&blfs-ticket-root;19253">#19253</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to stunnel-5.72. Fixes
+          <ulink url="&blfs-ticket-root;19251">#19251</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[thomas] - Upgrade to libxfce4ui-4.18.5. Fixes
           <ulink url="&blfs-ticket-root;19249">#19249</ulink>.</para>
