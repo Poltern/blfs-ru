@@ -39,6 +39,54 @@
     </listitem>
     -->
     <listitem>
+      <para>February 21st, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Update to efivar-39. Fixes
+          <ulink url="&blfs-ticket-root;19348">#19348</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to thunderbird-115.8.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19342">#19342</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 20th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to gedit-46.2. Fixes
+          <ulink url="&blfs-ticket-root;19330">#19330</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-tweaks-45.1. Fixes
+          <ulink url="&blfs-ticket-root;19339">#19339</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to samba-4.19.5. Fixes
+          <ulink url="&blfs-ticket-root;19337">#19337</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[ken] - Update to firefox-115.8.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19332">#19332</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>February 18th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xterm-390. Fixes
+          <ulink url="&blfs-ticket-root;19336">#19336</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>February 18th, 2024</para>
       <itemizedlist>
         <listitem>

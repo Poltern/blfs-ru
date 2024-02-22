@@ -56,7 +56,7 @@
 <!ENTITY xfsprogs-version             "6.6.0">
 
 <!-- UEFI bootloaders -->
-<!ENTITY efivar-version               "38">
+<!ENTITY efivar-version               "39">
 <!ENTITY efibootmgr-version           "18">
 <!ENTITY grub-version                 "2.12">
 <!ENTITY unifont-version              "15.1.04">
@@ -65,7 +65,7 @@
 <!ENTITY bluefish-version             "2.2.14">
 <!ENTITY ed-version                   "1.20.1">
 <!ENTITY emacs-version                "29.2">
-<!ENTITY gedit-version                "46.1">
+<!ENTITY gedit-version                "46.2">
 <!ENTITY joe-version                  "4.6">
 <!ENTITY mousepad-version             "0.6.2">
 <!ENTITY nano-version                 "7.2">
@@ -672,7 +672,7 @@
 <!ENTITY ntp-version                  "4.2.8p17">
 <!ENTITY rpcbind-version              "1.2.6">
 <!ENTITY rsync-version                "3.2.7">
-<!ENTITY samba-version                "4.19.4">
+<!ENTITY samba-version                "4.19.5">
 <!ENTITY wget-version                 "1.21.4">
 <!ENTITY wireless-tools-version       "29">
 <!ENTITY wpa_supplicant-version       "2.10">
@@ -789,7 +789,7 @@
 <!ENTITY xwayland-version             "23.2.4">
 <!ENTITY xorg-server-version          "21.1.11">
 <!ENTITY twm-version                  "1.0.12">
-<!ENTITY xterm-version                "389">
+<!ENTITY xterm-version                "390">
 <!ENTITY xclock-version               "1.1.1">
 <!ENTITY xinit-version                "1.4.2">
 
@@ -1000,7 +1000,7 @@
 <!-- FIXME: on next ESR after 115 adjust mention in
   x/installing/tuning-fontconfig to point to wherever the
   font settings can now be found -->
-<!ENTITY firefox-version              "115.7.0">
+<!ENTITY firefox-version              "115.8.0">
 <!ENTITY seamonkey-version            "2.53.18">
 <!ENTITY setuptools-version           "68.2.2"> <!-- for seamonkey -->
 
@@ -1019,7 +1019,7 @@
 <!ENTITY pidgin-version               "2.14.12">
 <!ENTITY rox-filer-version            "2.11">
 <!ENTITY rxvt-unicode-version         "9.31">
-<!ENTITY thunderbird-version          "115.7.0">
+<!ENTITY thunderbird-version          "115.8.0">
 <!ENTITY tigervnc-version             "1.13.1">
 <!ENTITY transmission-version         "4.0.5">
 <!ENTITY xarchiver-version            "0.5.4.22">
