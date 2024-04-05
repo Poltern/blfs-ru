@@ -19,6 +19,7 @@
 <!ENTITY gnome-43             "43">
 <!ENTITY gnome-44             "44">
 <!ENTITY gnome-45             "45">
+<!ENTITY gnome-46             "46">
 <!-- See about removing some of the above entities after 40.0 is in. -->
 
 <!-- Chapter 30 -->
@@ -26,17 +27,17 @@
 <!ENTITY gcr-minor                         "3.41">
 <!ENTITY gcr-version                       "&gcr-minor;.2">
 <!ENTITY gcr4-minor                        "4.2">
-<!ENTITY gcr4-version                      "&gcr4-minor;.0">
-<!ENTITY gsettings-desktop-schemas-version "45.0">
-<!ENTITY libsecret-version                 "0.21.3">
+<!ENTITY gcr4-version                      "&gcr4-minor;.1">
+<!ENTITY gsettings-desktop-schemas-version "46.0">
+<!ENTITY libsecret-version                 "0.21.4">
 <!ENTITY rest-version                      "0.9.1">
 <!ENTITY totem-pl-parser-version           "3.26.6">
-<!ENTITY vte-minor                         "0.74">
-<!ENTITY vte-version                       "&vte-minor;.2">
+<!ENTITY vte-minor                         "0.76">
+<!ENTITY vte-version                       "&vte-minor;.0">
 <!ENTITY yelp-xsl-version                  "42.1">
 <!ENTITY GConf-version                     "3.2.6">
 <!ENTITY geocode-glib-version              "3.26.4">
-<!ENTITY gjs-version                       "1.78.4">
+<!ENTITY gjs-version                       "1.80.2">
 <!ENTITY gnome-autoar-version              "0.4.4">
 <!ENTITY gnome-desktop-version             "44.0">
 <!ENTITY gnome-menus-version               "3.36.0">
@@ -48,7 +49,7 @@
 <!ENTITY libgee-version                    "0.20.6">
 <!ENTITY libgtop-version                   "2.40.0">
 <!ENTITY libgweather-minor                 "4.4">
-<!ENTITY libgweather-version               "&libgweather-minor;.0">
+<!ENTITY libgweather-version               "&libgweather-minor;.2">
 <!ENTITY libpeas-version                   "1.36.0">
 <!ENTITY libshumate-version                "1.1.3">
 <!ENTITY libwnck-version                   "43.0">
@@ -65,7 +66,7 @@
 <!ENTITY dconf-version                     "0.40.0">
 <!ENTITY dconf-editor-version              "45.0.1">
 <!ENTITY gnome-backgrounds-version         "45.0">
-<!ENTITY gvfs-version                      "1.52.2">
+<!ENTITY gvfs-version                      "1.54.0">
 <!ENTITY gexiv2-minor                      "0.14">
 <!ENTITY gexiv2-version                    "&gexiv2-minor;.2">
 <!ENTITY nautilus-version                  "45.2.1">
@@ -101,19 +102,19 @@
 <!ENTITY gnome-color-manager-version       "3.36.0">
 <!ENTITY gnome-disk-utility-version        "45.1">
 <!ENTITY gnome-logs-version                "43.0">
-<!ENTITY gnome-maps-version                "45.4">
+<!ENTITY gnome-maps-version                "45.5">
 <!ENTITY gnome-nettool-version             "42.0">
 <!ENTITY gnome-power-manager-version       "43.0">
 <!ENTITY gnome-screenshot-version          "41.0">
 <!ENTITY gnome-system-monitor-version      "45.0.2">
 <!ENTITY gnome-terminal-version            "3.50.1">
 <!ENTITY gnome-tweaks-version              "45.1">
-<!ENTITY gnome-weather-version             "45.0">
+<!ENTITY gnome-weather-version             "46.0">
 <!-- "major" version also used for links to unicode downloads -->
 <!ENTITY gucharmap-major-version         "15.1">
 <!ENTITY gucharmap-version               "&gucharmap-major-version;.2">
 <!-- nm-applet moved to Networking Utilities, so it's now in packages.ent -->
 <!ENTITY seahorse-version                  "43.0">
-<!ENTITY snapshot-version                  "45.2">
+<!ENTITY snapshot-version                  "46.1">
 <!ENTITY vinagre-version                   "3.22.0">
 <!--<!ENTITY vino-version                      "3.22.0">-->
