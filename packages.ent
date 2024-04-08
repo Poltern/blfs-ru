@@ -6,7 +6,7 @@
 <!ENTITY cryptsetup-version           "&cryptsetup-minor;.1">
 <!ENTITY cyrus-sasl-version           "2.1.28">
 <!ENTITY gnupg2-version               "2.4.5">
-<!ENTITY gnutls-version               "3.8.4">
+<!ENTITY gnutls-version               "3.8.5">
 <!ENTITY gpgme-version                "1.23.2">
 <!ENTITY iptables-version             "1.8.10">
 <!ENTITY libcap-version               "2.69">
@@ -74,7 +74,7 @@
 
 <!-- Chapter 7 -->
 <!ENTITY dash-version                 "0.5.12">
-<!ENTITY tcsh-version                 "6.24.11">
+<!ENTITY tcsh-version                 "6.24.12">
 <!ENTITY zsh-version                  "5.9">
 
 <!-- Chapter 8 Virtualization -->
@@ -98,7 +98,7 @@
 <!ENTITY dbus-glib-version            "0.112">
 <!ENTITY double-conversion-version    "3.3.0">
 <!ENTITY duktape-version              "2.7.0">
-<!ENTITY enchant-version              "2.6.8">
+<!ENTITY enchant-version              "2.6.9">
 <!ENTITY exempi-version               "2.6.5">
 <!ENTITY fftw-version                 "3.3.10">
 <!ENTITY fmt-version                  "10.2.1">
@@ -167,15 +167,15 @@
 <!ENTITY libuv-version                "1.48.0">
 <!ENTITY libxkbcommon-version         "1.7.0">
 <!ENTITY libxml2-version              "2.12.6">
-<!ENTITY libxmlb-version              "0.3.15">
+<!ENTITY libxmlb-version              "0.3.17">
 <!ENTITY libxslt-version              "1.1.39">
 <!ENTITY libwacom-version             "2.10.0">
 <!ENTITY libwpe-version               "1.14.2">
 <!ENTITY log4cplus-version            "2.1.1">
 <!ENTITY log4cplus-release            "2_1_1">
 <!ENTITY lzo-version                  "2.10">
-<!ENTITY mtdev-version                "1.1.6">
-<!ENTITY nodejs-version               "20.11.1">
+<!ENTITY mtdev-version                "1.1.7">
+<!ENTITY nodejs-version               "20.12.1">
 <!ENTITY npth-version                 "1.7">
 <!ENTITY nspr-version                 "4.35">
 <!ENTITY pcre2-version                "10.43">
@@ -234,7 +234,7 @@
 <!ENTITY openjpeg2-majmin-version     "2.5">
 <!ENTITY openjpeg2-version            "&openjpeg2-majmin-version;.2">
 <!ENTITY pixman-version               "0.43.4">  
-<!ENTITY poppler-version              "24.03.0">
+<!ENTITY poppler-version              "24.04.0">
 <!ENTITY potrace-version              "1.16">
 <!ENTITY qpdf-version                 "11.9.0">
 <!ENTITY qrencode-version             "4.1.1">
@@ -288,7 +288,7 @@
 <!ENTITY fcron-version                "3.2.1">
 <!ENTITY gpm-version                  "1.20.7">
 <!ENTITY hdparm-version               "9.65">
-<!ENTITY hwdata-version               "0.380">
+<!ENTITY hwdata-version               "0.381">
 <!ENTITY lsb-tools-version            "0.12">
 <!ENTITY lm-sensors-version           "3-6-0">
 <!ENTITY logrotate-version            "3.21.0">
@@ -297,7 +297,7 @@
 <!ENTITY notification-daemon-version  "3.20.0">
 <!ENTITY p7zip-version                "17.04">
 <!ENTITY pax-version                  "20201030">
-<!ENTITY pciutils-version             "3.11.1">
+<!ENTITY pciutils-version             "3.12.0">
 <!ENTITY pm-utils-version             "1.4.1">
 <!ENTITY power-profiles-daemon-version "0.20">
 <!ENTITY raptor-version               "2.0.16">
@@ -332,12 +332,12 @@
 <!ENTITY guile-version                "3.0.9">
 <!ENTITY librep-version               "0.92.7">
 <!ENTITY llvm-maj-version             "18">
-<!ENTITY llvm-point-version           "0">
+<!ENTITY llvm-point-version           "2">
 <!ENTITY llvm-version                 "&llvm-maj-version;.1.&llvm-point-version;">
 <!ENTITY lua-version                  "5.4.6">
 <!ENTITY lua52-version                "5.2.4">
 <!ENTITY mercurial-version            "6.7.2">
-<!ENTITY nasm-version                 "2.16.01">
+<!ENTITY nasm-version                 "2.16.02">
 <!ENTITY patchelf-version             "0.18.0">
 <!ENTITY php-version                  "8.3.4">
 
@@ -594,8 +594,8 @@
 <!ENTITY requests-version             "2.31.0">
 <!ENTITY requests-md5sum              "941e175c276cd7d39d098092c56679a4">
 <!ENTITY scour-version                "0.38.2">
-<!ENTITY sentry-sdk-version           "1.44.0">
-<!ENTITY sentry-sdk-md5sum            "3aa84c83b0547aa41e1b8111bb6bbfc9">
+<!ENTITY sentry-sdk-version           "1.44.1">
+<!ENTITY sentry-sdk-md5sum            "219bb3d4f7749ec2af33a96fccae07bc">
 <!ENTITY six-version                  "1.16.0">
 <!ENTITY six-md5sum                   "a7c927740e4964dd29b72cebfc1429bb">
 <!ENTITY sphinx-version               "7.2.6">
@@ -689,7 +689,7 @@
 <!ENTITY ntp-version                  "4.2.8p17">
 <!ENTITY rpcbind-version              "1.2.6">
 <!ENTITY rsync-version                "3.2.7">
-<!ENTITY samba-version                "4.19.5">
+<!ENTITY samba-version                "4.20.0">
 <!ENTITY wget-version                 "1.24.5">
 <!ENTITY wireless-tools-version       "29">
 <!ENTITY wpa_supplicant-version       "2.10">
@@ -799,8 +799,9 @@
 <!ENTITY xcb-util-wm-version          "0.4.2">
 <!ENTITY xcb-util-cursor-version      "0.1.4">
 <!ENTITY mesa-major-minor             "24.0">
-<!ENTITY mesa-version                 "&mesa-major-minor;.3">
+<!ENTITY mesa-version                 "&mesa-major-minor;.4">
 <!ENTITY xbitmaps-version             "1.1.3">
+<!ENTITY luit-version                 "20240102">
 <!ENTITY xcursor-themes-version       "1.0.7">
 <!ENTITY xkeyboard-config-version     "2.41">
 <!ENTITY xwayland-version             "23.2.4">
@@ -819,11 +820,11 @@
 <!ENTITY atk-minor                    "2.38">
 <!ENTITY atk-version                  "&atk-minor;.0">
 <!ENTITY atkmm-version                "2.28.4">
-<!ENTITY at-spi2-core-version         "2.50.2">
+<!ENTITY at-spi2-core-version         "2.52.0">
 <!-- <!ENTITY at-spi2-atk-version          "2.38.0">-->
 <!ENTITY cairo-minor                  "1.18">
 <!ENTITY cairo-version                "&cairo-minor;.0">
-<!ENTITY cairomm-1.0-version          "1.14.0">
+<!ENTITY cairomm-1.0-version          "1.14.5">
 <!--<!ENTITY cogl-version                 "1.22.8">-->
 <!--<!ENTITY clutter-version              "1.26.4">-->
 <!--<!ENTITY clutter-gst-version          "3.0.27">-->
@@ -845,7 +846,7 @@
 <!ENTITY gtk4-minor                   "4.14">
 <!ENTITY gtk4-version                 "&gtk4-minor;.1">
 <!ENTITY gtk-engines-version          "2.20.2">
-<!ENTITY gtkmm3-version               "3.24.8">
+<!ENTITY gtkmm3-version               "3.24.9">
 <!ENTITY gtk-vnc-version              "1.3.1">
 <!ENTITY gtksourceview-version        "3.24.11">
 <!ENTITY gtksourceview4-version       "4.8.4">
@@ -859,7 +860,7 @@
 <!ENTITY libadwaita-version           "&libadwaita-minor;.0">
 <!--<!ENTITY libdazzle-version            "3.44.0">-->
 <!ENTITY libgedit-amtk-version        "5.8.0">
-<!ENTITY libgedit-gtksourceview-version "299.0.4">
+<!ENTITY libgedit-gtksourceview-version "299.1.0">
 <!ENTITY libhandy1-version            "1.8.3">
 <!ENTITY libdrm-version               "2.4.120">
 <!ENTITY libei-version                "1.2.1">
@@ -876,7 +877,7 @@
 <!ENTITY qtwebengine-version          "6.6.3">
 <!ENTITY qt6-version                  "6.6.3">
 <!ENTITY startup-notification-version "0.12">
-<!ENTITY tepl-version                 "6.8.0">
+<!ENTITY tepl-version                 "6.9.0">
 <!ENTITY vulkan-headers-version       "1.3.281">
 <!ENTITY vulkan-loader-version        "1.3.281">
 <!ENTITY webkitgtk-version            "2.44.0">    <!-- Even minors only -->
@@ -1129,7 +1130,7 @@
 <!ENTITY CDParanoia-version           "III-10.2">
 <!-- kwave version is the same as KDE applications -->
 <!ENTITY lame-version                 "3.100">
-<!ENTITY mpg123-version               "1.32.5">
+<!ENTITY mpg123-version               "1.32.6">
 <!ENTITY pavucontrol-version          "5.0">
 <!ENTITY pnmixer-version              "0.7.2">
 <!ENTITY vorbistools-version          "1.4.2">
@@ -1188,7 +1189,7 @@
 <!ENTITY enscript-version             "1.6.6">
 <!ENTITY epdfview-version             "gtk3-20200814">
 <!ENTITY fop-version                  "2.9">
-<!ENTITY mupdf-version                "1.24.0">
+<!ENTITY mupdf-version                "1.24.1">
 <!ENTITY paps-version                 "0.8.0">
 
 <!-- Chapter 51 -->

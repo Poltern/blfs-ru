@@ -39,6 +39,120 @@
     </listitem>
     -->
     <listitem>
+      <para>April 7th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libX11-1.8.9 (Xorg library). Fixes
+          <ulink url="&blfs-ticket-root;19610">#19610</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mtdev-1.1.7. Fixes
+          <ulink url="&blfs-ticket-root;19608">#19608</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to tcsh-6.24.12. Fixes
+          <ulink url="&blfs-ticket-root;19607">#19607</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to tepl-6.9.0. Fixes
+          <ulink url="&blfs-ticket-root;19591">#19591</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libgedit-gtksourceview-299.1.0. Fixes
+          <ulink url="&blfs-ticket-root;19615">#19515</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to nodejs-20.12.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19552">#19552</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to samba-4.20.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;19554">#19554</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[rahul] - Update to mesa-24.0.4. Fixes
+          <ulink url="&blfs-ticket-root;19556">#19556</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>April 6th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Move luit from xorg apps to it's own page. Fixes
+          <ulink url="&blfs-ticket-root;19578">#19578</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnutls-3.8.5. Fixes
+          <ulink url="&blfs-ticket-root;19592">#19592</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to enchant-2.6.9. Fixes
+          <ulink url="&blfs-ticket-root;19593">#19593</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to hwdata-0.381. Fixes
+          <ulink url="&blfs-ticket-root;19594">#19594</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to at-spi2-core-2.52.0. Fixes
+          <ulink url="&blfs-ticket-root;19587">#19587</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sentry-sdk-1.44.1. Fixes
+          <ulink url="&blfs-ticket-root;19582">#19582</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Move libwnck from gnome section to xfce section. Fixes
+          <ulink url="&blfs-ticket-root;19577">#19577</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to pciutils-3.12.0. Fixes
+          <ulink url="&blfs-ticket-root;19609">#19609</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>April 5th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libxmlb-0.3.17. Fixes
+          <ulink url="&blfs-ticket-root;19580">#19580</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to gtkmm-3.24.9. Fixes
+          <ulink url="&blfs-ticket-root;19589">#19589</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to cairomm-1.14.5. Fixes
+          <ulink url="&blfs-ticket-root;19588">#19588</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to poppler-24.04.0. Fixes
+          <ulink url="&blfs-ticket-root;19574">#19574</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to mupdf-1.24.1. Fixes
+          <ulink url="&blfs-ticket-root;19576">#19576</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to mpg123-1.32.6. Fixes
+          <ulink url="&blfs-ticket-root;19605">#19605</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to nasm-2.16.02. Fixes
+          <ulink url="&blfs-ticket-root;19595">#19595</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Update to LLVM-18.1.2.  Fixes
+          <ulink url="&blfs-ticket-root;19438">#19438</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>April 4th, 2024</para>
       <itemizedlist>
         <listitem>
