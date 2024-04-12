@@ -13,7 +13,7 @@
 <!ENTITY gnome-minor-46       "3.46">
 <!ENTITY gnome-minor-48       "3.48">
 <!ENTITY gnome-minor-50       "3.50">
-<!ENTITY gnome-40             "40">
+<!ENTITY gnome-minor-52       "3.52">
 <!ENTITY gnome-41             "41">
 <!ENTITY gnome-42             "42">
 <!ENTITY gnome-43             "43">
@@ -41,8 +41,8 @@
 <!ENTITY gnome-autoar-version              "0.4.4">
 <!ENTITY gnome-desktop-version             "44.0">
 <!ENTITY gnome-menus-version               "3.36.0">
-<!ENTITY gnome-video-effects-version       "0.6.0">
-<!ENTITY gnome-online-accounts-version     "3.48.0">
+<!--<!ENTITY gnome-video-effects-version       "0.6.0">-->
+<!ENTITY gnome-online-accounts-version     "3.50.0">
 <!ENTITY grilo-version                     "0.3.16">
 <!ENTITY libchamplain-version              "0.12.21">
 <!ENTITY libgdata-version                  "0.18.1">
@@ -51,28 +51,28 @@
 <!ENTITY libgweather-minor                 "4.4">
 <!ENTITY libgweather-version               "&libgweather-minor;.2">
 <!ENTITY libpeas-version                   "1.36.0">
-<!ENTITY libshumate-version                "1.1.3">
+<!ENTITY libshumate-version                "1.2.0">
 <!ENTITY libwnck-version                   "43.0">
-<!ENTITY evolution-data-server-version     "3.50.4">
+<!ENTITY evolution-data-server-version     "3.52.0">
 <!--<!ENTITY folks-version                     "0.15.5">-->
 <!--<!ENTITY gfbgraph-version                  "0.2.5">-->
-<!ENTITY tracker3-version                  "3.6.0">
-<!ENTITY tracker3-miners-version           "3.6.2">
+<!ENTITY tracker3-version                  "3.7.1">
+<!ENTITY tracker3-miners-version           "3.7.1">
 <!ENTITY gsound-version                    "1.0.3">
-<!ENTITY xdg-desktop-portal-gnome-version  "45.1">
+<!ENTITY xdg-desktop-portal-gnome-version  "46.0">
 
 <!-- Runtime (sysv) and Desktop (systemd) -->
 <!--<!ENTITY caribou-version                   "0.4.21">-->
 <!ENTITY dconf-version                     "0.40.0">
 <!ENTITY dconf-editor-version              "45.0.1">
-<!ENTITY gnome-backgrounds-version         "45.0">
+<!ENTITY gnome-backgrounds-version         "46.0">
 <!ENTITY gvfs-version                      "1.54.0">
 <!ENTITY gexiv2-minor                      "0.14">
 <!ENTITY gexiv2-version                    "&gexiv2-minor;.2">
 <!ENTITY nautilus-version                  "45.2.1">
 <!--<!ENTITY zenity-version                    "3.42.1">-->
 <!ENTITY gnome-bluetooth-version           "42.8">
-<!ENTITY gnome-keyring-version             "42.1">
+<!ENTITY gnome-keyring-version             "46.1">
 <!ENTITY gnome-settings-daemon-version     "45.1">
 <!ENTITY tecla-version                     "45.0">
 <!ENTITY gnome-control-center-version      "45.3">
@@ -95,14 +95,14 @@
 <!--<!ENTITY cheese-version                    "44.1">-->
 <!ENTITY eog-version                       "45.2">
 <!ENTITY evince-version                    "45.0">
-<!ENTITY evolution-version                 "3.50.4">
+<!ENTITY evolution-version                 "3.52.0">
 <!ENTITY file-roller-version               "43.1">
 <!-- gedit moved to Editors, so it's now in packages.ent -->
 <!ENTITY gnome-calculator-version          "45.0.2">
 <!ENTITY gnome-color-manager-version       "3.36.0">
 <!ENTITY gnome-disk-utility-version        "45.1">
 <!ENTITY gnome-logs-version                "43.0">
-<!ENTITY gnome-maps-version                "45.5">
+<!ENTITY gnome-maps-version                "46.0">
 <!ENTITY gnome-nettool-version             "42.0">
 <!ENTITY gnome-power-manager-version       "43.0">
 <!ENTITY gnome-screenshot-version          "41.0">
