@@ -3,7 +3,7 @@
 
 <!ENTITY cracklib-version             "2.9.11">
 <!ENTITY cryptsetup-minor             "2.7">
-<!ENTITY cryptsetup-version           "&cryptsetup-minor;.1">
+<!ENTITY cryptsetup-version           "&cryptsetup-minor;.2">
 <!ENTITY cyrus-sasl-version           "2.1.28">
 <!ENTITY gnupg2-version               "2.4.5">
 <!ENTITY gnutls-version               "3.8.5">
@@ -12,7 +12,7 @@
 <!ENTITY libcap-version               "2.69">
 <!ENTITY liboauth-version             "1.0.3">
 <!ENTITY linux-pam-version            "1.6.1">
-<!ENTITY linux-pam-docs-version       "1.6.0">
+<!ENTITY linux-pam-docs-version       "1.6.1">
 <!ENTITY libpwquality-version         "1.4.5">
 <!ENTITY make-ca-version              "1.13">
 <!ENTITY mitkrb-major-version         "1.21">
@@ -169,7 +169,7 @@
 <!ENTITY libuv-version                "1.48.0">
 <!ENTITY libxkbcommon-version         "1.7.0">
 <!ENTITY libxml2-version              "2.12.6">
-<!ENTITY libxmlb-version              "0.3.17">
+<!ENTITY libxmlb-version              "0.3.18">
 <!ENTITY libxslt-version              "1.1.39">
 <!ENTITY libwacom-version             "2.10.0">
 <!ENTITY libwpe-version               "1.14.2">
@@ -231,7 +231,7 @@
 <!ENTITY librsvg-version              "&librsvg-minor;.0">
 <!ENTITY libspiro-version             "20220722">
 <!ENTITY libtiff-version              "4.6.0">
-<!ENTITY libwebp-version              "1.3.2">
+<!ENTITY libwebp-version              "1.4.0">
 <!ENTITY mypaint-brushes-version      "1.3.1">
 <!ENTITY newt-version                 "0.52.24">
 <!ENTITY opencv-version               "4.9.0">
@@ -326,7 +326,7 @@
 <!ENTITY cbindgen-version             "0.26.0">
 <!ENTITY clisp-version                "2.49">
 <!ENTITY cmake-major-version          "3.29">
-<!ENTITY cmake-minor-version          "1">
+<!ENTITY cmake-minor-version          "2">
 <!ENTITY cmake-version                "&cmake-major-version;.&cmake-minor-version;">
 <!ENTITY doxygen-version              "1.10.0">
 <!ENTITY dtc-version                  "1.7.0">
@@ -599,8 +599,8 @@
 <!ENTITY requests-version             "2.31.0">
 <!ENTITY requests-md5sum              "941e175c276cd7d39d098092c56679a4">
 <!ENTITY scour-version                "0.38.2">
-<!ENTITY sentry-sdk-version           "1.44.1">
-<!ENTITY sentry-sdk-md5sum            "219bb3d4f7749ec2af33a96fccae07bc">
+<!ENTITY sentry-sdk-version           "1.45.0">
+<!ENTITY sentry-sdk-md5sum            "81b7dfb592d878c09e13e1feebcda437">
 <!ENTITY six-version                  "1.16.0">
 <!ENTITY six-md5sum                   "a7c927740e4964dd29b72cebfc1429bb">
 <!ENTITY sphinx-version               "7.2.6">
@@ -809,8 +809,8 @@
 <!ENTITY luit-version                 "20240102">
 <!ENTITY xcursor-themes-version       "1.0.7">
 <!ENTITY xkeyboard-config-version     "2.41">
-<!ENTITY xwayland-version             "23.2.5">
-<!ENTITY xorg-server-version          "21.1.12">
+<!ENTITY xwayland-version             "23.2.6">
+<!ENTITY xorg-server-version          "21.1.13">
 <!ENTITY twm-version                  "1.0.12">
 <!ENTITY xterm-version                "390">
 <!ENTITY xclock-version               "1.1.1">
@@ -885,7 +885,7 @@
 <!ENTITY tepl-version                 "6.9.0">
 <!ENTITY vulkan-headers-version       "1.3.281">
 <!ENTITY vulkan-loader-version        "1.3.281">
-<!ENTITY webkitgtk-version            "2.44.0">    <!-- Even minors only -->
+<!ENTITY webkitgtk-version            "2.44.1">    <!-- Even minors only -->
 <!ENTITY xdg-desktop-portal-version   "1.18.2">
 <!ENTITY xdg-desktop-portal-gtk-version "1.15.1">
 
@@ -894,7 +894,7 @@
 <!ENTITY qt6-dir                      "$QT6DIR">
 
 <!-- Chapter 26 -->
-<!ENTITY gdm-version                  "45.0.1">
+<!ENTITY gdm-version                  "46.0">
 <!ENTITY lightdm-version              "1.32.0">
 <!ENTITY lightdm-gtk-greeter-version  "2.0.9">
 <!ENTITY sddm-version                 "0.21.0">
@@ -915,7 +915,7 @@
 <!ENTITY hicolor-icon-theme-version   "0.17">
 <!ENTITY icon-naming-utils-version    "0.8.90">
 <!ENTITY lxde-icon-theme-version      "0.5.1">
-<!-- oxygen-icons version is the same as kf6-frameworks -->
+<!ENTITY oxygen-icons-version         "6.0.0">
 
 <!-- Part VII -->
 <!-- Chapters 29 -->
@@ -935,20 +935,20 @@
 <!ENTITY kf5-base              "5.115">
 <!ENTITY kf5-download-http     "https://download.kde.org/stable/frameworks/&kf5-base;">
 
-<!ENTITY kf6-version           "6.0.0">
-<!ENTITY kf6-short-version     "6.0">
-<!ENTITY kf6-base              "6.0">
+<!ENTITY kf6-version           "6.1.0">
+<!ENTITY kf6-short-version     "6.1">
+<!ENTITY kf6-base              "6.1">
 <!ENTITY kf6-download-http     "https://download.kde.org/stable/frameworks/&kf6-base;">
 
 <!-- Chapter 31 -->
 <!ENTITY kf5apps-version       "24.02.0">
 <!ENTITY kf5apps-download-http "https://download.kde.org/stable/release-service/&kf5apps-version;/src">
-<!ENTITY kf6apps-version       "24.02.0">
+<!ENTITY kf6apps-version       "24.02.2">
 <!ENTITY kf6apps-download-http "https://download.kde.org/stable/release-service/&kf6apps-version;/src">
 
 <!-- Chapter 32 -->
 <!ENTITY plasma5-version       "5.27.10">
-<!ENTITY plasma-version        "6.0.0">
+<!ENTITY plasma-version        "6.0.3">
 
 
 <!-- Part VIII -->
@@ -1007,6 +1007,7 @@
 <!ENTITY lxqt-archiver-version        "0.9.1">
 <!ENTITY lxqt-build-tools-version     "0.13.0">
 <!ENTITY lxqt-menu-data-version       "1.4.1"> 
+<!ENTITY lxqt-qtplugin-version        "1.4.1"> 
 <!ENTITY libqtxdg-version             "3.12.0">
 <!ENTITY qtxdg-tools-version          "3.12.0">
 <!ENTITY libsysstat-version           "0.4.6">
@@ -1027,7 +1028,7 @@
 <!ENTITY libreoffice-dlversion        "&libreoffice-version;&libreoffice-patch;">
 
 <!-- Chapter 40 -->
-<!ENTITY epiphany-version             "45.3">
+<!ENTITY epiphany-version             "46.0">
 <!-- falkon version is the same as KDE applications -->
 <!-- FIXME: on next ESR after 115 adjust mention in
   x/installing/tuning-fontconfig to point to wherever the
@@ -1076,13 +1077,13 @@
 <!ENTITY flac-version                 "1.4.3">
 <!ENTITY frei0r-version               "1.8.0">
 <!ENTITY gavl-version                 "1.4.0">
-<!ENTITY gstreamer10-version          "1.24.1">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-base-version   "1.24.1">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-good-version   "1.24.1">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-bad-version    "1.24.1">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-ugly-version   "1.24.1">  <!-- Even minors only -->
-<!ENTITY gst10-libav-version          "1.24.1">  <!-- Even minors only -->
-<!ENTITY gstreamer-vaapi-version      "1.24.1">  <!-- Even minors only -->
+<!ENTITY gstreamer10-version          "1.24.2">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-base-version   "1.24.2">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-good-version   "1.24.2">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-bad-version    "1.24.2">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-ugly-version   "1.24.2">  <!-- Even minors only -->
+<!ENTITY gst10-libav-version          "1.24.2">  <!-- Even minors only -->
+<!ENTITY gstreamer-vaapi-version      "1.24.2">  <!-- Even minors only -->
 <!ENTITY id3lib-version               "3.8.3">
 <!ENTITY intel-media-version          "23.4.3">
 <!ENTITY liba52-version               "0.8.0">
@@ -1110,7 +1111,7 @@
 <!ENTITY libvorbis-version            "1.3.7">
 <!ENTITY libvpx-version               "1.14.0">
 <!ENTITY mlt-version                  "7.22.0">
-<!ENTITY opus-version                 "1.5.1">
+<!ENTITY opus-version                 "1.5.2">
 <!ENTITY pipewire-version             "1.0.4">
 <!ENTITY pulseaudio-major-version     "17.0">
 <!ENTITY pulseaudio-version           "&pulseaudio-major-version;">
@@ -1121,7 +1122,7 @@
 <!ENTITY soundtouch-version           "2.3.3">
 <!ENTITY speex-version                "1.2.1">
 <!ENTITY speexdsp-version             "1.2.1">
-<!ENTITY taglib-version               "2.0">
+<!ENTITY taglib-version               "2.0.1">
 <!ENTITY v4l-utils-version            "1.26.1">
 <!ENTITY wireplumber-version          "0.5.1">
 <!ENTITY x264-version                 "20240216">

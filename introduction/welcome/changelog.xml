@@ -39,8 +39,148 @@
     </listitem>
     -->
     <listitem>
-      <para>April 11th, 2024</para>
+      <para>April 14th, 2024</para>
       <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update the gstreamer stack to 1.24.2. Fixes
+          <ulink url="&blfs-ticket-root;19634">#19634</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Remove overwriting of terminfo data in xterm. Fixes
+          <ulink url="&blfs-ticket-root;19611">#19611</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to lxqt-qtplugin-1.4.1. Fixes
+          <ulink url="&blfs-ticket-root;19652">#19652</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to plasma-6.0.3. Fixes
+          <ulink url="&blfs-ticket-root;19373">#19733</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to libwebp-1.4.0. Fixes
+          <ulink url="&blfs-ticket-root;19654">#19654</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to opus-1.5.2. Fixes
+          <ulink url="&blfs-ticket-root;19653">#19653</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>April 12th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to kf6-6.1.0. Fixes
+          <ulink url="&blfs-ticket-root;19649">#19649</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>April 12th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to gnome-user-docs-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19497">#19497</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-tweaks-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19496">#19496</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-session-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19504">#19504</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-shell-extensions-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19472">#19472</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to cmake-3.29.2. Fixes
+          <ulink url="&blfs-ticket-root;19644">#19644</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to cryptsetup-2.7.2. Fixes
+          <ulink url="&blfs-ticket-root;19630">#19630</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gdm-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19505">#19505</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-shell-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19472">#19472</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to mutter-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19473">#19473</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-control-center-46.0.1. Fixes
+          <ulink url="&blfs-ticket-root;19502">#19502</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to tecla-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19486">#19486</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-settings-daemon-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19485">#19485</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-bluetooth-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19503">#19503</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to nautilus-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19501">#19501</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libxmlb-0.3.18. Fixes
+          <ulink url="&blfs-ticket-root;19631">#19631</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to taglib-2.0.1. Fixes
+          <ulink url="&blfs-ticket-root;19635">#19635</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sentry-sdk-1.45.0 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;19640">#19640</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xorg-server-21.1.13. Fixes
+          <ulink url="&blfs-ticket-root;19650">#19650</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xwayland-23.2.6. Fixes
+          <ulink url="&blfs-ticket-root;19623">#19623</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to snapshot-46.2. Fixes
+          <ulink url="&blfs-ticket-root;19648">#19648</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-online-accounts-3.50.1. Fixes
+          <ulink url="&blfs-ticket-root;19647">#19647</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gcr4-4.3.0. Fixes
+          <ulink url="&blfs-ticket-root;19646">#19646</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to libgtop-2.41.3. Fixes
+          <ulink url="&blfs-ticket-root;19627">#19627</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to epiphany-46.0. Fixes
+          <ulink url="&blfs-ticket-root;19491">#19491</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to WebKitGTK-2.44.1. Fixes
+          <ulink url="&blfs-ticket-root;19622">#19622</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[bdubbs] - Update to docutils-0.21.1 (Python module). Fixes
           <ulink url="&blfs-ticket-root;19632">#19632</ulink>.</para>

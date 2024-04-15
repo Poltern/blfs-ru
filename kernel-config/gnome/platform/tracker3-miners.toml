@@ -1,0 +1,9 @@
+SECURITY='*'
+SECURITY_LANDLOCK='*'
+
+[LSM]
+value = "landlock"
+comment = [
+  "List more Linux Security Modules here (separated with comma) if needed,",
+  "for example 'landlock,lockdown,smack'",
+]
