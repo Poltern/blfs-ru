@@ -38,10 +38,97 @@
       </itemizedlist>
     </listitem>
     -->
+
+    <listitem>
+      <para>May 3rd, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libnvme-1.9. Fixes
+          <ulink url="&blfs-ticket-root;19749">#19749</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to hwdata-0.382. Fixes
+          <ulink url="&blfs-ticket-root;19750">#19750</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libreoffice-24.2.3.2. Fixes
+          <ulink url="&blfs-ticket-root;19745">#19745</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to ibus-1.5.30. Fixes
+          <ulink url="&blfs-ticket-root;19747">#19747</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to lynx2.9.1. Fixes
+          <ulink url="&blfs-ticket-root;19748">#19748</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[thomas] - Update to btrfs-progs-6.8.1. Fixes
+          <ulink url="&blfs-ticket-root;19742">#19742</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 2nd, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Update to Net-DNS-1.45 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;19743">#19743</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to glslang-14.2.0. Fixes
+          <ulink url="&blfs-ticket-root;19744">#19744</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gtk4-4.14.4. Fixes
+          <ulink url="&blfs-ticket-root;19746">#19746</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to tracker and tracker-miners 3.7.3. Fixes
+          <ulink url="&blfs-ticket-root;19716">#19716</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to poppler-24.05.0. Fixes
+          <ulink url="&blfs-ticket-root;19741">#19741</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to nano-8.0. Fixes
+          <ulink url="&blfs-ticket-root;19740">#19740</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 1st, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to elogind-255.5. Fixes
+          <ulink url="&blfs-ticket-root;19739">#19739</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[timtas] - Update to cups-2.4.8. Fixes
+          <ulink url="&blfs-ticket-root;19729">#19729</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
     <listitem>
       <para>April 30th, 2024</para>
       <itemizedlist>
-       <listitem>
+        <listitem>
+          <para>[bdubbs] - Update the gstreamer stack to 1.24.3. Fixes
+          <ulink url="&blfs-ticket-root;19737">#19737</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to tracker and tracker-miners 3.7.2. Fixes
+          <ulink url="&blfs-ticket-root;19716">#19716</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[renodr] - Update to gnome-tweaks-46.1. Fixes
+          <ulink url="&blfs-ticket-root;19728">#19728</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[thomas] - Update to git-2.45.0. Fixes
           <ulink url="&blfs-ticket-root;19736">#19736</ulink>.</para>
         </listitem>

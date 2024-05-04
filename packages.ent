@@ -41,7 +41,7 @@
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
 <!-- Chapter 5 -->
-<!ENTITY btrfs-progs-version          "6.8">
+<!ENTITY btrfs-progs-version          "6.8.1">
 <!ENTITY dosfstools-version           "4.2">
 <!ENTITY fuse3-version                "3.16.2">
 <!ENTITY jfsutils-version             "1.1.15">
@@ -70,7 +70,7 @@
 <!ENTITY libgedit-gfls-version        "0.1.0">
 <!ENTITY joe-version                  "4.6">
 <!ENTITY mousepad-version             "0.6.2">
-<!ENTITY nano-version                 "7.2">
+<!ENTITY nano-version                 "8.0">
 <!ENTITY vim-version                  "9.1.0041">
 <!ENTITY vim-majmin                   "91">
 
@@ -150,7 +150,7 @@
 <!ENTITY libiodbc-version             "3.52.15">
 <!ENTITY libksba-version              "1.6.6">
 <!ENTITY liblinear-version            "247">
-<!ENTITY libnvme-version              "1.8">
+<!ENTITY libnvme-version              "1.9">
 <!ENTITY libmbim-version              "1.26.4">
 <!ENTITY libpaper-version             "2.2.5">
 <!ENTITY libportal-version            "0.7.1">
@@ -244,7 +244,7 @@
 <!ENTITY openjpeg2-majmin-version     "2.5">
 <!ENTITY openjpeg2-version            "&openjpeg2-majmin-version;.2">
 <!ENTITY pixman-version               "0.43.4">  
-<!ENTITY poppler-version              "24.04.0">
+<!ENTITY poppler-version              "24.05.0">
 <!ENTITY potrace-version              "1.16">
 <!ENTITY qpdf-version                 "11.9.0">
 <!ENTITY qrencode-version             "4.1.1">
@@ -263,7 +263,7 @@
 <!ENTITY gtk-doc-major                "1.34">
 <!ENTITY gtk-doc-version              "1.34.0">
 <!ENTITY highlight-version            "4.10">
-<!ENTITY ibus-version                 "1.5.29">
+<!ENTITY ibus-version                 "1.5.30">
 <!ENTITY imagemagick-version          "7.1.1">
 <!ENTITY iso-codes-version            "4.16.0">
 <!ENTITY lsof-version                 "4.99.0">
@@ -293,12 +293,12 @@
 <!ENTITY cpio-version                 "2.15">
 <!ENTITY cups-pk-helper-version       "0.2.7">
 <!ENTITY dbus-version                 "1.14.10">   <!-- Even minors only -->
-<!ENTITY elogind-version              "255.4-r2">
+<!ENTITY elogind-version              "255.5">
 <!ENTITY blocaled-version             "0.5">
 <!ENTITY fcron-version                "3.2.1">
 <!ENTITY gpm-version                  "1.20.7">
 <!ENTITY hdparm-version               "9.65">
-<!ENTITY hwdata-version               "0.381">
+<!ENTITY hwdata-version               "0.382">
 <!ENTITY lsb-tools-version            "0.12">
 <!ENTITY lm-sensors-version           "3-6-0">
 <!ENTITY logrotate-version            "3.21.0">
@@ -421,7 +421,7 @@
 <!ENTITY Log-Log4perl-version         "1.57">
 <!ENTITY LWP-Protocol-https-version   "6.14">
 <!ENTITY Module-Build-version         "0.4234">
-<!ENTITY Net-DNS-version              "1.44">
+<!ENTITY Net-DNS-version              "1.45">
 <!ENTITY Parse-RecDescent-version     "1.967015">
 <!ENTITY Parse-Yapp-version           "1.21">
 <!ENTITY PerlIO-utf8_strict-version   "0.010">
@@ -749,7 +749,7 @@
 
 <!-- Chapter 18 -->
 <!ENTITY links-version                "2.29">
-<!ENTITY lynx-version                 "2.8.9rel.1">
+<!ENTITY lynx-version                 "2.9.1">
 
 <!-- Chapter 19 -->
 <!ENTITY fetchmail-version            "6.4.38">
@@ -847,7 +847,7 @@
 <!ENTITY gdk-pixbuf-xlib-version      "2.40.2">
 <!ENTITY gdl-version                  "3.40.0">
 <!ENTITY glew-version                 "2.2.0">
-<!ENTITY glslang-version              "14.1.0">
+<!ENTITY glslang-version              "14.2.0">
 <!ENTITY glu-version                  "9.0.3">
 <!ENTITY goffice010-version           "0.10.57">
 <!ENTITY grantlee-version             "5.3.1">
@@ -855,7 +855,7 @@
 <!ENTITY gtk2-version                 "2.24.33">
 <!ENTITY gtk3-version                 "3.24.41">
 <!ENTITY gtk4-minor                   "4.14">
-<!ENTITY gtk4-version                 "&gtk4-minor;.3">
+<!ENTITY gtk4-version                 "&gtk4-minor;.4">
 <!ENTITY gtk-engines-version          "2.20.2">
 <!ENTITY gtkmm3-version               "3.24.9">
 <!ENTITY gtkmm4-version               "4.14.0">
@@ -1031,7 +1031,7 @@
 <!ENTITY AbiWord-version              "3.0.5">
 <!ENTITY gnumeric-version             "1.12.57">
 
-<!ENTITY libreoffice-version          "24.2.2">
+<!ENTITY libreoffice-version          "24.2.3">
 <!ENTITY libreoffice-patch            ".2">
 <!ENTITY libreoffice-dlversion        "&libreoffice-version;&libreoffice-patch;">
 
@@ -1085,13 +1085,13 @@
 <!ENTITY flac-version                 "1.4.3">
 <!ENTITY frei0r-version               "1.8.0">
 <!ENTITY gavl-version                 "1.4.0">
-<!ENTITY gstreamer10-version          "1.24.2">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-base-version   "1.24.2">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-good-version   "1.24.2">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-bad-version    "1.24.2">  <!-- Even minors only -->
-<!ENTITY gst10-plugins-ugly-version   "1.24.2">  <!-- Even minors only -->
-<!ENTITY gst10-libav-version          "1.24.2">  <!-- Even minors only -->
-<!ENTITY gstreamer-vaapi-version      "1.24.2">  <!-- Even minors only -->
+<!ENTITY gstreamer10-version          "1.24.3">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-base-version   "1.24.3">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-good-version   "1.24.3">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-bad-version    "1.24.3">  <!-- Even minors only -->
+<!ENTITY gst10-plugins-ugly-version   "1.24.3">  <!-- Even minors only -->
+<!ENTITY gst10-libav-version          "1.24.3">  <!-- Even minors only -->
+<!ENTITY gstreamer-vaapi-version      "1.24.3">  <!-- Even minors only -->
 <!ENTITY id3lib-version               "3.8.3">
 <!ENTITY intel-media-version          "23.4.3">
 <!ENTITY liba52-version               "0.8.0">
@@ -1167,7 +1167,7 @@
 
 <!-- Part XIII -->
 <!-- Chapter 46 -->
-<!ENTITY cups-version                 "2.4.7">
+<!ENTITY cups-version                 "2.4.8">
 <!ENTITY cups-browsed-version         "2.0.0">
 <!ENTITY cups-filters-version         "2.0.0">
 <!ENTITY gs-version                   "10.03.0">
