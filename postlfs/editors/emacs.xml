@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+
+  <!ENTITY emacs-download-http "&gnu-http;/emacs/emacs-&emacs-version;.tar.xz">
+  <!ENTITY emacs-download-ftp  " ">
+  <!ENTITY emacs-md5sum        "1e402f3f632b68a56cb9fab4dff8e313">
+  <!ENTITY emacs-size          "50 MB">
+  <!ENTITY emacs-buildsize     "526 MB">
+  <!ENTITY emacs-time          "0.7 SBU (Using parallelism=4)">
+]>
+
+<sect1 id="emacs" xreflabel="Emacs-&emacs-version;">
+  <?dbhtml filename="emacs.html"?>
+
+
+  <title>Emacs-&emacs-version;</title>
+
+  <indexterm zone="emacs">
+    <primary sortas="a-Emacs">Emacs</primary>
+  </indexterm>
+
+  <sect2 role="package">
+    <title>Общая информация о Emacs</title>
+
+    <para>
+      Пакет <application>Emacs</application> содержит расширяемый, настраиваемый, 
+	  самодокументируемый текстовый редактор реального времени.
+    </para>
+
+    &lfs121_checked;
+
+    <bridgehead renderas="sect3">Информация о пакете</bridgehead>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Ссылка на загрузку (HTTP): <ulink url="&emacs-download-http;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Ссылка на загрузку (FTP): <ulink url="&emacs-download-ftp;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Контрольная сумма MD5: &emacs-md5sum;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Размер пакета: &emacs-size;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Требуемое дисковое пространство: &emacs-buildsize;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Приблизительное время сборки: &emacs-time;
+        </para>
+      </listitem>
+    </itemizedlist>
+
+    <bridgehead renderas="sect3">Зависимости Emacs</bridgehead>
+
+    <bridgehead renderas="sect4">Рекомендуемые</bridgehead>
+    <para role="recommended">
+      <xref linkend="harfbuzz"/>,
+      <xref linkend="giflib"/>,
+      <xref linkend="gnutls"/>,
+      <xref linkend="jansson"/> и 
+      <xref linkend="libtiff"/>
+    </para>
+
+    <bridgehead renderas="sect4">Необязательные</bridgehead>
+    <para role="optional">
+      <xref linkend="x-window-system"/>,
+      <xref linkend="alsa-lib"/>,
+      <xref linkend="cairo"/>,
+      <xref linkend="dbus"/>,
+      &gobject-introspection;,
+      <xref linkend="gsettings-desktop-schemas"/>,
+      <xref linkend="gpm"/>,
+      <xref linkend="gtk3"/>,
+      <xref linkend="imagemagick"/>,
+      <xref linkend="lcms2"/>,
+      <xref linkend="libjpeg"/>,
+      <xref linkend="libpng"/>,
+      <xref linkend="librsvg"/>,
+      <xref linkend="libseccomp"/>,
+      <xref linkend="libwebp"/>,
+      <xref linkend="libxml2"/>,
+      <xref linkend="mitkrb"/>,
+      <xref linkend="sqlite"/>,
+      <xref linkend="valgrind"/>,
+      <ulink url="&gnu-http;/intlfonts/">intlfonts</ulink>,
+      <ulink url="https://directory.fsf.org/wiki/Libungif">libungif</ulink>,
+      <ulink url="https://www.nongnu.org/m17n/">libotf</ulink> и 
+      <ulink url="https://www.nongnu.org/m17n/">m17n-lib</ulink> - для правильного 
+	  отображения таких сложных шрифтов, как индийский и кхмерский, а также для скриптов, 
+	  требующих поддержки арабского языка (арабский и фарси), 
+      <ulink url="https://mailutils.org/">mailutils</ulink> и 
+      <ulink url="&xorg-download-http;/lib/">libXaw3d</ulink>
+    </para>
+
+  </sect2>
+
+  <sect2 role="installation">
+    <title>Установка пакета Emacs</title>
+
+    <para>
+      Установите <application>Emacs</application>, выполнив следующие команды:
+    </para>
+
+<screen><userinput>./configure --prefix=/usr &amp;&amp;
+make</userinput></screen>
+
+    <para>
+      В этот пакет не входит набор тестов. Если make завершится успешно, вы можете 
+	  проверить результат, запустив <command>src/emacs -Q</command> — программу, 
+	  которая будет установлена, с ее вспомогательными файлами. Программа должна запуститься 
+	  и отобразить экран открытия приложения.
+    </para>
+
+    <para>
+      Сейчас, от имени пользователя <systemitem class="username">root</systemitem>, выполните:
+    </para>
+
+<screen role="root" revision="systemd"><userinput>make install &amp;&amp;
+chown -v -R root:root /usr/share/emacs/&emacs-version;</userinput></screen>
+
+<screen role="root" revision="sysv"><userinput>make install &amp;&amp;
+chown -v -R root:root /usr/share/emacs/&emacs-version; &amp;&amp;
+rm -vf /usr/lib/systemd/user/emacs.service</userinput></screen>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+      href="../../xincludes/gtk-update-icon-cache.xml"/>
+
+  </sect2>
+
+  <sect2 role="commands">
+    <title>Пояснения к командам</title>
+
+    <!-- With 27.2, it writes scores to ~/.emacs.d/games
+    <para>
+      <parameter>- -localstatedir=/var</parameter>: Create game score files
+      in <filename class='directory'>/var/games/emacs</filename> instead
+      of <filename class='directory'>/usr/var/games/emacs</filename>.
+    </para>
+    -->
+
+    <para>
+      <option>--with-imagemagick</option>: используйте этот параметр, если у вас 
+      установлен <xref linkend="imagemagick"/> и вы хотите создать ссылку на нег.
+    </para>
+
+    <para>
+      <option>--with-gif=no</option>: используйте этот параметр, если у вас еще не 
+      установлен <xref linkend="giflib"/> или 
+      <ulink url="https://directory.fsf.org/wiki/Libungif">libungif</ulink>.
+    </para>
+
+    <para>
+      <option>--with-tiff=no</option>: используйте этот параметр, если у вас еще не 
+      установлен <xref linkend="libtiff"/>.
+    </para>
+
+    <para>
+      <option>--with-gnutls=no</option>: используйте этот параметр, если у вас еще не 
+      установлен <xref linkend="gnutls"/>.
+    </para>
+
+    <para>
+      <option>--without-harfbuzz</option>: используйте этот параметр, если у вас еще не 
+      установлен <xref linkend="harfbuzz"/>.
+    </para>
+
+    <para>
+      <option>--with-json=no</option>: используйте этот параметр, если у вас еще не 
+      установлен <xref linkend="jansson"/>.
+    </para>
+
+  </sect2>
+
+  <sect2 role="content">
+    <title>Содержимое пакета</title>
+
+    <segmentedlist>
+      <segtitle>Установленные программы</segtitle>
+      <segtitle>Установленные библиотеки</segtitle>
+      <segtitle>Созданные каталоги</segtitle>
+
+      <seglistitem>
+        <seg>ctags,
+             ebrowse,
+             emacs (символическая ссылка),
+             emacs-&emacs-version;,
+             emacsclient и 
+             etags</seg>
+        <seg>Нет</seg>
+        <seg>/usr/libexec/emacs и 
+             /usr/share/emacs</seg>
+      </seglistitem>
+    </segmentedlist>
+
+    <variablelist>
+      <bridgehead renderas="sect3">Краткое описание</bridgehead>
+      <?dbfo list-presentation="list"?>
+      <?dbhtml list-presentation="table"?>
+
+      <varlistentry id="ctags">
+        <term><command>ctags</command></term>
+        <listitem>
+          <para>
+            создает базу данных файлов тегов с перекрестными ссылками на исходной 
+			код
+          </para>
+          <indexterm zone="emacs ctags">
+            <primary sortas="b-ctags">ctags</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry id="ebrowse">
+        <term><command>ebrowse</command></term>
+        <listitem>
+          <para>
+            позволяет просматривать иерархию классов C++ из <command>emacs</command>
+          </para>
+          <indexterm zone="emacs ebrowse">
+            <primary sortas="b-ebrowse">ebrowse</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry id="emacs-prog">
+        <term><command>emacs</command></term>
+        <listitem>
+          <para>
+            редактор
+          </para>
+          <indexterm zone="emacs emacs-prog">
+            <primary sortas="b-emacs">emacs</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry id="emacsclient">
+        <term><command>emacsclient</command></term>
+        <listitem>
+          <para>
+            присоединяет сеанс <command>emacs</command> к уже работающему экземпляру 
+			<command>emacsserver</command>
+          </para>
+          <indexterm zone="emacs emacsclient">
+            <primary sortas="b-emacsclient">emacsclient</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry id="etags">
+        <term><command>etags</command></term>
+        <listitem>
+          <para>
+            еще одна программа для генерации файлов тегов с перекрестными ссылками на 
+			исходный код
+          </para>
+          <indexterm zone="emacs etags">
+            <primary sortas="b-etags">etags</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+    </variablelist>
+
+  </sect2>
+
+</sect1>
