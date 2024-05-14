@@ -40,6 +40,139 @@
     -->
 
     <listitem>
+      <para>May 13th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[renodr] - Fix building sphinx_rtd_theme with docutils-0.21.x.
+          This fixes an error about incompatible versions, but upstream has
+          changed the version range so that it's compatible.</para>
+        </listitem>
+        <listitem>
+          <para>[timtas] - Update to samba-4.20.1. Fixes
+          <ulink url="&blfs-ticket-root;19768">#19768</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 11th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[thomas] - Update to nss-3.100. Fixes
+          <ulink url="&blfs-ticket-root;19763">#19763</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 10th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[thomas] - Update to cmake-3.29.3. Fixes
+          <ulink url="&blfs-ticket-root;19766">#19766</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 6th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libqalculate-5.1.1. Fixes
+          <ulink url="&blfs-ticket-root;19757">#19757</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sentry_sdk-2.1.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;19757">#19757</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mercurial-6.7.3. Fixes
+          <ulink url="&blfs-ticket-root;19756">#19756</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 6th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to lxml-5.2.1 (Python module).  Fixes
+          <ulink url="&blfs-ticket-root;19068">#19068</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sphinx-7.3.7 (Python module).  Fixes
+          <ulink url="&blfs-ticket-root;19676">#19676</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sphinxcontrib_applehelp-1.0.8 (Python module).</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to alabaster-0.7.16 (Python module).</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Cython-3.0.10 (Python module).  Fixes
+          <ulink url="&blfs-ticket-root;18303">#18303</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Archive PyYaml. Addresses
+          <ulink url="&blfs-ticket-root;18303">#18303</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 5th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Update to rustc-1.78.0.  Fixes
+          <ulink url="&blfs-ticket-root;19557">#19557</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libfm-qt-2.0.1, lximage-qt-2.0.1, and
+          lxqt-notificationd-2.0.1. Fixes
+          <ulink url="&blfs-ticket-root;19753">#19753</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xdg-desktop-portal-lxqt-1.0.2. Fixes
+          <ulink url="&blfs-ticket-root;19754">#19754</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to pygments-2.18.0 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;19752">#19752</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to enchant-2.7.3. Fixes
+          <ulink url="&blfs-ticket-root;19751">#19751</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Update Python dependencies:
+          attrs-23.2.0, meson_python-0.16.0, and pyproject-metadata-0.8.0.
+          Add hatch-fancy-pypi-readme-24.1.0 to support attrs-23.2.0.
+          Addresses
+          <ulink url="&blfs-ticket-root;18562">#18562</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Update Python dependencies:
+          editables-0.5, hatchling-1.24.2, hatch-vcs-0.4.0,
+          pathspec-0.12.1, pluggy-1.5.0, setuptools_scm-8.0.4, and
+          typing_extensions-4.11.0.  Add trove-classifiers-2024.4.10
+          to support hatchling-1.24.2.  Addresses
+          <ulink url="&blfs-ticket-root;18562">#18562</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>May 4th, 2024</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Archive py which is no longer needed by
+          pytest.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>May 3rd, 2024</para>
       <itemizedlist>
         <listitem>
